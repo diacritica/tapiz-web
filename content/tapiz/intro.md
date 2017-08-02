@@ -1,7 +1,6 @@
 ---
 title: "Intro"
 date: 2017-08-02T16:29:13+02:00
-draft: true
 ---
 # Tapiz (Spanish for Tapestry)
 Effect Engine setting specific incarnations or embroideries
