@@ -1,0 +1,6 @@
+baseURL = "http://tapiz.net/"
+languageCode = "en-uk"
+title = "The Tapiz Project"
+theme = "docdock"
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
