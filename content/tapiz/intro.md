@@ -3,7 +3,7 @@ title: "Intro"
 date: 2017-08-02T16:29:13+02:00
 ---
 # Tapiz (Spanish for Tapestry)
-Effect Engine setting specific incarnations or embroideries
+Effect Engine setting specific incarnations or embroideries :D
 
 ![](https://raw.githubusercontent.com/diacritica/ee/master/Embroideries/ScarredLands/art/rooftops.jpg?token=ABiCzAj9T9VwvAitYuOP2KLu9O7kNkO4ks5Zix9FwA%3D%3D)
 
