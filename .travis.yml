@@ -1,0 +1,35 @@
+# Aquí lo vais a cambiar por el lenguaje que uséis
+language: go
+
+# Sólo vamos a manejar una rama máster, pero es buena práctica indicar sobre qué rama quieres operar
+branches:
+  only:
+  - master
+
+# Estas líneas sirven para instalar openssl y rsync antes de que empiece a ejecutar el script, harán falta
+addons:
+  apt:
+    packages:
+      - rsync
+      - openssh-client
+      - hugo
+
+# Estas son las líneas que añadimos antes en el comando "--add", y que no tocaremos
+before_install:
+- openssl aes-256-cbc -K $encrypted_10f240133e8c_key -iv $encrypted_10f240133e8c_iv
+  -in travis_access.enc -out travis_access -d
+
+# en esta sección instalaremos los requisitos si los tenemos y sobre todo, las 4 últimas líneas son las importantes para gestionar la clave privada
+install:
+  - eval $(ssh-agent -s)
+  - chmod 600 travis_access && ssh-add travis_access
+  - mkdir -p ~/.ssh
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+
+# Generamos nuestro contenido estático
+script: hugo
+
+# Y realizamos el rsyn igual que antes
+after_success:
+  - rsync -avz --delete public/ tapiz@tapiz.net:blog/
+
