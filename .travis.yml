@@ -16,7 +16,7 @@ addons:
 # Estas son las líneas que añadimos antes en el comando "--add", y que no tocaremos
 before_install:
 - wget http://ftp.de.debian.org/debian/pool/main/h/hugo/hugo_0.25.1-2_amd64.deb
-- sudo dpkg -i hugo_0.25.1-2_amd64.de
+- sudo dpkg -i hugo_0.25.1-2_amd64.deb
 - openssl aes-256-cbc -K $encrypted_10f240133e8c_key -iv $encrypted_10f240133e8c_iv
   -in travis_access.enc -out travis_access -d
 
