@@ -4,3 +4,5 @@ title = "The Tapiz Project"
 theme = "docdock"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
+[params]
+themeVariant = "gray"
