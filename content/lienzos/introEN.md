@@ -1,5 +1,5 @@
 ---
-title: "Intro"
+title: "Lienzo using the Tapiz System (English)"
 date: 2017-08-02T16:36:45+02:00
 ---
 

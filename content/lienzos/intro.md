@@ -1,6 +1,6 @@
 ---
-title: "Intro"
-date: 2017-08-02T16:36:45+02:00
+title: "Lienzo en el sistema Tapiz"
+date: 2018-07-02T19:36:45+02:00
 ---
 
 # ¿Qué es un Lienzo en el sistema Tapiz?
