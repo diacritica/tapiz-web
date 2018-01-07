@@ -187,7 +187,7 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 #### Tipos de Rasgos
 ...
 
-#### Rasos poco comunes
+#### Rasgos poco comunes
 ...
 
 ### Avances de Personajes
@@ -226,15 +226,51 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 #### Puntos de golpe mentales
 ...
 ### Puntos de Heroicidad
-...
+
+Los puntos de heroicidad se emplean habitualmente por una jugadora para impedir que sucesos perjudiciales a punto de ocurrir a su personaje se consumen de formas particularmente nocivas. Normalmente se emplean para mitigar **Consecuencias** pero también puede afectar a otras circunstancias.
+
+Naturalmente, la propia naturaleza heroica de estos puntos también invita a usarlos como una ayuda o magnificación de un suceso.
+
+Normalmente, solo se requiere de un *punto de heroicidad* para mitigar un efecto adverso como una consecuencia extrema.o potenciar una acción beneficiosa para el personaje.
+
+Éstas son las circunstancias en las que una jugadora puede gastar un punto de heroicidad de su personaje.
+
+- Elige (y describe) la consecuencia que un oponente impone sobre el personaje al tener éxito en una tirada en lugar de ser el oponente el que decide qué sucede, como es habitual.
+- Elige (y describe) la consecuencia que el personaje sufre al fallar una tirada de acción en lugar de ser la Directora de juego o el oponente los que decidan, como es habitual.
+- Añade +1 al los *puntos de efecto* **solo cuando** en una tirada te hayas quedado a un punto de obtener un efecto menor, mayor o extremo (es decir, si obtuvise 4, 9 o 14 puntos de efecto).
+- En lugar de un punto de tesoro, decide cuál es el contenido del tesoro (véase Tesoros y Riquezas)
+- Recuperar puntos de golpe mentales o físicos; tira el dado de golpe físico o mental y añade el resultado a tu valor actual del tipo de daño elegido. No es posible superar el máximo de puntos de daño. Puedes realizar esta acción en cualquier momento, sea o no el turno del personaje, ya que no representa una acción. Las reglas de curación siguen aplicándose; no tiene efectos ni consecuencias.
+- Realizar una tirada estática cuando las circunstancias indican que no es posible (por ejemplo, en el caso de haber sido sorprendido en un combate).
+
+#### Mitigar Consecuencias
+
+Cuando alguien impone una consecuencia sobre un personaje, ya sea por el resultado de una tirada de acción exitosa sobre ese personaje o debido a una tirada fallido del propio personaje, el personaje debe aceptar la consecuencia descrita por el oponente. Si se da el caso de que el personaje tiene ya muy pocos puntos de golpe o si una consecuencia extrema se transforma en una horrible secuela física, el desastre podría ser grande.
+
+Al gastar un punto de heroicidad, es el jugador el que puede describir la naturaleza de la consecuencia. Esto permite al jugador relatarla de una forma diferente, normalmente con efectos menos perversos. Quizá el jugador decide asumir los puntos de golpe en lugar de una consecuencia extrema, o es posible que se prefiera caer inconsciente (un efecto mayor) en lugar de recibir puntos de golpe o una herida que requeriría mucho tiempo para curarse. Los puntos de heroicidad permiten mitigar una consecuencia de forma que resulte menos problemática para un personaje pero no pueden anularla por completo en ningún caso.
+
+Si se diera la circunstancia en la que un oponente es capaz de imponer múltiples consecuencias a un personaje a la vez, pueden emplearse de la misma forma múltiples puntos de heroicidad para tomar el control descriptivo de cada una de ellas.
+
+El uso y obtención de los puntos de heroicidad puede llegar a tener cierta influencia en el tono del juego y recomendamos ser creativos en su empleo. Proponemos dos usos opcionales adicionales que ilustran esta idea:
+
+- Éxito con consecuencias: en una tirada de acción fallida por un personaje (consecuencia menor), el uso de un punto de heroicidad puede dar la vuelta al resultado obteniendo un éxito con efecto menor para el que viene asociado una consecuencia mayor, resultando quizá en un éxito a un coste importante. Por ejemplo, un personaje puede tirar una puerta abajo pero a cambio la Directora de Juego indica que tiene el hombro derecho dislocado y le genera un gran dolor. Otro ejemplo puede ser conseguir dar el golpe de gracia a un monstruo justo antes de caer inconsciente y quedar a merced de otras criaturas hostiles.
+- Consecuencias con éxito: en este caso, el punto de heroicidad no se emplearía en mitigar una consecuencia o describirla según los intereses del jugador pero a cambio, el jugador podría crear un efecto menor a su favor que sucederá a continuación (y de alguna forma relacionado con la acción que generó la consecuencia). Siguiendo con los ejemplos anteriores, el personaje que trató de derribar la puerta en su huida no lo consiguió pero hizo crujir la madera de tal forma que los perseguidores sí creen que tuvo éxito y corren sin cuidado al encuentro del personaje perfectamente preparado para sorprenderlos. Igualmente, el ataque contra el monstruo no tuvo éxito y se relata la consecuencia menor pero el jugador a cambio describe cómo el choque de las hojas fue tan fuerte que la propia criatura también se dañó físicamente en el mismo número de puntos de golpe que el jugador.
+
+#### Conseguir Puntos de Heroicidad
+
+Además de recuperar los Puntos de Heroicidad al comienzo de cada aventura, es posible obtener algunos durante el tiempo de juego. En primer lugar, una Directora de Juego puede recompensar a un jugador con un punto de herocidad tras una interpretación memorable, inmersión en la partida, comentarios especialmente sagaces, consecución de un objetivo importante en una aventura o simplemente tras una acción digna de elogio. En segundo lugar, la Directora de Juego puede recompensar con un punto de heroicidad cuando un jugador describe cómo su personaje se mete en dificultades como resultado de uno de sus rasgos. Por ejemplo, si el personaje tiene el rasgo "Impetuoso y jactancioso" y lo emplea durante una audiencia con una reina que detesta la impertinencia, es posible obtener un punto de heroicidad de la Directora de Juego por describir cómo ese impulso fuera de lugar le acaba suponiendo un problema mayúsculo. Asimismo, también es posible premiar con un punto de heroicidad por una excelente interpretación de su foco o devío de alineamiento en donde las consecuencias no son en absoluto positivas para el personaje.
+
+Los Puntos de Heroicidad se otorgan a discreción de la Directora de Juego y al contrario que los Puntos de Experiencia, se entregan al jugador, no al personaje. En general, recomendamos premiar con entre 2 y 4 puntos de heroicidad a cada Jugador por sesión de juego pero esto está siempre sujeto al estilo de juego del grupo. Para ello, es necesario que la Directora de Juego recuerde a los jugadores qué tipo de acciones son las que permiten este tipo de recompensas.
+
+
 #### Número de Puntos de Heroicidad
-...
-#### Gasto de Puntos de Heroicidad
-...
-#### Adquirir Puntos de Heroicidad
-...
-#### Puntos de Heroicidad del Director de Juego
-...
+
+El número de puntos de heroicidad para un personaje de primer nivel es 1 y se obtiene uno adicional por cada nivel extra de avance. El número de puntos de heroicidad al comienzo de una nueva aventura equivale al nivel del personaje y se pierden los puntos de heroicidad acumulados por encima de ese valor otorgados en la anterior aventura.
+
+
+#### Puntos de Heroicidad de la Directora de Juego
+
+La Directora de Juego comienza cada aventura con una reserva de puntos de heroicidad igual al número de personajes jugadores. La Directora de Juego puede emplear estos puntos de heroicidad de forma similar a como lo haría un jugador con su personaje pero en su lugar, aplicado a criaturas o a personajes no jugadores.
+
 ### Alineamiento
 ...
 #### Foco del Alineamiento
