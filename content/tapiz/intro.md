@@ -136,3 +136,67 @@ Con -10 PGF, el personaje está muerto. Con -10 PGM, el personaje está perdido 
 Una acción de curación solo puede llevarse a cabo una vez tras recibir daño. Independientemente del éxito o fracaso de la acción de intento curación, un personaje no puede tratar de curarse de nuevo hasta que no haya vuelto a recibir daño de nuevo.
 
 #### Términos importantes
+
+La mayoría de los términos resultarán familiares para quienes hayan jugado ya a otros juegos de rol. Aquí presentamos un resumen de los más importantes.
+
+- **Avance**: una mejora específica para tu personaje, ya sea porque añadiste una habilidad o se mejoró una existente. Un personaje nuevo comienza con dos avances disponibles.
+
+- **Aventura**: otro término válido para *escenario* (ver más abajo).
+
+- **Clase de armadura**: el término de fantasía clásica para referirse a la habilidad de un personaje para defenderse en un combate físico. En **Tapiz**, la clase de armadura es una tirada estática de resistencia basada en el atributo de Destreza, modificada por el tipo y características de la armadura que se esté portando.
+
+- **Atributo**:  uno de los seis indicadores que describen las características físicas y mentales de un personaje. Éstos son Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma y normalmente comprenden valores entre 3 y 18. El atributo proporciona un valor base para una acción estática o una resistencia estática así como el *modificador de atributo*.
+
+- **Modificador de atributo (MOD ATR)**: un modificador numérico (habitualmente entre -4 y +4) que se añade a una tirada de dados durante una tirada de acción o resistencia relacionada con ese atributo.
+
+- **Campaña**: el término empleado para describir un juego de **Tapiz** cuando se extiende a lo largo de varias *sesiones* y *escenarios*. Una campaña puede durar hasta varios años.
+
+- **Tirada de acción**: es la forma de determinar si un personaje tiene éxito o fracasa en un acción o al resistirse a la acción de otro. Las tiradas de acción pueden ser estáticas o emplear 3d6 dados.
+
+- **Conflicto**: un encuentro entre dos o más bandos que se resuelve con violencia. Los conflictos pueden ser tanto físicos como mentales.
+
+- **Consecuencia**: un resultado negativo que sucede cuando se falla en una tirada de acción o cuando un oponente tiene éxito en una tirada de acción contra un personaje.
+
+- **Puntos de Consecuencia**: el número de puntos que una tirada de acción queda por debajo de la resistencia objetivo. Habitualmente, el oponente decide cómo emplear o *gastar* esos puntos de consecuencia para describir lo que sucede a continuación.
+
+- **Efectos**: se refiere propiamente tanto a resultados positivos como negativos de una tirada de acción aunque habitualmente se emplea solo para hablar de los resultados positivos.
+
+- **Puntos de Efecto**: se refiere propiamente al número de puntos que una tirada de acción supera o queda por debajo de una resistencia objetivo, aunque habitualmente se emplea solo para hablar de los puntos que la superan. Se emplean o *gastan* puntos de efectos para crear efectos.
+
+- **Dado de Golpe**: el tipo de dado que se lanza para generar *puntos de golpe* a nivel 2 y superior de personaje. Su rango suele ser entre d4 y d10 pero se dan casos de dados de golpe mayores. Las criaturas normalmente tienen d8 para sus dados de golpe tanto físicos como mentales.
+
+- **Puntos de Golpe**: un indicador numérico que indica el daño físico o mental que un personaje o una criatura puede soportar. Hay dos tipos de de *puntos de golpe*; físicos y mentales. Los *puntos de golpe* se incrementan al subir de nivel el personaje.
+
+- **Subir de nivel**: 
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
