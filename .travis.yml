@@ -1,6 +1,8 @@
 # Aquí lo vais a cambiar por el lenguaje que uséis
 language: go
-
+sudo: required
+dist: trusty
+group: deprecated-2017Q4
 # Sólo vamos a manejar una rama máster, pero es buena práctica indicar sobre qué rama quieres operar
 branches:
   only:
