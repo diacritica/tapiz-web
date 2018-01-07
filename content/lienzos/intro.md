@@ -36,40 +36,41 @@ De nuevo, explícito es mejor que implícito aunque entendemos que podemos ser m
 
 El sistema Tapiz no incluye un capítulo de Equipo porque incluso si numerosos objetos pudieran existir en todos los escenarios y ambientaciones, sus características y precio podrían variar. Es responsabilidad del Lienzo el listar los objetos más cotidianos así como los menos frecuentes o extraordinarios para esa ambientación.
 
-## Spells
+## Magia
 
-A complete grimoire for the different types of magic and spell levels allowed by the settings and related to races and classes.
+El capítulo de magia debe contener una descripción del sistema particular de magia que encontramos en la ambientación así como un completo grimorio para los diferentes tipos de magia y hechizos disponibles para los diferentes niveles de especies o clases de personaje.
 
-Each spell needs to be properly addressed with little or no shortcuts. It is better to provide fewer but better explained spells than long lists of spells titles.
+Cada hechizo debe estar desarrollado por completo, evitando crear listados de nombres de hechizos sin apenas contenido.
 
-Every spell must have a code to uniquely identify it. This code is formed using the EC, then S and four digits (ie ECS0501).
+Cada hechizo debe disponer de un código que lo identifique de forma unívoca dentro del sistema Tapiz. Este código se forma empleando el CL, añadiendo una H y cuatro dígitos relativos a ese hechizo en particular (por ejemplo SLH0501).
 
-## Monsters
 
-A complete bestiary that would make sense in the setting of choice. It should include basic and common creatures as well as more powerful and sophisticated ones.
+## Bestiario
 
-Each creature needs to be properly addressed with little or no shortcuts. It is better to provide fewer but better explained creatures than long lists of creatures names.
+Un listado de criaturas que tengan sentido en la ambientación del Lienzo. Debería incluir tanto criaturas y animales comunes como otros más poderosos y sofisticados.
 
-Every creature must have a code to uniquely identify it. This code is formed using the EC, then C and four digits (ie ECC0010).
+Cada criatura debe estar desarrollada por completo, evitando crear listados de nombres de criaturas sin apenas contenido.
 
-## Optional rules
+Cada criatura debe disponer de un código que la identifique de forma unívoca dentro del sistema Tapiz. Este código se forma empleado el CL, añadiendo una C y cuatro dígitos relativos a esa criatura en particular (por ejemplo SLC0010).
 
-Tapiz, being a setting agnostic rulebook describes the more commom game mechanics. This should give room to each embroidery plenty of room to ellaborate on optional rules that either clarify or amplify core rules or make sense in the referred setting.
+## Reglas opcionales
 
-Every optional rule must have a code to uniquely identify it. This code is formed using the EC, then R and four digits (ie ECR1111).
+Tapiz, al ser un sistema de reglas agnóstico describe las mecánicas de juego más habituales. Esto debería permitir a cada Lienzo la oportunidad de elaborar reglas opcionales que maticen o amplíen el conjunto de reglas básicas de forma más consistente con la intención de los autores de la ambientación.
 
-## Conversion techniques
+Cada regla opcional debe disponer de un código que la identifique de forma unívoca dentro del sistema Tapiz. Este código se forma empleado el CL, añadiendo una R y cuatro dígitos relativos a esa regla opcional en particular (por ejemplo SLR1111).
 
-If the embroidery is heavily inspired by content created by others and it is of great value giving hints to easily convert existing material to being Tapiz compatible, this is the section where such guidelines are shared.
+## Técnicas de conversión
 
-## Index
+Si el Lienzo está fuertemente inspirado en contenido creados por terceras personas y resulta de gran utilidad dar indicaciones para convertir este material de forma sencilla al sistema Tapiz, ésta es la sección donde detallar las instrucciones para informar a los lectores cómo llevarlo a cabo.
 
-An Index of the main content is strongly encouraged.
+## Glosario
 
-# General suggestions of content formatting
+Se recomienda incluir un glosario con los términos más relevantes.
 
-It is strongly suggested to depart from "layout-first content-comes second" approaches for an embroidery. This strategy, while being aesthetically pleasing from the very first few pages it is often a trap for the free flow of the content. It is much better to focus on content first, using TXT format or more modern Markdown syntax and later on, display that content in a more typical RPG rulebook layout, including art.
+# Recomendaciones generales para el formato del contenido
 
-That doesn't mean that the core content can't contain layout-related marks like "Special notice" to refer to a piece of text that would typically be shown in a highlighted box of some sort.
+Parte de la filosofía del sistema Tapiz junto con la redacción de Lienzos es que debe primar el contenido sobre la forma al menos en un primer acercamiento al Lienzo. La estrategia de "primero la maquetación y luego el contenido", aun muy agradecida estéticamente al comienzo, resulta rápidamente en una trampa para los autores, que deben pensar al mismo tiempo en qué escribir y qué aspecto deberá tener. Resulta mucho mejor en el medio y largo plazos poner el foco en el contenido, empleando formatos sencillos como el TXT o sistema modernos de marcado como la sintaxis Markdown para, transcurrido un tiempo, maquetar ese contenido en la forma habitual de un manual o suplemento de rol, incluyendo ilustraciones y adornos visuales.
 
-Finally, an embroidery shines when its content, at least mechanic-wise, is self-contained and only needs the Tapiz rulebook to support it. That means that any GM or player knowledgeable enough of the fantasy setting can start playing using these two documents.
+Esto no está reñido con el hecho de que el contenido per se pueda incluir anotaciones útiles para la posterior maquetación ya desde un inicio como usar el término *Cuadro informativo* para indicar que un determinado texto luciría mejor en un recuadro destacado de algún tipo, por ejemplo.
+
+Finalmente, un Lienzo brilla cuando su contenido, al menos en lo relacionado con la mecánica de juego, es autocontenido y solo necesita el manual de Tapiz para ser jugado. Esto quiere decir que cualquier grupo de juego puede empezar a disfrutar de la ambientación del Lienzo con tal solo dos documentos de referencia.
