@@ -225,7 +225,7 @@ Un punto de avance empleado en mejorar las capacidades lingüísticas de un pers
 
 El conocimiento de una lengua puede llegar a afectar ciertas tiradas de acciones que requieran un dominio específico de esa lengua. Una negociación con grandes sumas de dinero en juego o una audiencia ante personas de cierto poder e influencia pueden estar marcadas por el uso de una determinada lengua (habitualmente hablada, pero en ocasiones escrita).
 
-Esto se traduce en modificadores a la tirada de acción correspondiendo como un *bonus de rasgo* más cuando se dan una o las dos siguientes circunstancias:
+Esto se traduce en modificadores a la tirada de acción correspondiente como un *bonus de rasgo* más cuando se dan una o las dos siguientes circunstancias:
 
 - Para el medio, hablado o escrito, empleado se tiene nivel erudito para esa lengua.
 - Para el medio, hablado o escrito, empleado tiene nivel medio o alto para esa lengua cuando la audiencia tiene en gran estima esa lengua (es su lengua nativa o se reverencia) y al hablante no se le espera dominio algo de ella.
@@ -233,6 +233,11 @@ Esto se traduce en modificadores a la tirada de acción correspondiendo como un 
 Estos *bonus de rasgos* cuentan para el límite máximo de *bonus de rasgos* para una tirada, que sigue siendo dos veces el nivel del personaje.
 
 *<Ejemplo: Elythlian la elfa necesita la ayuda de un asentamiento enano para combatir a un dragón negro que se ha instalado en una cumbre montañosa cercana. La empresa es arriesgada pero está determinada a convencerlos. Acude ante la actitud recelosa de los habitantes del poblado frente a la asamblea de notables y cuando todos esperaban que se dirigiese en la lengua común, lo hace en su lugar en la lengua enana. Su estudio y amor por esta lengua la llevaron durante decenas de años a comprenderla y dominarla totalmente, aunque es algo que guarda en secreto y solo conocen sus amistades más íntimas. Elythlian puede hacer una tirada de acción basada en Carisma con un +1 de bonus de rasgo por nivel erudito y otro +1 de bonus de rasgo por usar una lengua reverenciada por los enanos y empleada de forma inesperada por una elfa.>*
+
+En el caso de que un personaje no conozca una lengua determinada en el nivel razonable que se espera de una situación, la Directora de juego debería tenerlo en cuenta para determinar la dificultad de la tirada de acción, que probablemente deba ser uno o dos escalones mayores de esa misma acción sin dificultades asociadas a la comunicación.
+
+Animamos tanto a directoras de juego como a jugadores a considerar los aspectos relacionados con la comunicación y las lenguas como un elemento relevante tanto en la mecánica de juego como en la interpretación y desarrollo de las aventuras. Sin necesariamente caer en aspectos simulacionistas, puede proporcionar un interesante ángulo sobre el que moldear las interacciones entre personajes o grupos.
+
 
 ### Movimiento
 ...
