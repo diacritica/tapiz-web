@@ -209,7 +209,31 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 ...
 
 ### Lenguas
-...
+
+Las lenguas o idiomas se aprenden a través de los *rasgos*. En principio, se entiende que todos los personajes conocen una lengua común en la ambientación empleada. Esto se hace fundamentalmente por motivos prácticos pero un Lienzo podría determinar que para una determinada ambientación, no existe una *lingua franca* o que para determinadas especies o grupos de población, aún existiendo esa lengua común, ésta no puede considerarse un conocimiento de partida sin justificación.
+
+Conocer una lengua no significa dominarla y dentro de la coherencia del personaje, resultaría conveniente indicar qué grado de familiaridad se tiene con dicha lengua en dos aspectos:
+
+- Bajo, medio, alto y erudito respecto de,
+- Hablado y escrito.
+
+Un punto de avance empleado en mejorar las capacidades lingüísticas de un personaje admite cubrir dos niveles de un tipo o un nivel de cada tipo. La excepción a este regla es el nivel erudito, que no puede alcanzarse salvo por hablantes nativos o personajes dedicados al estudio de esa lengua.
+
+*<Ejemplo: Elythlian la elfa no ha tenido más remedio que familiarizarse más aún con la lengua orca en el transcurso del último año que ya podía hablar a nivel medio y escribir a nivel bajo. Decide gastar un punto de avance en subir el nivel hablado a alto y el escrito a medio. No podría emplear los dos niveles en hablado ya que no estaría justificado su nivel erudito y tampoco le resulta útil dejar el nivel hablado en medio y subir el escrito a alto.>*
+
+#### Bonus de rasgo asociados al conocimiento de una lengua (regla opcional TZR0001)
+
+El conocimiento de una lengua puede llegar a afectar ciertas tiradas de acciones que requieran un dominio específico de esa lengua. Una negociación con grandes sumas de dinero en juego o una audiencia ante personas de cierto poder e influencia pueden estar marcadas por el uso de una determinada lengua (habitualmente hablada, pero en ocasiones escrita).
+
+Esto se traduce en modificadores a la tirada de acción correspondiendo como un *bonus de rasgo* más cuando se dan una o las dos siguientes circunstancias:
+
+- Para el medio, hablado o escrito, empleado se tiene nivel erudito para esa lengua.
+- Para el medio, hablado o escrito, empleado tiene nivel medio o alto para esa lengua cuando la audiencia tiene en gran estima esa lengua (es su lengua nativa o se reverencia) y al hablante no se le espera dominio algo de ella.
+
+Estos *bonus de rasgos* cuentan para el límite máximo de *bonus de rasgos* para una tirada, que sigue siendo dos veces el nivel del personaje.
+
+*<Ejemplo: Elythlian la elfa necesita la ayuda de un asentamiento enano para combatir a un dragón negro que se ha instalado en una cumbre montañosa cercana. La empresa es arriesgada pero está determinada a convencerlos. Acude ante la actitud recelosa de los habitantes del poblado frente a la asamblea de notables y cuando todos esperaban que se dirigiese en la lengua común, lo hace en su lugar en la lengua enana. Su estudio y amor por esta lengua la llevaron durante decenas de años a comprenderla y dominarla totalmente, aunque es algo que guarda en secreto y solo conocen sus amistades más íntimas. Elythlian puede hacer una tirada de acción basada en Carisma con un +1 de bonus de rasgo por nivel erudito y otro +1 de bonus de rasgo por usar una lengua reverenciada por los enanos y empleada de forma inesperada por una elfa.>*
+
 ### Movimiento
 ...
 ### Defensa
