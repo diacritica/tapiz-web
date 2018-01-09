@@ -241,6 +241,7 @@ Animamos tanto a directoras de juego como a jugadores a considerar los aspectos 
 
 ### Movimiento
 ...
+
 ### Defensa
 ...
 #### Defensa física
@@ -368,8 +369,8 @@ La Directora de Juego comienza cada aventura con una reserva de puntos de heroic
 ...
 ##### Viaje por zonas inhóspitas
 ...
-### Rondas y Turnos
-El tiempo de juego se puede dividir en rondas y asaltos. Una ronda tiene un minuto de duración y permite a cada personaje realizar una acción importante durante ese tiempo. Un turno equivale a 10 rondas. [FIXME!]
+### Turnos, Rondas y Asaltos
+El tiempo de juego se puede dividir en turnos, rondas y asaltos. Un asalto tiene unos 10 segundos de duración y permite a un personaje realizar una acción de combate durante ese tiempo. Una ronda tiene un minuto de duración y permite a cada personaje realizar una acción importante durante ese tiempo que no sea de combate. Un turno equivale a 10 rondas. [FIXME!]
 
 ### Iniciativa
 ...
@@ -385,13 +386,45 @@ El tiempo de juego se puede dividir en rondas y asaltos. Una ronda tiene un minu
 #### Visibilidad y Cobertura
 ...
 #### Movimiento
-...
+
+El movimiento se refiere al movimiento físico realizado por el personaje, ya sea en metros durante un combate o kilómetros atravesando zonas inhóspitas.
+
+El valor numérico del atributo de movimiento (abreviado como **MOV**) se puede leer como el múltiplo de 1 metro que un personaje puede cubrir andando de forma normal en un asalto (10 segundos).
+
+El movimiento se divide entre movimiento en combate y movimiento en zonas inhóspitas. La distancia que un personaje puede cubrir está determinada por su atributo de movimiento y nivel de impedimento. El movimiento base de un personaje, en lugar de ser un resultado de una tirada de dados, suele estar anotado en la descripción de la especie a la que pertenece.
+
+El movimiento de un personaje está afectado por el impedimento generado por el tipo de armadura que se lleve o la carga que se lleve, aquello que genere el mayor impedimento de los dos (véase ->Carga o impedimento más adelante).
+
+@Tabla: Tipo de Movimiento
+
+| **Tipo de Movimiento**  | Distancia por punto de movimiento | Notas                                        |
+|-------------------------|-----------------------------------|----------------------------------------------|
+| Exterior                | 4 km por día                      | Suponiendo 8 horas de caminar normal por día |
+| Reconocimiento          | 3 metros por turno                | Reconocimiento para detectar trampas         |
+| Precavido               | 3 metros por ronda                | Sin estar inmerso en un combate              |
+| Normal                  | 6 metros por ronda                | Establece una consecuencia menor en acciones no relacionadas con el movimiento |
+| Correr                  | 15 metros por ronda               | Establece una consecuencia mayor en acciones no relacionadas con el movimiento    |
+| Esprint                 | 30 metros por ronda               |  Establece una consecuencia extrema en acciones no relacionadas con el movimiento  |
+
+@Tabla: Movimiento
+
+| **Movimiento**          | 12 (+1)  | 9 (-1)   | 6 (-2)   | 3 (-4)   |
+|-------------------------|----------|----------|----------|----------|
+| Exterior (km/día)       | 40       | 30       | 20       | 10       |
+| Reconocimiento (m/turno)| 40       | 30       | 20       | 10       |
+| Precavido (m/ronda)     | 40       | 30       | 20       | 10       |
+| Normal (m/ronda)        | 80       | 60       | 40       | 20       |
+| Correr (m/ronda)        | 200      | 150      | 100      | 50       |
+| Esprint (m/ronda)       | 400      | 300      | 200      | 100      |
+
+
 ##### Movimiento en el combate
-...
+El movimiento de un personaje determina cuánto puede moverse con cierto cuidado en una ronda y es ese mismo dato el que se emplea para la distancia a cubrir durante un combate. Por cada punto de movimiento que tenga el personaje, puede mover 3 metros por ronda.
+
 ##### Movimiento en zonas inhóspitas
 ...
 ##### Carga o impedimento
-...
+Cuanto más porta un personaje o más pesada es su armadura mayor será el nivel de impedimento. El impedimento se basa en el fuerza del personaje.
 ### Tamaño
 ...
 ### Posturas
