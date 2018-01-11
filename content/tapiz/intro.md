@@ -387,44 +387,90 @@ El tiempo de juego se puede dividir en turnos, rondas y asaltos. Un asalto tiene
 ...
 #### Movimiento
 
-El movimiento se refiere al movimiento físico realizado por el personaje, ya sea en metros durante un combate o kilómetros atravesando zonas inhóspitas.
+El movimiento se refiere al desplazamiento físico realizado por el personaje, ya sea en metros durante un combate o kilómetros atravesando zonas inhóspitas. Este apartado de las reglas resuelve la mayoría de situaciones en las que para un personaje se necesita saber si para una determinada acción el movimiento necesario es posible, se encuentra limitado o resulta imposible.
 
-El valor numérico del atributo de movimiento (abreviado como **MOV**) se puede leer como el múltiplo de 1 metro que un personaje puede cubrir andando de forma normal en un asalto (10 segundos).
+El movimiento en el sistema Tapiz es relativamente abstracto en la mayoría de las situaciones y puede obviarse para mantener un ritmo ágil en la aventura. Sin embargo, existen momentos en los que resulta útil conocer si una distancia puede cubrirse en un tiempo determinado o si se deberían aplicar modificadores asociadas a la carga excesiva que un personaje pueda estar soportando.
 
-El movimiento se divide entre movimiento en combate y movimiento en zonas inhóspitas. La distancia que un personaje puede cubrir está determinada por su atributo de movimiento y nivel de impedimento. El movimiento base de un personaje, en lugar de ser un resultado de una tirada de dados, suele estar anotado en la descripción de la especie a la que pertenece.
+Para criaturas y personajes no jugadores, muchas de estas mismas reglas pueden ser de aplicación aunque en general se emplean versiones muy simplificadas.
 
-El movimiento de un personaje está afectado por el impedimento generado por el tipo de armadura que se lleve o la carga que se lleve, aquello que genere el mayor impedimento de los dos (véase ->Carga o impedimento más adelante).
+La capacidad de movimiento de un personaje queda reflejado como un valor numérico del atributo de movimiento (abreviado como **MOV**) y se puede interpretar aproximadamente como la distancia en metros que ese personaje puede cubrir andando de forma normal durante el tiempo que dura un asalto (10 segundos).
 
-@Tabla: Tipo de Movimiento
+Este atributo, al contrario que otros aspectos del personaje, no suele procede de una tirada de dados sino que muy habitualmente viene anotado en la descripción de la especie a la que pertenece.
 
-| **Tipo de Movimiento**  | Distancia por punto de movimiento | Notas                                        |
-|-------------------------|-----------------------------------|----------------------------------------------|
-| Exterior                | 4 km por día                      | Suponiendo 8 horas de caminar normal por día |
-| Reconocimiento          | 3 metros por turno                | Reconocimiento para detectar trampas         |
-| Precavido               | 3 metros por ronda                | Sin estar inmerso en un combate              |
-| Normal                  | 6 metros por ronda                | Establece una consecuencia menor en acciones no relacionadas con el movimiento |
-| Correr                  | 15 metros por ronda               | Establece una consecuencia mayor en acciones no relacionadas con el movimiento    |
-| Esprint                 | 30 metros por ronda               |  Establece una consecuencia extrema en acciones no relacionadas con el movimiento  |
-
-@Tabla: Movimiento
-
-| **Movimiento**          | 12 (+1)  | 9 (-1)   | 6 (-2)   | 3 (-4)   |
-|-------------------------|----------|----------|----------|----------|
-| Exterior (km/día)       | 40       | 30       | 20       | 10       |
-| Reconocimiento (m/turno)| 40       | 30       | 20       | 10       |
-| Precavido (m/ronda)     | 40       | 30       | 20       | 10       |
-| Normal (m/ronda)        | 80       | 60       | 40       | 20       |
-| Correr (m/ronda)        | 200      | 150      | 100      | 50       |
-| Esprint (m/ronda)       | 400      | 300      | 200      | 100      |
-
+En la práctica, se suelen dar dos situaciones en donde aplicar las reglas de movimiento; durante un combate (un conflicto violento en donde los participantes están tratando de obtener una victoria por la fuerza) o fuera de un combate durante un viaje por poblaciones o zonas inhóspitas. En el primer tipo, interesa usar las escalas de *metros* y *asaltos* y el segundo tipo típicamente hablaremos de *kilómetros* y *rondas* o *turnos*.
 
 ##### Movimiento en el combate
-El movimiento de un personaje determina cuánto puede moverse con cierto cuidado en una ronda y es ese mismo dato el que se emplea para la distancia a cubrir durante un combate. Por cada punto de movimiento que tenga el personaje, puede mover 3 metros por ronda.
 
-##### Movimiento en zonas inhóspitas
-...
-##### Carga o impedimento
-Cuanto más porta un personaje o más pesada es su armadura mayor será el nivel de impedimento. El impedimento se basa en el fuerza del personaje.
+El movimiento de un combate es muy dinámico y rápido. Las decisiones se toman en instantes y el lugar concreto donde se encuentre un personaje puede determinar qué puede hacer ese asalto. Por ello, lo más habitual es poder calcular de forma aproximada qué distancia puede recorrer un personaje durante un asalto o una ronda de asaltos.
+
+Durante el combate, un personaje puede en principio moverse y realizar otra acción que no esté específicamente relacionada con el movimiento a cambio de aceptar una *consecuencia* a la tirada de esa otra acción. La forma de realizar el movimiento en este caso es bastante flexible. Por ejemplo, un personaje puede comenzar moviéndose una fracción del movimiento permitido, realizar la acción de ataque y terminar de moverse la fracción restante del movimiento disponible pero deberá aceptar una *consecuencia* en la tirada de ataque. Si el personaje solo realiza la acción de movimiento, no es necesario ninguna tirada ya que se considera que cubre la distancia establecida. Si el personaje desea realizar una tirada de acción directamente relacionada con el movimiento como es saltar, esquivar un obstáculo, deslizarse o arrojarse, esta tirada de acción no sufre ninguna *consecuencia*.
+
+@Tabla: Movimiento en combate
+
+| **Tipo de Movimiento**  | Distancia por punto de movimiento          | Notas                                                                             |
+|-------------------------|--------------------------------------------|-----------------------------------------------------------------------------------|
+| Normal                  | 1 metro por asalto ó 6 metros por ronda    | Establece una consecuencia menor en acciones no relacionadas con el movimiento    |
+| Correr                  | 2 metros por asalto ó 12 metros por ronda  | Establece una consecuencia mayor en acciones no relacionadas con el movimiento    |
+| Esprint                 | 3 metros por asalto ó 18 metros por ronda  | Establece una consecuencia extrema en acciones no relacionadas con el movimiento  |
+
+*Ejemplo: Sharra, la asesina, se encuentra relativamente lejos de uno de los mercenarios que custodiaban la caravana que acaba de asaltar y éste se dirige a su montura para huir. Sharra decide que la única opción para interceptar al mercenario es esprintar mientras blande su cimitarra. Si no hay ningún otro impedimento, Sharra puede llegar hasta el mercenario a tiempo pero su ataque sufre una consecuencia extrema (-4) a la tirada. Si Sharra falla, muy probablemente el mercenario pueda subirse a su caballo y emprender la huida pero esta misma acción normalmente requerirá a su vez una tirada de acción por parte de la Directora de juego, que se verá afectada por una consecuencia mayor por la carrera del mercenario, ya que montar una cabalgadura no es una acción directa de movimiento.*
+
+##### Movimiento fuera de combate
+
+El movimiento fuera de combate no suele presentar tantos elementos de tensión y dinamismo porque en general depende exclusivamente del personaje, sin intromisiones activas de otros elementos, criaturas o personajes no jugadores. Andar por una calle en una ciudad, recorrer un camino en el campo abierto, explorar unas ruinas o internarse por un bosque son ejemplos fáciles de entender pero también se incluyen el andar por espacios cerrados como grutas, pasajes subterráneos o salas y habitaciones.
+
+Al igual que en el movimiento en el combate, el valor del atributo de **Movimiento** sirve de referencia para cálculos aproximados dependiendo del modo en el que se realiza el movimiento. Hay un movimiento normal, equivalente al movimiento en combate pero medido aquí en rondas o turnos, un movimiento asociado a una acción de reconocimiento del propio terreno, un movimiento característico de un personaje que quiere pasar inadvertido o tener mucho cuidado con el propio terreno que pisa y, finalmente, un movimiento asociado a grandes distancias cubiertas durante un día de larga caminata.
+
+La siguiente tabla muestra valores de referencia que pueden ser fácilmente adaptados cuando el terreno presenta dificultades notables.
+
+@Tabla: Movimiento fuera de combate
+
+| **Tipo de Movimiento**  | Distancia por punto de movimiento            | Notas                                                   |
+|-------------------------|----------------------------------------------|---------------------------------------------------------|
+| Normal                  | 6 metros por ronda ó 60 metros por turno     | Andar normal en superficie llana o con poca pendiente   |
+| Reconocimiento          | 1/2 metro por ronda ó 5 metros por turno     | Reconocimiento para detectar trampas                    |
+| Precavido               | 1 metro por ronda ó 10 metros por turno      | Tratando de pasar inadvertido                           |
+| Caminata                | 1 km por día                                 | Suponiendo 8-10 horas de caminar normal por día         |
+
+*Ejemplo: Sharra, la asesina, se encuentra de noche recorriendo el exterior de la empalizada defensiva de un poblado. Pretende acercarse sigilosamente hasta un puesto de guardia que da acceso al interior del poblado justo a tiempo para el cambio de guardia. Sabe que para llegar a tiempo en un minuto sin ser vista, debe estar a no más de 30 metros del puesto de guardia (su valor de Movimiento es 30 y el tipo de movimiento es Precavido). Esto no impide que deba tirar una tirada de acción correspondiente a su voluntad de pasar inadvertida pero si hubiera andado de forma normal, hubiera sufrido alguna consecuencia por parte de la Directora de juego.*
+
+
+##### Impedimento y Carga
+
+El **Impedimento** representa el peso excesivo que porta un personaje y que limita en alguna medida su capacidad de movimiento en circunstancias normales (con ropa cómoda y algo de equipaje).
+
+Cuanto más porta un personaje o más pesada es su armadura mayor será el nivel de impedimento. El impedimento viene determinado por el atributo de Fuerza del personaje.
+
+El peso que puede soportar un personaje sin sufrir consecuencias es la suma de su Fuerza y su Destreza medido en kilos, a la que se denomina **Carga**. Así, un personaje de Fuerza 12 y Destreza 15 podrá cargar con 27 kilos antes de empezar a sufrir consecuencias en las tiradas relacionadas con el movimiento y el combate. La referencia de consecuencias dependiendo de la carga que se soporta se muestra en la siguiente tabla en donde se observa que cuando la Fuerza y la Destreza se han consumido es la Constitución (una forma de entender el aguante físico de un personaje) el que determina cuánto más puede sobrellevar el personaje en diferentes tramos.
+
+@Tabla: Impedimento
+
+| **Carga soportada (en kg)**                | En combate         | Fuera de combate        | Impedimento  | Notas      |
+|--------------------------------------------|--------------------|-------------------------|--------------|------------|
+| Hasta el valor de Carga                    | Sin consecuencias                                                    | Sin consecuencias             | Normal (0)                                          |                                                                                      |
+| Hasta el valor de Carga + **CON**          | Consecuencia menor (-1) a todas las tiradas de movimiento y combate  | La mitad de todos los valores | Cargado (-1)                                         | Requiere descansar una ronda entera cada **CON** rondas realizando el movimiento                 |
+| Hasta el valor de Carga + 3 x **CON**      | Consecuencia mayor (-2) a todas las tiradas de movimiento y combate  | Un tercio de todos los valores| Sobrecargado (-2)                                         | Requiere descansar dos rondas enteras cada **CON** rondas realizando el movimiento   |
+| Más allá del valor de Carga + 3 x **CON**  | Consecuencia extrema (-4) a todas las tiradas de movimiento y combate| Un décimo de todos los valores| Extenuado (-4)                                         | Requiere descansar 5 rondas enteras cada **CON** rondas realizando el movimiento              |
+
+*Ejemplo: Sharra tiene una FUE de 14 y una DES de 15 y en total carga con su armadura de cuero, su cimitarra, sus dos dagas, su ballesta de mano, diversas pociones y ungüentos, una mochila que contiene una larga cuerda y un garfio y otros utensilios así como un fabuloso botín en monedas y gemas recién "adquirido". En total el peso soportado asciende a 30 kilos, más del valor de su Carga, que es 14+15=29. Hasta que pueda deshacerse de parte del botín, sufrirá una consecuencia menor por impedimento durante los combates y podrá desplazarse fuera de un combate la mitad de la distancia habitual según su atributo de Movimiento. Si en lugar del botín, llevara a hombros a una compañera enana inconsciente de 90kg de peso, sufriría una consecuencia extrema al cubrir distancias largas, por ejemplo.*
+
+La reglas de impedimento para el combate se basan en que éste no suele durar más que unos pocos minutos o media hora a lo sumo así como el hecho de que, durante un combate, el personaje se encuentra en una situación de gran tensión y adrenalina y puede sobrellevar grandes esfuerzos a pesar del impedimento. En el ejemplo anterior en sonde Sharra, la asesina, esprintaba para alcanzar al mercenario, si hubiera llevado una carga de 30 kilos, solamente se le habría aplicado una consecuencia menor (-1) a su tirada de ataque con la cimitarra (para un total de -5), sin penalización al esprint en sí.
+
+Sin embargo, en circunstancias normales, fuera de un escenario de combate, soportar el peso excesivo sí tiene efectos claros y duraderos. Volviendo al ejemplo de Sharra y su abultado botín, recorrer una distancia de 5 km hasta un refugio le hubiera llevado el doble de tiempo (dos horas en lugar de una hora, reflejando la necesidad de parar a descansar cada cierto tiempo).
+
+Algunas clases y especies pueden proporcionar bonificadores o penalizadores al valor de la Carga del personaje.
+
+*Ejemplo: Saddin el Humano Paladín, merced a su gran entrenamiento marcial y resistencia obtiene un bonificador de +10 a su valor de Carga.*
+
+Consulta las reglas específicas del Lienzo que desees emplear para aplicar estas modificaciones.
+
+
+#### Ignorar reglas de Impedimento y Carga (regla opcional TZR0002)
+
+Las reglas de Tapiz sobre el Impedimento y Carga pretenden reflejar en parte la dura realidad de portar un peso excesivo durante demasiado tiempo. Se desea evitar normalizar situaciones poco coherentes incluso en un mundo de fantasía en donde tiene poco sentido que una elfa de los bosques de valores de atributo normales y un peso dentro de la media pueda cargar con la mitad de su peso sin restricciones, independientemente de que a los personajes se les considere individuos excepcionales en la mayoría de ambientaciones de rol fantásticas.
+
+No obstante, como regla opcional se permite ignorar por completo la regla de Impedimento y Carga, reflejándola en la ficha de personaje de forma testimonial a modo de referencia sin mayor repercusión en la práctica o como recordatorio para situaciones extraordinarias. De esta forma, se siguen aplicando las reglas de Movimiento tanto para el combate como fuera de él pero no se efectúan las correcciones por Impedimento y Carga.
+
 ### Tamaño
 ...
 ### Posturas
