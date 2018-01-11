@@ -1,6 +1,6 @@
-baseURL = "http://tapiz.net/"
-languageCode = "en-uk"
-title = "The Tapiz Project"
+baseURL = "https://tapiz.net/"
+languageCode = "es-ES"
+title = "Proyecto Tapiz"
 theme = "docdock"
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
