@@ -6,7 +6,7 @@ date: 2017-08-02T16:29:13+02:00
 
 ## Uso
 
-Este documento describe el Sistema Tapiz. Está inspirado en el *Effect Engine*, contenido en el juego Monsters & Magic, de **Sarah Newton** (Mindjammer Press) y en el juego *Ebon Fantasy*, de **Travis Casey** (Ebon Gryphon Games). El autor del Sistema Tapiz es Pablo Ruiz-Múzquiz.
+Este documento describe el Sistema Tapiz. Está inspirado en el *Effect Engine*, contenido en el juego Monsters & Magic, de **Sarah Newton** (Mindjammer Press) y en el juego *Ebon Fantasy*, de **Travis Casey** (Ebon Gryphon Games). El autor principal del Sistema Tapiz es Pablo Ruiz-Múzquiz.
 
 Tapiz está concebido para contener el conjunto mínimo de reglas y mecánicas de reglas común a juegos de rol de fantasía, deliberadamente dejando a otros documentos la responsabilidad de complementarlo con contenido dependiente de una ambientación. Esto hace que Tapiz en sí mismo, como documento, no pueda resolver la necesidad de un juego de rol completo. Para ello, deberá emplearse un documento de la colección de ambientaciones, también denominados *parches*.
 
