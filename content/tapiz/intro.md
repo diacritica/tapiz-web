@@ -4,13 +4,16 @@ date: 2017-08-02T16:29:13+02:00
 ---
 # Documento de Referencia del Sistema Tapiz
 
+![Logo de Tapiz](images/logo-tapiz-bw.png)
+
+
 ## Uso
 
 Este documento describe el Sistema Tapiz. Está inspirado en el *Effect Engine*, contenido en el juego Monsters & Magic, de **Sarah Newton** (Mindjammer Press) y en el juego *Ebon Fantasy*, de **Travis Casey** (Ebon Gryphon Games). El autor principal del Sistema Tapiz es Pablo Ruiz-Múzquiz.
 
-Tapiz está concebido para contener el conjunto mínimo de reglas y mecánicas de reglas común a juegos de rol de fantasía, deliberadamente dejando a otros documentos la responsabilidad de complementarlo con contenido dependiente de una ambientación. Esto hace que Tapiz en sí mismo, como documento, no pueda resolver la necesidad de un juego de rol completo. Para ello, deberá emplearse un documento de la colección de ambientaciones, también denominados *parches*.
+Tapiz está concebido para contener el conjunto mínimo de reglas y mecánicas de reglas común a juegos de rol de fantasía, deliberadamente dejando a otros documentos la responsabilidad de complementarlo con contenido dependiente de una ambientación. Esto hace que Tapiz en sí mismo, como documento, no pueda resolver la necesidad de un juego de rol completo. Para ello, deberá emplearse un documento de la colección de ambientaciones, también denominados *Lienzos*.
 
-A lo largo del documento se podrán encontrar notas marcadas entre corchetes **[NOTA:]** con la intención de guiar a los diseñadores de ambientaciones o *parches* en el uso del sistema *Tapiz*. Estas notas arrojan luz sobre el diseño del sistema y pueden señalar elementos que modificar para adaptarlo a tu ambientación.
+A lo largo del documento se podrán encontrar notas marcadas entre corchetes **[NOTA:]** con la intención de guiar a los diseñadores de ambientaciones o *Lienzos* en el uso del sistema *Tapiz*. Estas notas arrojan luz sobre el diseño del sistema y pueden señalar elementos a modificar para adaptarlo a una ambientación particular.
 
 Este documento tiene licencia Creative Commons Attribution Sharealike (CC BY-SA) y puede leerse una explicación de su naturaleza y condiciones en la sección correspondiente.
 
