@@ -4,7 +4,7 @@ date: 2017-08-02T16:29:13+02:00
 ---
 # Documento de Referencia del Sistema Tapiz
 
-![Logo de Tapiz](images/logo-tapiz-bw.png)
+![Logo de Tapiz](/tapiz/images/logo-tapiz-bw.png)
 
 
 ## Uso
