@@ -487,7 +487,7 @@ La posibilidad de golpear y herir a criaturas de diferente tamaño con un ataque
 @Tabla: Modificador al ataque y daño físicos en relación al tamaño de la criatura
 
 | Tamaño del atacante   | Objetivo Pequeño    | Objetivo Mediano   | Objetivo Grande        |
-|------------|-----------------------------------------|---------------|
+|------------|-----------------------------------------|---------------|---------------------|
 | Pequeño    | Sin cambios     | -2 a la CA del objetivo, -2 puntos de efecto al atacante   | -4 a la CA del objetivo, -4 puntos de efecto al atacante              |
 | Mediano    | +2 a la CA del objetivo, +2 puntos de efecto al atacante | Sin cambios             |  -2 a la CA del objetivo, -2 puntos de efecto al atacante     |
 | Grande     | +4 a la CA del objetivo, +4 puntos de efecto al atacante      | +2 a la CA del objetivo, +2 puntos de efecto al atacante | Sin cambios       |
@@ -497,7 +497,7 @@ A su vez, la posibilidad de golpear y herir a criaturas de diferente tamaño con
 @Tabla: Modificador al ataque y daño mentales en relación al tamaño de la criatura
 
 | Tamaño del atacante   | Objetivo Pequeño    | Objetivo Mediano   | Objetivo Grande        |
-|------------|-----------------------------------------|---------------|
+|------------|-----------------------------------------|---------------|--------------------|
 | Pequeño    | Sin cambios     | +2 a la resistencia del objetivo, -2 puntos de efecto al atacante   |+4 a la resistencia del objetivo, -4 puntos de efecto al atacante             |
 | Mediano    | -2 a la resistencia del objetivo, +2 puntos de efecto al atacante | Sin cambios             |  +2 a la resistencia del objetivo, -2 puntos de efecto al atacante     |
 | Grande     | -4 a la resistencia del objetivo, +4 puntos de efecto al atacante      |-2 a la resistencia del objetivo, +2 puntos de efecto al atacante | Sin cambios       |
