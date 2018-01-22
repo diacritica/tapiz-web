@@ -393,7 +393,7 @@ Los objetivos que dispongan de cobertura sólida como paredes, árboles, rocas, 
 @Tabla: Bonificador por tipo de Cobertura
 
 | **Tipo de Cobertura**  |Bonificador por cobertura parcial  | Bonificador por cobertura total | Ejemplos      |
-|-------------------------|--------------------------------------------|---------------------------------------|
+|------------------------|-----------------------------------|---------------------------------------|---------|
 | Cobertura ligera       | +2   | +5   | Capa fina de madera, ramas, escayola, maleza |
 | Cobertura media        | +5   | +10  | Madera gruesa, ladrillo, piedra              |
 | Cobertura pesada       | +10  | +20  | Piedra gruesa, metal                         |
