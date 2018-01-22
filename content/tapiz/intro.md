@@ -2,8 +2,6 @@
 title: "Documento de Referencia del Sistema Tapiz"
 date: 2017-08-02T16:29:13+02:00
 ---
-# Documento de Referencia del Sistema Tapiz
-
 ## Uso
 
 Este documento describe el Sistema Tapiz. Está inspirado en el *Effect Engine*, contenido en el juego Monsters & Magic, de **Sarah Newton** (Mindjammer Press) y en el juego *Ebon Fantasy*, de **Travis Casey** (Ebon Gryphon Games). El autor del Sistema Tapiz es Pablo Ruiz-Múzquiz.

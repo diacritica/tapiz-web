@@ -1,1 +1,1 @@
-TAPIZ
+![](/images/logo-tapiz-bw.svg)
