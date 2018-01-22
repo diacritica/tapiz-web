@@ -385,7 +385,24 @@ El tiempo de juego se puede dividir en turnos, rondas y asaltos. Un asalto tiene
 #### Rango inicial
 ...
 #### Visibilidad y Cobertura
-...
+
+Ser capaz de ver al objetivo de una acción resulta vital durante un combate. Si el objetivo se encuentra oculto en las sombras, hay muy poca iluminación o se encuentra dentro de una espesa niebla, se considera que el objetivo tiene *visibilidad parcial*. Esto se comporta como una consecuencia del entorno menor y aplica un -2 a todos los ataques contra dicho objetivo (normalmente ataques a distancia). Si el objetivo se encuentra en una oscuridad total o es imposible de distinguir tiene *visibilidad nula*. Esto se comporta a su vez como una consecuencia del entorno mayor y aplica un -4 a todos los ataques contra dicho objetivo (normalmente ataques a distancia).
+
+Los objetivos que dispongan de cobertura sólida como paredes, árboles, rocas, etc, obtienen *cobertura*. Esta cobertura actúa como un bonificador a la armadura dependiendo del material del que esté hecho la cobertura y cuánto cubre. Un objetivo con cobertura parcial sigue siendo capaz de realizar ataques a distancia. Un objetivo con cobertura total no puede atacar en ningún caso. Los bonificadores a la armadura dependiendo del tipo de cobertura se describen en la siguiente tabla.
+
+@Tabla: Bonificador por tipo de Cobertura
+
+| **Tipo de Cobertura**  |Bonificador por cobertura parcial  | Bonificador por cobertura total | Ejemplos      |
+|-------------------------|--------------------------------------------|---------------------------------------|
+| Cobertura ligera       | +2   | +5   | Capa fina de madera, ramas, escayola, maleza |
+| Cobertura media        | +5   | +10  | Madera gruesa, ladrillo, piedra              |
+| Cobertura pesada       | +10  | +20  | Piedra gruesa, metal                         |
+
+
+*Ejemplo: Sharra, la asesina, ha conseguido entrar en el palacio de la Condesa. Tras recorrer varios pasillos y bajar a las cocinas, es sorprendida por un ayudante de cocina que se había quedado limpiando una de las despensas. Sharra, corre a esconderse tras unos barriles de hidromiel en una de las salas más grandes con apenas dos grandes cirios para iluminar toda la estancia. Cuando acude la guardia alertada por el delator, su ubicación le proporciona visibilidad parcial (-2 a las tiradas de ataque contra ella de una soladado con ballesta) y cobertura media (+5 a su CA por los barriles de hidromiel y estar cubierta solo parcialmente para poder lanzar sus dagas y buscar una salida).*
+
+
+
 #### Movimiento
 
 El movimiento se refiere al desplazamiento físico realizado por el personaje, ya sea en metros durante un combate o kilómetros atravesando zonas inhóspitas. Este apartado de las reglas resuelve la mayoría de situaciones en las que para un personaje se necesita saber si para una determinada acción el movimiento necesario es posible, se encuentra limitado o resulta imposible.
