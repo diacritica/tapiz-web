@@ -1,0 +1,98 @@
+
+:root{
+    --SIDE-MAIN-color:white;
+    --SIDE-MAIN-TXT-color:black;
+    --MAIN-HOVER-color:black;
+    --SIDE-FOCUS-BACK-color:#d1d2d6;
+    --SIDE-FOCUS-FORE-color:black;
+    --MENU-LINK-color:black;
+    --MENU-ACTIVE-BACK-color:#b6b7bd;
+    --MENU-ACTIVE-LINK-color:black;
+    --BOX-SHADOW-color:#e0dfe4;
+
+}
+body {
+    font-family: 'Alegreya', serif;
+}
+h1 {
+    background-image: url('/images/h1-ribbon.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    font-family: 'Fondamento', cursive;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+h2, h3, h4, h5 {
+    color: var(--SIDE-MAIN-TXT-color);
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+h3, h4, h5 {
+  border-bottom: 1px solid var(--SIDE-FOCUS-BACK-color);
+  padding-bottom: 1rem;
+}
+a, #sidebar ul li.visited > a .read-icon {
+    color: var(--MENU-ACTIVE-LINK-color);
+}
+a:hover {
+    color: var(--MAIN-HOVER-color);
+    text-decoration: underline;
+}
+#body a.highlight:after {
+    background-color: var(--MAIN-HOVER-color);
+}
+#sidebar {
+  background-color: var(--SIDE-MAIN-color);
+  box-shadow: 0 10px 30px 20px var(--BOX-SHADOW-color);
+}
+#sidebar #header-wrapper {
+    background: var(--SIDE-MAIN-color);
+    color: var(--BF-color);
+    border-color: var(--SIDE-FOCUS-BACK-color);
+}
+#sidebar #header-wrapper img {
+    width: 90%;
+}
+#sidebar .searchbox {
+    border-color: var(--BOX-SHADOW-color);
+    background: var(--SIDE-MAIN-color);
+}
+#sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
+    background: var(--SIDE-FOCUS-BACK-color);
+}
+#sidebar ul.topics > li.parent a {
+    color: var(--MENU-LINK-color);
+}
+#sidebar ul.topics > li.parent a:hover {
+    color: var(--MENU-LINK-color);
+    text-decoration: underline;
+}
+#sidebar .searchbox * {
+    color: var(--SIDE-FOCUS-FORE-color);
+}
+#sidebar a , #sidebar a:hover {
+    color: var(--MENU-LINK-color);
+}
+#sidebar .parent li, #sidebar .active li {
+    border-color: var(--MENU-ACTIVE-LINK-color);
+}
+#sidebar ul li.active > a {
+    background: var(--MENU-ACTIVE-BACK-color);
+    color: var(--MENU-ACTIVE-LINK-color) !important;
+}
+#sidebar ul li.active > a:hover {
+    color: var(--MENU-ACTIVE-LINK-color) !important;
+    text-decoration: underline;
+}
+#sidebar ul li .category-icon {
+	color: var(--MENU-LINK-color);
+}
+#sidebar #shortcuts h3 {
+    color: var(--SIDE-MAIN-TXT-color);
+}
+#sidebar #shortcuts h3 {
+    font-family: 'Fondamento', cursive;
+}
+.footline {
+	border-color: var(--SIDE-FOCUS-BACK-color);
+}
