@@ -2,13 +2,17 @@
 title: "Documento de Referencia del Sistema Tapiz"
 date: 2017-08-02T16:29:13+02:00
 ---
+# Documento de Referencia del Sistema Tapiz
+
+![Logo de Tapiz](/tapiz/images/logo-tapiz-bw.png)
+
 ## Uso
 
-Este documento describe el Sistema Tapiz. Está inspirado en el *Effect Engine*, contenido en el juego Monsters & Magic, de **Sarah Newton** (Mindjammer Press) y en el juego *Ebon Fantasy*, de **Travis Casey** (Ebon Gryphon Games). El autor del Sistema Tapiz es Pablo Ruiz-Múzquiz.
+Este documento describe el Sistema Tapiz. Está inspirado en el *Effect Engine*, contenido en el juego Monsters & Magic, de **Sarah Newton** (Mindjammer Press) y en el juego *Ebon Fantasy*, de **Travis Casey** (Ebon Gryphon Games). El autor principal del Sistema Tapiz es Pablo Ruiz-Múzquiz.
 
-Tapiz está concebido para contener el conjunto mínimo de reglas y mecánicas de reglas común a juegos de rol de fantasía, deliberadamente dejando a otros documentos la responsabilidad de complementarlo con contenido dependiente de una ambientación. Esto hace que Tapiz en sí mismo, como documento, no pueda resolver la necesidad de un juego de rol completo. Para ello, deberá emplearse un documento de la colección de ambientaciones, también denominados *parches*.
+Tapiz está concebido para contener el conjunto mínimo de reglas y mecánicas de reglas común a juegos de rol de fantasía, deliberadamente dejando a otros documentos la responsabilidad de complementarlo con contenido dependiente de una ambientación. Esto hace que Tapiz en sí mismo, como documento, no pueda resolver la necesidad de un juego de rol completo. Para ello, deberá emplearse un documento de la colección de ambientaciones, también denominados *Lienzos*.
 
-A lo largo del documento se podrán encontrar notas marcadas entre corchetes **[NOTA:]** con la intención de guiar a los diseñadores de ambientaciones o *parches* en el uso del sistema *Tapiz*. Estas notas arrojan luz sobre el diseño del sistema y pueden señalar elementos que modificar para adaptarlo a tu ambientación.
+A lo largo del documento se podrán encontrar notas marcadas entre corchetes **[NOTA:]** con la intención de guiar a los diseñadores de ambientaciones o *Lienzos* en el uso del sistema *Tapiz*. Estas notas arrojan luz sobre el diseño del sistema y pueden señalar elementos a modificar para adaptarlo a una ambientación particular.
 
 Este documento tiene licencia Creative Commons Attribution Sharealike (CC BY-SA) y puede leerse una explicación de su naturaleza y condiciones en la sección correspondiente.
 
@@ -470,19 +474,64 @@ Las reglas de Tapiz sobre el Impedimento y Carga pretenden reflejar en parte la 
 No obstante, como regla opcional se permite ignorar por completo la regla de Impedimento y Carga, reflejándola en la ficha de personaje de forma testimonial a modo de referencia sin mayor repercusión en la práctica o como recordatorio para situaciones extraordinarias. De esta forma, se siguen aplicando las reglas de Movimiento tanto para el combate como fuera de él pero no se efectúan las correcciones por Impedimento y Carga.
 
 ### Tamaño
-...
+
+Las criaturas en Tapiz se describen como pequeñas, medianas y grandes. Una criatura de tamaño medio resulta equivalente al tamaño de un humano adulto. Las criaturas de tamaño pequeño equivalen al tamaño de un perro y las criaturas de tamaño grande como mínimo duplican el tamaño de un humano adulto.
+
+
+
+[ILUSTRACIÓN en donde se muestra a una silueta de una humana y a su lado, en estilo croquis o diagrama, tres criaturas de diferente tamaño para ilustrar la comparación]
+
+La posibilidad de golpear y herir a criaturas de diferente tamaño con un ataque físico se ve afectada por la siguiente tabla.
+
+@Tabla: Modificador al ataque y daño físicos en relación al tamaño de la criatura
+
+| Tamaño del atacante   | Objetivo Pequeño    | Objetivo Mediano   | Objetivo Grande        |
+|------------|-----------------------------------------|---------------|---------------------|
+| Pequeño    | Sin cambios     | -2 a la CA del objetivo, -2 puntos de efecto al atacante   | -4 a la CA del objetivo, -4 puntos de efecto al atacante              |
+| Mediano    | +2 a la CA del objetivo, +2 puntos de efecto al atacante | Sin cambios             |  -2 a la CA del objetivo, -2 puntos de efecto al atacante     |
+| Grande     | +4 a la CA del objetivo, +4 puntos de efecto al atacante      | +2 a la CA del objetivo, +2 puntos de efecto al atacante | Sin cambios       |
+
+A su vez, la posibilidad de golpear y herir a criaturas de diferente tamaño con un ataque mental se ve afectada por la siguiente tabla.
+
+@Tabla: Modificador al ataque y daño mentales en relación al tamaño de la criatura
+
+| Tamaño del atacante   | Objetivo Pequeño    | Objetivo Mediano   | Objetivo Grande        |
+|------------|-----------------------------------------|---------------|--------------------|
+| Pequeño    | Sin cambios     | +2 a la resistencia del objetivo, -2 puntos de efecto al atacante   |+4 a la resistencia del objetivo, -4 puntos de efecto al atacante             |
+| Mediano    | -2 a la resistencia del objetivo, +2 puntos de efecto al atacante | Sin cambios             |  +2 a la resistencia del objetivo, -2 puntos de efecto al atacante     |
+| Grande     | -4 a la resistencia del objetivo, +4 puntos de efecto al atacante      |-2 a la resistencia del objetivo, +2 puntos de efecto al atacante | Sin cambios       |
+
 ### Posturas
-...
+
+Las *Posturas* son alternativas a las tiradas de acción y resistencia durante un conflicto. Éstas se pueden adquirir empleando puntos de avance. Cuando se inicia un conflicto, cada PJ que tenga la posibilidad de seleccionar una postura lo declara. El cambio de postura cuando el conflicto ya ha dado comienzo supone una consecuencia menor.
+
+Algunas posturas establecen como condición que el personaje sea el último en *iniciativa*. Aún así, es conveniente pedir a las jugadores que hagan la tirada de iniciativa como regla general. Así, primero se establece el orden en el grupo de personajes sin esa restricción y luego el orden interno de los personajes que sí tienen esa restricción.
+
+A continuación se presenta una lista de posturas en Tapiz pero con la ayuda de la Directora de Juego, se pueden diseñar y proporcionar otras Posturas a medida.
+
 #### Normal
-...
+
+Ésta es la postura estándar de todos los personajes cuando no se menciona ninguna en particular. Todas las acciones y sus resultados siguen las reglas generales.
+
 #### Ataque total
-...
+
+Los personajes con conocimiento marcial suelen emplear esta postura durante combates físicos mientras que los conocedores de lo arcano y la magia divina apuestan por ella en combates de índole mental. Los personajes que eligen esta postura obtienen la mitad de su nivel (redondeando hacia arriba) como un bonificador en sus tiradas de acción de ataque. En contrapartida, sufren una penalización a su clase de armadura y sus tiradas de resistencia igual al mismo bonificador que recibieron en el ataque. Un personaje puede elegir disfrutar de un bonus menor al máximo y, en consecuencia, sufrir una menor penalización.
+
+Esta postura obliga al personaje a ser el último en iniciativa.
+
 #### Foco en el daño
-...
+
+Esta postura solamente se puede emplear por un personaje blandiendo un arma de cuerpo a cuerpo con un rango de "inmediato" o "cerca" o en conflictos de tipo mental. Todos los dados de daño del arma o del poder mental se tiran dos veces. Se toma el valor del dado mayor y éste se añade a la tirada de acción del personaje. Si el resultado supone un fallo, el objetivo del ataque puede, de forma inmediata, imponer una consecuencia de un nivel superior al reflejado en la tirada. Así, un simple fallo se convierte en una consecuencia menor, una menor en mayor y una mayor en extrema.
+
+Esta postura obliga al personaje a ser el último en iniciativa.
+
 #### Defensa férrea
-...
+
+Un personaje empleando esta postura está concentrado en la defensa, no en el ataque. Se eliminan todos los bonificadores a las tiradas de ataque y a cambio recibe un bonificador +4 a sus tiradas de resistencia. Si un personaje no dispone de bonificadores al ataque, tanto mejor ya que no se pierde nada. Esto convierte a la Defensa férrea en una buena postura para personajes no combatientes.
+
 #### Apuntar
-...
+
+Esta postura requiere que para cada ataque a distancia (ya sea físico o mental, a discreción de la Directora de Juego), se haya usado un asalto previo en apuntar concentrado. Un ataque apuntado obtiene el doble de su bonificador de rasgo del primer rasgo aplicado a la tirada de ataque.
 
 ### Daño
 ...
