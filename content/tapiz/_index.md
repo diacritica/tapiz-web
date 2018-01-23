@@ -170,7 +170,7 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 
 - **Subir de nivel**:
 
-### Creación de Personajes
+## Creación de Personajes
 ...
 
 ### Generación de los Atributos
