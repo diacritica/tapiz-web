@@ -494,8 +494,7 @@ No obstante, como regla opcional se permite ignorar por completo la regla de Imp
 Las criaturas en Tapiz se describen como pequeñas, medianas y grandes. Una criatura de tamaño medio resulta equivalente al tamaño de un humano adulto. Las criaturas de tamaño pequeño equivalen al tamaño de un perro y las criaturas de tamaño grande como mínimo duplican el tamaño de un humano adulto.
 
 
-
-[ILUSTRACIÓN en donde se muestra a una silueta de una humana y a su lado, en estilo croquis o diagrama, tres criaturas de diferente tamaño para ilustrar la comparación]
+![Logo de Tapiz](/tapiz/images/objective-size.jpg)
 
 La posibilidad de golpear y herir a criaturas de diferente tamaño con un ataque físico se ve afectada por la siguiente tabla.
 
