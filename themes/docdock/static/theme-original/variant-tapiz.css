@@ -14,6 +14,10 @@
 body {
     font-family: 'Alegreya', serif;
 }
+body strong {
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+}
 h1 {
     background-image: url('/images/h1-ribbon.svg');
     background-position: bottom center;
