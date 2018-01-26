@@ -29,11 +29,19 @@ h1 {
 h2, h3, h4, h5 {
     color: var(--SIDE-MAIN-TXT-color);
     font-family: 'Alegreya', serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 h3, h4, h5 {
   border-bottom: 1px solid var(--SIDE-FOCUS-BACK-color);
   padding-bottom: 1rem;
+}
+h3 {
+  margin-top: 3rem;
+}
+h5 {
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
 }
 a, #sidebar ul li.visited > a .read-icon {
     color: var(--MENU-ACTIVE-LINK-color);
@@ -44,6 +52,12 @@ a:hover {
 }
 #body a.highlight:after {
     background-color: var(--MAIN-HOVER-color);
+}
+#body-inner ul li {
+    margin-bottom: .7rem;
+}
+#body-inner p {
+    margin: 1.2rem 0;
 }
 #sidebar {
   background-color: var(--SIDE-MAIN-color);
@@ -96,6 +110,7 @@ a:hover {
 }
 #sidebar #shortcuts h3 {
     font-family: 'Fondamento', cursive;
+    font-size: 1.4rem;
 }
 .footline {
 	border-color: var(--SIDE-FOCUS-BACK-color);
