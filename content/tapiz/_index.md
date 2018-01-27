@@ -148,17 +148,17 @@ Una acción de curación solo puede llevarse a cabo una vez tras recibir daño. 
 
 La mayoría de los términos resultarán familiares para quienes hayan jugado ya a otros juegos de rol. Aquí presentamos un resumen de los más importantes.
 
-- **Avance**: una mejora específica para tu personaje, ya sea porque añadiste una habilidad o se mejoró una existente. Un personaje nuevo comienza con dos avances disponibles.
+- **Avance**: una mejora específica para tu personaje, ya sea porque añadiste una habilidad o se mejoró una existente. Un personaje nuevo de primer nivel comienza habitualmente con uno o dos avances disponibles y cada vez que alcanza un nuevo nivel obtiene un avance adicional a través de los *puntos de avance*.
 
 - **Aventura**: otro término válido para *escenario* (ver más abajo).
 
-- **Clase de armadura**: el término de fantasía clásica para referirse a la habilidad de un personaje para defenderse en un combate físico. En **Tapiz**, la clase de armadura es una tirada estática de resistencia basada en el atributo de Destreza, modificada por el tipo y características de la armadura que se esté portando.
+- **Clase de armadura**: el término de fantasía clásica para referirse a la habilidad de un personaje para defenderse en un combate físico. En **Tapiz**, la clase de armadura es una tirada estática de resistencia basada en el atributo de Destreza, modificada por el tipo y características de la armadura que se esté portando así como el dominio de esa armadura y el arma que se esté blandiendo.
 
-- **Atributo**:  uno de los seis indicadores que describen las características físicas y mentales de un personaje. Éstos son Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma y normalmente comprenden valores entre 3 y 18. El atributo proporciona un valor base para una acción estática o una resistencia estática así como el *modificador de atributo*.
+- **Atributo**:  a veces también llamados **característica**, uno de los seis indicadores que describen las dotes físicas y mentales de un personaje. Éstos son Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma y normalmente comprenden valores entre 3 y 18. El atributo proporciona un valor base para una acción estática o una resistencia estática así como el *modificador de atributo*.
 
 - **Modificador de atributo (MOD ATR)**: un modificador numérico (habitualmente entre -4 y +4) que se añade a una tirada de dados durante una tirada de acción o resistencia relacionada con ese atributo.
 
-- **Campaña**: el término empleado para describir un juego de **Tapiz** cuando se extiende a lo largo de varias *sesiones* y *escenarios*. Una campaña puede durar hasta varios años.
+- **Campaña**: el término empleado para describir un juego de **Tapiz** cuando se extiende a lo largo de varias *sesiones* y *escenarios*. Una campaña puede llegar a durar hasta varios años.
 
 - **Tirada de acción**: es la forma de determinar si un personaje tiene éxito o fracasa en un acción o al resistirse a la acción de otro. Las tiradas de acción pueden ser estáticas o emplear 3d6 dados.
 
@@ -174,9 +174,31 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 
 - **Dado de Golpe**: el tipo de dado que se lanza para generar *puntos de golpe* a nivel 2 y superior de personaje. Su rango suele ser entre d4 y d10 pero se dan casos de dados de golpe mayores. Las criaturas normalmente tienen d8 para sus dados de golpe tanto físicos como mentales.
 
-- **Puntos de Golpe**: un indicador numérico que indica el daño físico o mental que un personaje o una criatura puede soportar. Hay dos tipos de de *puntos de golpe*; físicos y mentales. Los *puntos de golpe* se incrementan al subir de nivel el personaje.
+- **Puntos de Golpe**: un indicador numérico que indica el daño físico o mental que un personaje o una criatura puede soportar. Hay dos tipos de de *puntos de golpe*; físicos y mentales. Ambos *puntos de golpe* se incrementan al subir de nivel el personaje.
 
-- **Subir de nivel**:
+- **Subir de nivel**: se refiere al proceso de cambiar de un nivel a otro, habitualmente uno superior como *subir de nivel 1 a nivel 2*. Subir de nivel requiere acumular un cierto número de *puntos de experiencia* o *PX*. Un personaje que sube de nivel típicamente incrementa su poder y habilidad y obtiene *avances*.
+
+- **Criatura**: también referida a veces de forma simplificadora como *monstruo*. Son un tipo de personaje no jugador *PNJ* que normalmente no pertenece a las especies disponibles para los personajes jugadores o, si pertenece, suelen ser alteraciones significativas de éstas.
+
+- **PNJ**: un personaje no jugador. Un personaje, a menudo con un nivel, especie y clase de personaje concretos similar a un personaje jugador *PJ* pero habitualmente controlado por la Directora de Juego. Respecto de los personajes jugadores, los PNJ pueden ser aliados, enemigos o de actitud neutral o indiferente pudiendo esta relación cambiar con el tiempo.
+
+- **Ronda**: el conjunto de *asaltos* consecutivos, uno por personaje, que las jugadoras emplean en un conflicto. Aunque en tiempo de juego una ronda puede durar más o menos dependiendo del número de personajes en juego, en el tiempo de conflicto dura lo mismo que un asalto ya que se entiende que los asaltos suceden de forma simultánea independientemente del número de personajes.
+
+- **Escenario**: también conocido como *aventura*. Es una trama construida en torno a un tema o lugar común. que habitualmente se desarrolla en una o varias sesiones de juego.
+
+- **Escena**: es un término informal para referirse a un periodo de juego estructurado en torno a una única localización o interacción entre dos o más personajes, criaturas o personajes no jugadores. Normalmente una sesión de juego contiene varias escenas.
+
+- **Sesión**: representa un único periodo de tiempo jugando a **Tapiz**, normalmente entre dos y seis horas, aunque puede ser más larga.
+
+- **Postura**: es una forma específica de realizar tiradas de acción en combate basada en diferentes técnicas de combate tanto ofensivas como defensivas.
+
+- **Estadísticas**: un término colectivo para los puntos de golpe, el nivel y otra información asociado a un *PNJ* o *criatura*.
+
+- **Rasgo**: una sola palabra o frase corta que describe algo crucial de un personaje, como puede seer una habilidad, algo de su trasfondo o un aspecto de su personalidad.
+
+- **Bonificador de rasgo**: se refiere al bonificador que una jugadora añade a su tirada de acción o de resistencia tras haber justificado y descrito cómo un rasgo del personaje influye de forma positiva en dicha tirada. Este bonificador equivale al nivel del personaje para el primer rasgo empleado en la tirada, siendo el resto de bonificadores de rasgo en esa tirada +1 en todos los casos.
+
+- **Turno**: representa diez minutos de juego de los personajes. Habitualmente se emplea para llevar la cuenta de periodos de tiempos pequeños en donde los personajes tratan de realizar acciones concretas que exceden el tiempo de un asalto pero no se prolongan más allá de la fracción de una hora. En ocasiones, hay acciones que requerirán el empleo de varios turnos consecutivos.
 
 ## Creación de Personajes
 ...
