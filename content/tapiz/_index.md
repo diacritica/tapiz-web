@@ -17,6 +17,8 @@ Este documento tiene licencia Creative Commons Attribution Sharealike (CC BY-SA)
 
 La marca "Tapiz" y el logo de Tapiz se licencian de forma separada, bajo los términos de la Tapiz Trademark License, que también se puede encontrar al final de este documento.
 
+[ILUSTRACIÓN]: una erudita en un escritorio con una pluma y un tintero tomando notas mientras consulta varios volúmenes con pinta de antiguos y enigmáticos.
+
 
 ## Introducción: ¿Qué es *Tapiz*?
 
@@ -56,6 +58,8 @@ Los dados se emplean en el sistema *Tapiz* para añadir aleatoriedad a los resul
 
 Los tipos de dados que más se emplean en Tapiz son d4, d6, d8, d10, d12 y d20. A estos dados se les conoce comúnmente como "dados poliédricos" y se pueden encontrar fácilmente en tiendas de juegos y comercios en internet. En ocasiones, algunos tipos de dados se "emulan" tirando un dado y diviendo el resultado redondeado hacia arriba. Por ejemplo, si se necesita un "d3", se puede tirar un d6, se divide entre dos y se redondea hacia arriba, de forma que 1-2 cuenta como 1, 3-4 cuenta como dos y 5-6 cuenta como 3.
 
+[ILUSTRACIÓN]: imágenes de dados de varias caras, d4, d6, d8, d10, d12, d20... también existen de D14, D16 y otros pero no sé si merece la pena.
+
 En alguna ocasión, puede requerirse tirar un d100 (o d%). Esto se consigue con dos d10 de diferentes colores. En lugar de sumar ambos resultados, antes de la tirada uno es declarado como el de las "decenas" mientras que el otro es el de las "unidades". Si ambos dados muestran un cero (0) en su cara superior, el resultado equivale a 100, no a 0.
 **Ejemplo**: d% -- El dado de las decenas saca un 3. El dado de las unidades saca un 7. El total sería 37, no 10, que sería la suma de ambos si la petición hubiese sido 2d10.
 Algunos sets de dados tienen dos dados de diez caras, uno de los cuales tiene números del 0 al 9 mientras que el otro muestra múltiplos de 10, desde el 00 hasta 90. Lo habitual es unir ambos resultados salvo en el caso de obtener un "00" y un "0", que se considera un resultado de 100. Algunos grupos de jugadores prefieran otra convención en donde "10" y "0" equivalen a 100 y "00" y "0" se considera como 10.
@@ -79,6 +83,8 @@ En caso contrario,
 Este proceso se denomina **tirada**. Cuando un personaje trata de hacer algo, es una **tirada de acción**; si se está tratando de ofrecer resistencia frente a algo o alguien (ej: esquivar un golpe, resistir un intento de intimidación, etc), es una **tirada de resistencia**, y el resultado total se convierte en la resistencia para la tirada de acción del oponente.
 
 Para reducir el número de veces que hay que tirar los dados, a veces se emplean las tiradas estáticas para calcular las resistencias. Así, en lugar de tirar los dados, simplemente se añade 10 al bonus del atributo, los bonus de rasgos, etc. Las dos tiradas estáticas más habituales son **defensa física** y **defensa mental**.
+
+[ILUSTRACIÓN]: dos escenas casi iguales. Un bárbaro con una hacha a dos manos impacta en el costado de una enana guerrera en lo que supone un buen golpe. El mismo bárbaro empuja con todo su cuerpo y la propia hacha a la misma enana, que va a caer derribada sin control de su cuerpo. La primera ilustración representa el gasto de puntos en daño, la segunda en efecto.
 
 Los **puntos de efecto** y los **puntos de consecuencia** se pueden gastar para crear **efectos**. Cinco puntos crean un efecto menor, diez un efecto mayor y quince crean un efecto extremo. En términos de juego, esto normalmente proporciona un  +2/-2 (menor), +4/-4 (mayor) or 6/-6 (extremo) a acciones relacionadas (siempre que tenga sentido como, por ejemplo, un personaje que ha perdido el equilibrio tendrá un -2 en acciones en donde esa condición sea relevante). También pueden suponer efectos sin carga numérica.
 
@@ -127,6 +133,8 @@ Por otro lado, Monsters & Magic otorga a los personajes una casilla de consecuen
 Por último, M&M decidió limitar el número de puntos de golpe que de una sola vez pueden infligirse. El límite de M&M es el dado de daño del arma + el nivel del atacante, o el atributo del atacante + el nivel del personaje si no hay arma involucrada. Es posible que prefieras aplicar un límite más concreto (por ejemplo, 5 + nivel del atacante). Si estás empleando los puntos de golpe como una reserva de defensa, el límite entonces se aplicaría al número máximo de puntos de golpe que un defensor puede gastar de una vez, provocando, por ejemplo, que un golpe muy poderoso pueda dejar al defensor fuera de combate incluso cuando teóricamente quedaran puntos de golpe para absorber todo el ataque.]
 
 Tapiz diferencia entre dos tipos de daño; físico y mental. El daño físico aparece con cortes, golpes, quemaduras y enfermedades que debilitan físicamente al cuerpo. El daño mental lo causan sucesos que confuden, infunden terror, intimidan, avergüenzan o directamente afectan la mente, como poderes de ataques psíquicos. Cada tipo de daño reduce la reserva de puntos de golpe correspondiente, que suelen abreviarse como **PGF** (puntos de golpe físicos) o **PGM** (puntos de golpe mentales).
+
+[ILUSTRACIÓN]: una escena en donde una elfa asesina ha caído presa del pánico o la locura al llegar su PGM a cero. Opcional, se puede ver en segundo plano a un liche concentrado en algún sortilegio de tipo mental (terror?)
 
 Si los **puntos de golpe físicos** o **PGF** llegan a cero, el personaje cae inconsciente y es incapaz de realizar acciones. Si son los **puntos de golpe mentales** o **PGM** los que llegan a cero, el personaje queda incapacitado y no puede realizar acciones salvo obedecer órdenes de un tercero o defenderse de ataques físicos mientras trata de huir. Al final de cada escena, si un personaje tenía cero puntos de golpe en cualquiera de las reserva, automáticamente recupera uno.
 
@@ -235,6 +243,8 @@ Estos *bonus de rasgos* cuentan para el límite máximo de *bonus de rasgos* par
 
 *Ejemplo: Elythlian la elfa necesita la ayuda de un asentamiento enano para combatir a un dragón negro que se ha instalado en una cumbre montañosa cercana. La empresa es arriesgada pero está determinada a convencerlos. Acude ante la actitud recelosa de los habitantes del poblado frente a la asamblea de notables y cuando todos esperaban que se dirigiese en la lengua común, lo hace en su lugar en la lengua enana. Su estudio y amor por esta lengua la llevaron durante decenas de años a comprenderla y dominarla totalmente, aunque es algo que guarda en secreto y solo conocen sus amistades más íntimas. Elythlian puede hacer una tirada de acción basada en Carisma con un +1 de bonus de rasgo por nivel erudito y otro +1 de bonus de rasgo por usar una lengua reverenciada por los enanos y empleada de forma inesperada por una elfa.*
 
+[ILUSTRACIÓN]: ilustrar el ejemplo anterior
+
 En el caso de que un personaje no conozca una lengua determinada en el nivel razonable que se espera de una situación, la Directora de juego debería tenerlo en cuenta para determinar la dificultad de la tirada de acción, que probablemente deba ser uno o dos escalones mayores de esa misma acción sin dificultades asociadas a la comunicación.
 
 Animamos tanto a directoras de juego como a jugadores a considerar los aspectos relacionados con la comunicación y las lenguas como un elemento relevante tanto en la mecánica de juego como en la interpretación y desarrollo de las aventuras. Sin necesariamente caer en aspectos simulacionistas, puede proporcionar un interesante ángulo sobre el que moldear las interacciones entre personajes o grupos.
@@ -278,6 +288,8 @@ Normalmente, solo se requiere de un *punto de heroicidad* para mitigar un efecto
 Cuando alguien impone una consecuencia sobre un personaje, ya sea por el resultado de una tirada de acción exitosa sobre ese personaje o debido a una tirada fallido del propio personaje, el personaje debe aceptar la consecuencia descrita por el oponente. Si se da el caso de que el personaje tiene ya muy pocos puntos de golpe o si una consecuencia extrema se transforma en una horrible secuela física, el desastre podría ser grande.
 
 Al gastar un punto de heroicidad, es el jugador el que puede describir la naturaleza de la consecuencia. Esto permite al jugador relatarla de una forma diferente, normalmente con efectos menos perversos. Quizá el jugador decide asumir los puntos de golpe en lugar de una consecuencia extrema, o es posible que se prefiera caer inconsciente (un efecto mayor) en lugar de recibir puntos de golpe o una herida que requeriría mucho tiempo para curarse. Los puntos de heroicidad permiten mitigar una consecuencia de forma que resulte menos problemática para un personaje pero no pueden anularla por completo en ningún caso.
+
+[ILUSTRACIÓN]: una escena claramente poco favorable para un personaje (una halfing que va a caer en un pozo) en donde se aprecia que el personaje va a poder, en el último momento, agarrarse a una cuerda que cuelga del techo y evitar caer al agujero.
 
 Si se diera la circunstancia en la que un oponente es capaz de imponer múltiples consecuencias a un personaje a la vez, pueden emplearse de la misma forma múltiples puntos de heroicidad para tomar el control descriptivo de cada una de ellas.
 
@@ -401,6 +413,7 @@ Los objetivos que dispongan de cobertura sólida como paredes, árboles, rocas, 
 
 *Ejemplo: Sharra, la asesina, ha conseguido entrar en el palacio de la Condesa. Tras recorrer varios pasillos y bajar a las cocinas, es sorprendida por un ayudante de cocina que se había quedado limpiando una de las despensas. Sharra, corre a esconderse tras unos barriles de hidromiel en una de las salas más grandes con apenas dos grandes cirios para iluminar toda la estancia. Cuando acude la guardia alertada por el delator, su ubicación le proporciona visibilidad parcial (-2 a las tiradas de ataque contra ella de una soladado con ballesta) y cobertura media (+5 a su CA por los barriles de hidromiel y estar cubierta solo parcialmente para poder lanzar sus dagas y buscar una salida).*
 
+[ILUSTRACIÓN]: ilustrar el ejemplo anterior
 
 
 #### Movimiento
@@ -452,6 +465,8 @@ La siguiente tabla muestra valores de referencia que pueden ser fácilmente adap
 
 *Ejemplo: Sharra, la asesina, se encuentra de noche recorriendo el exterior de la empalizada defensiva de un poblado. Pretende acercarse sigilosamente hasta un puesto de guardia que da acceso al interior del poblado justo a tiempo para el cambio de guardia. Sabe que para llegar a tiempo en un minuto sin ser vista, debe estar a no más de 30 metros del puesto de guardia (su valor de Movimiento es 30 y el tipo de movimiento es Precavido). Esto no impide que deba tirar una tirada de acción correspondiente a su voluntad de pasar inadvertida pero si hubiera andado de forma normal, hubiera sufrido alguna consecuencia por parte de la Directora de juego.*
 
+[ILUSTRACIÓN]: ilustrar el ejemplo anterior
+
 
 ##### Impedimento y Carga
 
@@ -473,6 +488,8 @@ El peso que puede soportar un personaje sin sufrir consecuencias es la suma de s
 *Ejemplo: Sharra tiene una FUE de 14 y una DES de 15 y en total carga con su armadura de cuero, su cimitarra, sus dos dagas, su ballesta de mano, diversas pociones y ungüentos, una mochila que contiene una larga cuerda y un garfio y otros utensilios así como un fabuloso botín en monedas y gemas recién "adquirido". En total el peso soportado asciende a 30 kilos, más del valor de su Carga, que es 14+15=29. Hasta que pueda deshacerse de parte del botín, sufrirá una consecuencia menor por impedimento durante los combates y podrá desplazarse fuera de un combate la mitad de la distancia habitual según su atributo de Movimiento. Si en lugar del botín, llevara a hombros a una compañera enana inconsciente de 90kg de peso, sufriría una consecuencia extrema al cubrir distancias largas, por ejemplo.*
 
 La reglas de impedimento para el combate se basan en que éste no suele durar más que unos pocos minutos o media hora a lo sumo así como el hecho de que, durante un combate, el personaje se encuentra en una situación de gran tensión y adrenalina y puede sobrellevar grandes esfuerzos a pesar del impedimento. En el ejemplo anterior en sonde Sharra, la asesina, esprintaba para alcanzar al mercenario, si hubiera llevado una carga de 30 kilos, solamente se le habría aplicado una consecuencia menor (-2) a su tirada de ataque con la cimitarra (para un total de -8), sin penalización al esprint en sí.
+
+[ILUSTRACIÓN]: un personaje claramente impedido por el gran peso que lleva encima. Un clásico de Skyrim pero que parezca realista, como el que lleva un petate gigante, alforjas, bolsas, tres armas y un escudo.
 
 Sin embargo, en circunstancias normales, fuera de un escenario de combate, soportar el peso excesivo sí tiene efectos claros y duraderos. Volviendo al ejemplo de Sharra y su abultado botín, recorrer una distancia de 5 km hasta un refugio le hubiera llevado el doble de tiempo (dos horas en lugar de una hora, reflejando la necesidad de parar a descansar cada cierto tiempo).
 
@@ -547,6 +564,8 @@ Un personaje empleando esta postura está concentrado en la defensa, no en el at
 #### Apuntar
 
 Esta postura requiere que para cada ataque a distancia (ya sea físico o mental, a discreción de la Directora de Juego), se haya usado un asalto previo en apuntar concentrado. Un ataque apuntado obtiene el doble de su bonificador de rasgo del primer rasgo aplicado a la tirada de ataque.
+
+[ILUSTRACIÓN]: una orca tomándose el tiempo para disparar su arco a un objetivo en la distancia.
 
 ### Daño
 ...
