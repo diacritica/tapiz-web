@@ -194,13 +194,13 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 
 - **(Bonificador de) rasgo**: se refiere al bonificador que una jugadora añade a su tirada de acción o de resistencia tras haber justificado y descrito cómo un rasgo del personaje influye de forma positiva en dicha tirada. Este bonificador equivale al nivel del personaje para el primer rasgo empleado en la tirada, siendo el resto de bonificadores de rasgo en esa tirada +1 en todos los casos.
 
-- **Ronda**: el conjunto de *asaltos* consecutivos, uno por personaje, que las jugadoras emplean en un conflicto. Aunque en tiempo de juego una ronda puede durar más o menos dependiendo del número de personajes en juego, en el tiempo de conflicto dura lo mismo que un asalto ya que se entiende que los asaltos suceden de forma simultánea independientemente del número de personajes.
+- **Ronda**: en un conflicto o encuentro en donde la resolución temporal conviene medirse en segundos o minutos y las acciones son muy dinámicas y provocan reacciones inmediatas, una ronda es una unidad de tiempo de aproximadamente 10 segundos transcurridos en el mundo de juego. Se denomina ronda porque durante esos 10 segundos se suceden de forma relativamente simultánea las acciones de todos los personajes jugadores (hacemos una ronda de jugadoras). A la acción descrita por una jugadora relativa a su personaje durante una ronda se le suele llamar *turno*. Así, la siguiente expresión tiene sentido: "es el turno de Angela para que relate qué hace Sharra Nirthanbei en esta ronda de combate" aunque se suele abreviar diciendo "¿qué haces en tu turno?"
 
 - **Sesión**: representa un único periodo de tiempo jugando a **Tapiz**, normalmente entre dos y seis horas, aunque puede ser más larga.
 
 - **Tirada de acción**: es la forma de determinar si un personaje tiene éxito o fracasa en un acción o al resistirse a la acción de otro. Las tiradas de acción pueden ser estáticas o emplear 3d6 dados.
 
-- **Turno**: representa diez minutos de juego de los personajes. Habitualmente se emplea para llevar la cuenta de periodos de tiempos pequeños en donde los personajes tratan de realizar acciones concretas que exceden el tiempo de un asalto pero no se prolongan más allá de la fracción de una hora. En ocasiones, hay acciones que requerirán el empleo de varios turnos consecutivos.
+- **Turno**: es un término para referirnos al momento en el que una jugadora de la mesa de juego interviene (habitualmente por orden de iniciativa) para describir qué trata de hacer un personaje jugador controlado por ésta. Un turno, por tanto, no representa tiempo del mundo de juego. En Tapiz, un término equivalente a turno es *asalto* aunque sugerimos evitarlo por la confusión que a veces genera. En cualquier caso, las expresiones ¿qué haces en tu turno? y ¿qué haces en este asalto? se consideran equivalentes.
 
 ## Creación de Personajes
 ...
@@ -326,7 +326,7 @@ Normalmente, solo se requiere de un *punto de heroicidad* para mitigar un efecto
 - Elige (y describe) la consecuencia que el personaje sufre al fallar una tirada de acción en lugar de ser la Directora de juego o el oponente los que decidan, como es habitual.
 - Añade +1 al los *puntos de efecto* **solo cuando** en una tirada te hayas quedado a un punto de obtener un efecto menor, mayor o extremo (es decir, si obtuvise 4, 9 o 14 puntos de efecto).
 - En lugar de un punto de tesoro, decide cuál es el contenido del tesoro (véase Tesoros y Riquezas)
-- Recuperar puntos de golpe mentales o físicos; tira el dado de golpe físico o mental y añade el resultado a tu valor actual del tipo de daño elegido. No es posible superar el máximo de puntos de daño. Puedes realizar esta acción en cualquier momento, sea o no el turno del personaje, ya que no representa una acción. Las reglas de curación siguen aplicándose; no tiene efectos ni consecuencias.
+- Recuperar puntos de golpe mentales o físicos; tira el dado de golpe físico o mental y añade el resultado a tu valor actual del tipo de daño elegido. No es posible superar el máximo de puntos de daño. Puedes realizar esta acción en cualquier momento, sea o no el turno del personaje en esa ronda, ya que no representa una acción. Las reglas de curación siguen aplicándose; no tiene efectos ni consecuencias.
 - Realizar una tirada estática cuando las circunstancias indican que no es posible (por ejemplo, en el caso de haber sido sorprendido en un combate).
 
 #### Mitigar Consecuencias
@@ -428,8 +428,16 @@ La Directora de Juego comienza cada aventura con una reserva de puntos de heroic
 ...
 ##### Viaje por zonas inhóspitas
 ...
-### Turnos, Rondas y Asaltos
-El tiempo de juego se puede dividir en turnos, rondas y asaltos. Un asalto tiene unos 10 segundos de duración y permite a un personaje realizar una acción de combate durante ese tiempo. Una ronda tiene un minuto de duración y permite a cada personaje realizar una acción importante durante ese tiempo que no sea de combate. Un turno equivale a 10 rondas. [FIXME!]
+### Rondas y Turnos
+El tiempo del mundo de juego (el que experimentan los personajes jugadores) se puede dividir en rondas cuando se requiere con control preciso de acciones dinámicas o intensas como en un combate ya sea físico o mental. Una ronda dura aproximadamente 10 segundos y puede contener acciones muy variadas como saltar, trepar, nadar, atacar a un oponente, curar a un aliado, etc.
+
+Una ronda suele estar estrechamente relacionada con un orden de intervención de las jugadoras, también conocido como **iniciativa**. En una ronda, en principio, se sigue un orden establecido en virtud del valor numérico de la iniciativa obtenido por cada personaje jugador (y el resto de participantes). Cuando una jugadora, en virtud de este orden, interviene para describir qué acción realiza su personaje jugador, dicha jugadora está haciendo uso de su **turno** en esa ronda.
+
+Un turno, por tanto, es una medida de gestión de la participación de las jugadoras en la mesa de juego. También se dice que es el turno de la Directora de Juego en una ronda o, de forma más flexible, que es el turno de una criatura enemiga en un combate.
+
+En aras de la compatibilidad con el vocabulario en otros juegos de rol, Tapiz entiende que a un turno se le puede denominar también **asalto**. Así, una ronda se compone de turnos o asaltos. Turno se referiría aquí más a la acción de la jugadora y asalto a la acción de su personaje jugador.
+
+[TODO: revisar si merece la pena indultar a asalto o si nos lo cargamos]
 
 ### Iniciativa
 ...
@@ -470,15 +478,15 @@ El movimiento en el sistema Tapiz es relativamente abstracto en la mayoría de l
 
 Para criaturas y personajes no jugadores, muchas de estas mismas reglas pueden ser de aplicación aunque en general se emplean versiones muy simplificadas.
 
-La capacidad de movimiento de un personaje queda reflejado como un valor numérico del atributo de movimiento (abreviado como **MOV**) y se puede interpretar aproximadamente como la distancia en metros que ese personaje puede cubrir andando de forma normal durante el tiempo que dura un asalto (10 segundos).
+La capacidad de movimiento de un personaje queda reflejado como un valor numérico del atributo de movimiento (abreviado como **MOV**) y se puede interpretar aproximadamente como la distancia en metros que ese personaje puede cubrir andando de forma normal durante el tiempo que dura una ronda (10 segundos).
 
 Este atributo, al contrario que otros aspectos del personaje, no suele procede de una tirada de dados sino que muy habitualmente viene anotado en la descripción de la especie a la que pertenece.
 
-En la práctica, se suelen dar dos situaciones en donde aplicar las reglas de movimiento; durante un combate (un conflicto violento en donde los participantes están tratando de obtener una victoria por la fuerza) o fuera de un combate durante un viaje por poblaciones o zonas inhóspitas. En el primer tipo, interesa usar las escalas de *metros* y *asaltos* y el segundo tipo típicamente hablaremos de *kilómetros* y *rondas* o *turnos*.
+En la práctica, se suelen dar dos situaciones en donde aplicar las reglas de movimiento; durante un combate (un conflicto violento en donde los participantes están tratando de obtener una victoria por la fuerza) o fuera de un combate durante un viaje por poblaciones o zonas inhóspitas. En el primer tipo, interesa usar las escalas de *metros* y *rondas* y el segundo tipo típicamente hablaremos de *metros* o *kilómetros* y *horas* o *días*.
 
 ##### Movimiento en el combate
 
-El movimiento de un combate es muy dinámico y rápido. Las decisiones se toman en instantes y el lugar concreto donde se encuentre un personaje puede determinar qué puede hacer ese asalto. Por ello, lo más habitual es poder calcular de forma aproximada qué distancia puede recorrer un personaje durante un asalto o una ronda de asaltos.
+El movimiento de un combate es muy dinámico y rápido. Las decisiones se toman en instantes y el lugar concreto donde se encuentre un personaje puede determinar qué puede hacer esa ronda. Por ello, lo más habitual es poder calcular de forma aproximada qué distancia puede recorrer un personaje durante una ronda.
 
 Durante el combate, un personaje puede en principio moverse y realizar otra acción que no esté específicamente relacionada con el movimiento a cambio de aceptar una *consecuencia* a la tirada de esa otra acción. La forma de realizar el movimiento en este caso es bastante flexible. Por ejemplo, un personaje puede comenzar moviéndose una fracción del movimiento permitido, realizar la acción de ataque y terminar de moverse la fracción restante del movimiento disponible pero deberá aceptar una *consecuencia* en la tirada de ataque. Si el personaje solo realiza la acción de movimiento, no es necesario ninguna tirada ya que se considera que cubre la distancia establecida. Si el personaje desea realizar una tirada de acción directamente relacionada con el movimiento como es saltar, esquivar un obstáculo, deslizarse o arrojarse, esta tirada de acción no sufre ninguna *consecuencia*.
 
@@ -486,9 +494,9 @@ Durante el combate, un personaje puede en principio moverse y realizar otra acci
 
 | **Tipo de Movimiento**  | Distancia por punto de movimiento          | Notas                                                                             |
 |-------------------------|--------------------------------------------|-----------------------------------------------------------------------------------|
-| Normal                  | 1 metro por asalto ó 6 metros por ronda    | Establece una consecuencia menor en acciones no relacionadas con el movimiento    |
-| Correr                  | 2 metros por asalto ó 12 metros por ronda  | Establece una consecuencia mayor en acciones no relacionadas con el movimiento    |
-| Esprint                 | 3 metros por asalto ó 18 metros por ronda  | Establece una consecuencia extrema en acciones no relacionadas con el movimiento  |
+| Normal                  | 1 metro por ronda  | Establece una consecuencia menor en acciones no relacionadas con el movimiento    |
+| Correr                  | 2 metros por ronda | Establece una consecuencia mayor en acciones no relacionadas con el movimiento    |
+| Esprint                 | 3 metros por ronda | Establece una consecuencia extrema en acciones no relacionadas con el movimiento  |
 
 *Ejemplo: Sharra, la asesina, se encuentra relativamente lejos de uno de los mercenarios que custodiaban la caravana que acaba de asaltar y éste se dirige a su montura para huir. Sharra decide que la única opción para interceptar al mercenario es esprintar mientras blande su cimitarra. Si no hay ningún otro impedimento, Sharra puede llegar hasta el mercenario a tiempo pero su ataque sufre una consecuencia extrema (-6) a la tirada. Si Sharra falla, muy probablemente el mercenario pueda subirse a su caballo y emprender la huida pero esta misma acción normalmente requerirá a su vez una tirada de acción por parte de la Directora de juego, que se verá afectada por una consecuencia mayor (-4) por la carrera del mercenario, ya que montar una cabalgadura no es una acción directa de movimiento.*
 
@@ -496,7 +504,7 @@ Durante el combate, un personaje puede en principio moverse y realizar otra acci
 
 El movimiento fuera de combate no suele presentar tantos elementos de tensión y dinamismo porque en general depende exclusivamente del personaje, sin intromisiones activas de otros elementos, criaturas o personajes no jugadores. Andar por una calle en una ciudad, recorrer un camino en el campo abierto, explorar unas ruinas o internarse por un bosque son ejemplos fáciles de entender pero también se incluyen el andar por espacios cerrados como grutas, pasajes subterráneos o salas y habitaciones.
 
-Al igual que en el movimiento en el combate, el valor del atributo de **Movimiento** sirve de referencia para cálculos aproximados dependiendo del modo en el que se realiza el movimiento. Hay un movimiento normal, equivalente al movimiento en combate pero medido aquí en rondas o turnos, un movimiento asociado a una acción de reconocimiento del propio terreno, un movimiento característico de un personaje que quiere pasar inadvertido o tener mucho cuidado con el propio terreno que pisa y, finalmente, un movimiento asociado a grandes distancias cubiertas durante un día de larga caminata.
+Al igual que en el movimiento en el combate, el valor del atributo de **Movimiento** sirve de referencia para cálculos aproximados dependiendo del modo en el que se realiza el movimiento. Hay un movimiento normal, equivalente al movimiento en combate pero medido aquí en minutos u horas, un movimiento asociado a una acción de reconocimiento del propio terreno, un movimiento característico de un personaje que quiere pasar inadvertido o tener mucho cuidado con el propio terreno que pisa y, finalmente, un movimiento asociado a grandes distancias cubiertas durante un día de larga caminata.
 
 La siguiente tabla muestra valores de referencia que pueden ser fácilmente adaptados cuando el terreno presenta dificultades notables.
 
@@ -504,9 +512,9 @@ La siguiente tabla muestra valores de referencia que pueden ser fácilmente adap
 
 | **Tipo de Movimiento**  | Distancia por punto de movimiento            | Notas                                                   |
 |-------------------------|----------------------------------------------|---------------------------------------------------------|
-| Normal                  | 6 metros por ronda ó 60 metros por turno     | Andar normal en superficie llana o con poca pendiente   |
-| Reconocimiento          | 1/2 metro por ronda ó 5 metros por turno     | Reconocimiento para detectar trampas                    |
-| Precavido               | 1 metro por ronda ó 10 metros por turno      | Tratando de pasar inadvertido                           |
+| Normal                  | 3 metros por minuto     | Andar normal en superficie llana o con poca pendiente   |
+| Reconocimiento          | 1/2 metro por minuto    | Reconocimiento para detectar trampas                    |
+| Precavido               | 1 metro por minuto      | Tratando de pasar inadvertido                           |
 | Caminata                | 1 km por día                                 | Suponiendo 8-10 horas de caminar normal por día         |
 
 *Ejemplo: Sharra, la asesina, se encuentra de noche recorriendo el exterior de la empalizada defensiva de un poblado. Pretende acercarse sigilosamente hasta un puesto de guardia que da acceso al interior del poblado justo a tiempo para el cambio de guardia. Sabe que para llegar a tiempo en un minuto sin ser vista, debe estar a no más de 30 metros del puesto de guardia (su valor de Movimiento es 30 y el tipo de movimiento es Precavido). Esto no impide que deba tirar una tirada de acción correspondiente a su voluntad de pasar inadvertida pero si hubiera andado de forma normal, hubiera sufrido alguna consecuencia por parte de la Directora de juego.*
@@ -527,9 +535,9 @@ El peso que puede soportar un personaje sin sufrir consecuencias es la suma de s
 | **Carga soportada (en kg)**                | En combate         | Fuera de combate        | Impedimento  | Notas      |
 |--------------------------------------------|--------------------|-------------------------|--------------|------------|
 | Hasta el valor de Carga                    | Sin consecuencias                                                    | Sin consecuencias             | Normal (0)                                          |                                                                                      |
-| Hasta el valor de Carga + **CON**          | Consecuencia menor (-2) a todas las tiradas de movimiento y combate  | La mitad de todos los valores | Cargado (-1)                                         | Requiere descansar una ronda entera cada **CON** rondas realizando el movimiento                 |
-| Hasta el valor de Carga + 3 x **CON**      | Consecuencia mayor (-4) a todas las tiradas de movimiento y combate  | Un tercio de todos los valores| Sobrecargado (-2)                                         | Requiere descansar dos rondas enteras cada **CON** rondas realizando el movimiento   |
-| Más allá del valor de Carga + 3 x **CON**  | Consecuencia extrema (-6) a todas las tiradas de movimiento y combate| Un décimo de todos los valores| Extenuado (-4)                                         | Requiere descansar 5 rondas enteras cada **CON** rondas realizando el movimiento              |
+| Hasta el valor de Carga + **CON**          | Consecuencia menor (-2) a todas las tiradas de movimiento y combate  | La mitad de todos los valores | Cargado (-1)                                         | Requiere descansar 10 minutos cada **CON** x 10 minutos  realizando el movimiento                 |
+| Hasta el valor de Carga + 3 x **CON**      | Consecuencia mayor (-4) a todas las tiradas de movimiento y combate  | Un tercio de todos los valores| Sobrecargado (-2)                                         | Requiere descansar 20 minutos cada **CON** x 10 minutos realizando el movimiento   |
+| Más allá del valor de Carga + 3 x **CON**  | Consecuencia extrema (-6) a todas las tiradas de movimiento y combate| Un décimo de todos los valores| Extenuado (-4)                                         | Requiere descansar 1 hora cada **CON** x 10 minutos  realizando el movimiento              |
 
 *Ejemplo: Sharra tiene una FUE de 14 y una DES de 15 y en total carga con su armadura de cuero, su cimitarra, sus dos dagas, su ballesta de mano, diversas pociones y ungüentos, una mochila que contiene una larga cuerda y un garfio y otros utensilios así como un fabuloso botín en monedas y gemas recién "adquirido". En total el peso soportado asciende a 30 kilos, más del valor de su Carga, que es 14+15=29. Hasta que pueda deshacerse de parte del botín, sufrirá una consecuencia menor por impedimento durante los combates y podrá desplazarse fuera de un combate la mitad de la distancia habitual según su atributo de Movimiento. Si en lugar del botín, llevara a hombros a una compañera enana inconsciente de 90kg de peso, sufriría una consecuencia extrema al cubrir distancias largas, por ejemplo.*
 
@@ -609,7 +617,7 @@ Un personaje empleando esta postura está concentrado en la defensa, no en el at
 
 #### Apuntar
 
-Esta postura requiere que para cada ataque a distancia (ya sea físico o mental, a discreción de la Directora de Juego), se haya usado un asalto previo en apuntar concentrado. Un ataque apuntado obtiene el doble de su bonificador de rasgo del primer rasgo aplicado a la tirada de ataque.
+Esta postura requiere que para cada ataque a distancia (ya sea físico o mental, a discreción de la Directora de Juego), se haya empleado una ronda previa en apuntar concentrado. Un ataque apuntado obtiene el doble de su bonificador de rasgo del primer rasgo aplicado a la tirada de ataque.
 
 [ILUSTRACIÓN]: una orca tomándose el tiempo para disparar su arco a un objetivo en la distancia.
 
