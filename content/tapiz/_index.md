@@ -206,7 +206,29 @@ La mayoría de los términos resultarán familiares para quienes hayan jugado ya
 ...
 
 ### Generación de los Atributos
-...
+
+El sistema Tapiz tiene seis atributos; **Fuerza**, **Destreza**, **Constitución**, **Inteligencia**, **Sabiduría** y **Carisma**. Cada atributo tiene habitualmente una puntuación de entre 3 y 18 aunque los ajustes por especie pueden ampliar este rango. Cada atributo tiene también asociado un **modificador de atributo** o **MOD ATTR**. Cuando queremos referirnos a los modificadores de atributo, es habitual emplear las tres primeras letras del nombre del atributo en letras mayúsculas. Así, **FUE** se refiere al modificar de Fuerza, **DES** al de Destreza, **CON** al de Constitución, **INT** al de Inteligencia, **SAB** al de Sabiduría y **CAR** al de Carisma.
+
+Los valores iniciales de los atributos se obtienen de diferentes formas, a elección de la Directora de Juego o la Jugadora. Entre las opciones más populares encontramos:
+
+#### Antigua Escuela
+
+Sigue la tradición de juegos de finales de los setenta e inicio de los ochenta, en donde los personajes son en general menos poderosos.
+
+1. Se lanzan 3d6 para cada atributo en el orden establecido (Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma)y se suman los valores de cada tirada. Como opción, se permite intercambiar una sola vez dos valores de atributos entre sí. Así, si obtuvimos un 8 en Fuerza y un 17 en Sabiduría, podemos intercambiarlos y tener un 17 en Fuerza y un 8 en Sabiduría. Ya no podremos volver a intercambiar más valores.
+2. Se lanzan 3d6 seis veces y se anotan los valores de cada suma. Posteriormente se asignan libremente por la jugadora a cada atributo.
+3. En lugar de lanzar los dados, se dispone de los siguientes valores, 14, 12, 10, 10, 9 y 8 y se asignan libremente por la jugadora a los seis atributos.
+4. En lugar de lanzar los dados, se dispone de un total de 63 puntos a repartir entre los seis atributos, siempre y cuando ningún atributo reciba menos de 8 puntos o más de 18.
+
+#### Nueva Escuela
+
+Sigue una nueva tradición asociada con un estilo de juego más heroico en donde los personajes son en general más poderosos.
+
+1. Se lanzan 4d6 para cada atributo y se descarta en cada tirada el dado de menor valor (si hay dos o más de menor valor, se descarta cualquiera de ellos) sumándose los tres restantes. Se anotan los seis resultados de cada suma y se asigna libremente por la jugadora a sus seis atributos.
+2. En lugar de lanzar los dados, se dispone de un total de 72 puntos a repartir entre los seis atributos, siempre y cuando ningún atributo reciba menos de 8 puntos o más de 18.
+3. En lugar de lanzar los dados, se dispone de los siguientes valores, 16, 14, 13, 12, 10 y 9 y se asignan libremente por la jugadora a los seis atributos. Esta opción supone en efecto un reparto de 74 puntos, 2 más que el anterior modelo, pero impide un valor superior a 16 anterior a los modificadores de especie.
+
+La recomendación del sistema Tapiz es emplear las opciones de la Nueva Escuela, en particular las opciones 1 y 2.
 
 #### Modificadores de Atributos
 ...
