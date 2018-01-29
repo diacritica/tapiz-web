@@ -237,7 +237,37 @@ La recomendación del sistema Tapiz es emplear las opciones de la Nueva Escuela,
 ...
 
 ### Niveles y Avances
-...
+
+Los **niveles** determinan el poder y capacidades relativas que los personajes pueden poder en práctica en el mundo de juego. Habitualmente los personajes recién creados comienzan en el nivel 1 y progresan hacia niveles superiores mediante las aventuras que experimentan en las sesiones de juego gracias a los **puntos de experiencia (PX)** que se otorgan por la Directora de Juego.
+
+El nivel de un personaje está muy relacionado con el uso de los **rasgos**. Esto sucede de tres formas. En primer lugar, cada nuevo nivel otorga al personaje un **avance** que puede emplearse, entre las varias opciones, en obtener un nuevo **rasgo**. En segundo lugar, el primer rasgo empleado en una tirada de acción obtiene un bonificador igual al nivel del personaje. Finalmente, el bonificador total asociado a los rasgos permitido para una tirada de acción es el doble del valor del nivel.
+
+Cada personaje comienza una aventura con un número de **puntos de heroicidad** iguales a su nivel. Cada nuevo nivel que obtiene el personaje resulta en un incremento de los **puntos de golpe físicos** y **mentales** como venga descrito en su clase de personaje.
+
+Cada cinco niveles (a nivel 5, 10, 15, 20, etc) la jugadora puede incrementar un único atributo de su personaje en un punto. Es importante actualizar el modificador de atributo tras este cambio y el resto de capacidades del personaje que dependieran de este valor como pueden ser la clase de armadura, el daño producido o puntos de golpe adicionales.
+
+A continuación se presenta la **Tabla de progresión de nivel** recomendada para determinar cuándo un personaje alcanza un nuevo nivel en relación con los puntos de experiencia acumulados hasta ese momento.
+
+
+@Tabla: Tabla de progresión de nivel
+
+| **Nivel**  |**Puntos de experiencia necesarios**  |
+|------------|-------------------|
+| 1          | 0                 |
+| 2          | 2,000             |
+| 3          | 4,000             |
+| 4          | 8,000             |
+| 5          | 16,000            |
+| 6          | 32,000            |
+| 7          | 64,000            |
+| 8          | 128,000           |
+| 9          | 256,000           |
+| 10          | 512,000          |
+| cada siguiente nivel  | +500,000 PX por cada nivel a partir del 10º    |
+
+
+
+
 
 #### Tipos de Rasgos
 ...
@@ -390,7 +420,7 @@ La Directora de Juego comienza cada aventura con una reserva de puntos de heroic
 ...
 
 ##### Dificultades
-...
+...basado
 
 #### Acciones habituales
 ...
