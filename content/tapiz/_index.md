@@ -266,7 +266,7 @@ A continuación se presenta la **Tabla de progresión de nivel** recomendada par
 | cada siguiente nivel  | +500,000 PX por cada nivel a partir del 10º    |
 
 
-
+[ILUSTRACIÓN] Una ilustración del mismo personaje (una arquera, por ejemplo) a nivel 1, nivel 5 y nivel 10 en donde se ve la evolución del nivel tanto en su mejor equipo (en nivel 10 puede tener algo espectacular), mirada más "profunda", cicatrices, etc.
 
 
 #### Tipos de Rasgos
