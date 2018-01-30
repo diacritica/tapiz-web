@@ -17,7 +17,7 @@ Este documento tiene licencia Creative Commons Attribution Sharealike (CC BY-SA)
 
 La marca "Tapiz" y el logo de Tapiz se licencian de forma separada, bajo los términos de la Tapiz Trademark License, que también se puede encontrar al final de este documento.
 
-[ILUSTRACIÓN]: una erudita en un escritorio con una pluma y un tintero tomando notas mientras consulta varios volúmenes con pinta de antiguos y enigmáticos.
+![Logo de Tapiz](/tapiz/images/scholar-desk.jpg)
 
 
 ## Introducción: ¿Qué es *Tapiz*?
