@@ -134,7 +134,7 @@ Por último, M&M decidió limitar el número de puntos de golpe que de una sola 
 
 Tapiz diferencia entre dos tipos de daño; físico y mental. El daño físico aparece con cortes, golpes, quemaduras y enfermedades que debilitan físicamente al cuerpo. El daño mental lo causan sucesos que confuden, infunden terror, intimidan, avergüenzan o directamente afectan la mente, como poderes de ataques psíquicos. Cada tipo de daño reduce la reserva de puntos de golpe correspondiente, que suelen abreviarse como **PGF** (puntos de golpe físicos) o **PGM** (puntos de golpe mentales).
 
-[ILUSTRACIÓN]: una escena en donde una elfa asesina ha caído presa del pánico o la locura al llegar su PGM a cero. Opcional, se puede ver en segundo plano a un liche concentrado en algún sortilegio de tipo mental (terror?)
+![Logo de Tapiz](/tapiz/images/pgm.jpg)
 
 Si los **puntos de golpe físicos** o **PGF** llegan a cero, el personaje cae inconsciente y es incapaz de realizar acciones. Si son los **puntos de golpe mentales** o **PGM** los que llegan a cero, el personaje queda incapacitado y no puede realizar acciones salvo obedecer órdenes de un tercero o defenderse de ataques físicos mientras trata de huir. Al final de cada escena, si un personaje tenía cero puntos de golpe en cualquiera de las reserva, automáticamente recupera uno.
 
