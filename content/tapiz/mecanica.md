@@ -105,7 +105,8 @@ En DnD a niveles bajos para habilidades "dominadas" se suele tirar 1d20 + 5 (ski
 Para una dificultad de 15, la probabilidad de superarla es del 55%
 
 En M&M a niveles bajos para tiradas de acción en donde se tenga buena característica y se aprovechen los rasgos se suele tirar 3d6 + 6 (mod de característica + rasgos)
-Para una dificultad de 10 (media), la probabilidad de superarla es del 95%, de igualar 15 (efecto menor) es del ~75% y de quedarse en 10 (consecuencia menor) es del <1%
+Para una dificultad de 10 (media), la probabilidad de superarla es del 95%, de igualar 15 (efecto menor) es del ~75% y de quedarse en 10 (consecuencia menor) es del <1%.
+
 Sin embargo, aunque en M&M se dice que 10 es la dificultad media, lo cierto es que rápidamente se tiende a ver el 15 como tal.
 En ese caso, la probabilidad de superarla es del ~57%, de igualar 20 (efecto menor) es del ~15% y de quedarse en 10 (consecuencia menor) es del ~2%
 
@@ -114,6 +115,7 @@ En ese caso, la probabilidad de superarla es del ~57%, de igualar 20 (efecto men
 Por tanto, Tapiz podría moverse en un rango en torno al 60% para superar una tirada de acción de dificultad media para niveles bajos teniendo buena característica, buena habilidad y uno o dos rasgos.
 
 Para obtener esto, un primer intento puede ser manejar dado de característica d8 y dado de habilidad d8 con la opción ocasional de usar uno o dos rasgos para subir uno o los dos dados de habilidad a d10
+
 1. Con 1d8 + 2d8 tenemos un 40% de igualar o superar 15
 2. Con 1d8 + 1d8 + 1d10 (usando un rasgo) tenemos un 50% de igualar o superar 15
 3. Con 1d8 + 2d10 tenemos un 60% de igualar o superar 15
@@ -121,6 +123,7 @@ Para obtener esto, un primer intento puede ser manejar dado de característica d
 Aparentemente, necesitamos subir de categoría de dado para acercarnos más a DnD y M&M, sobre todo M&M, en donde es importante que sea probable exceder en 5 puntos las dificultades para poder tener al menos efectos menores
 
 Otra opción sería
+
 1. Con 1d10 + 2d8, 50% de igualar o superar 15, ~10% de superar 20 (efecto menor) y ~20% de quedarse en 10 o menos (consecuencia menor)
 2. Con 1d10 + 1d8 + 1d10, 60% de igualar o superar 15, ~20% de superar 20 (efecto menor) y ~16% de quedarse en 10 o menos (consecuencia menor) Se supone un rasgo
 3. Con 1d10 + 2d10, 67% de igualar o superar 15, ~28% de superar 20 (efecto menor) y ~12% de quedarse en 10 o menos (consecuencia menor) Se suponen dos rasgos
