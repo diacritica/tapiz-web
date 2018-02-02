@@ -74,30 +74,30 @@ Cuando el rango aumenta, la probabilidad de acertar disminuye pero la probabilid
 
 En principio podemos estar de acuerdo en que una personaje de nivel bajo debería disfrutar de estas probabilidades de éxito dependiendo del nivel de dificultad
 
-1% para casi imposible
-5% para muy difícil
-25% para difícil
-50% para moderada
-75% para fáciles
-100% para trivial
+- 1% para casi imposible
+- 5% para muy difícil
+- 25% para difícil
+- 50% para moderada
+- 75% para fáciles
+- 100% para trivial
 
 Debería poder tener un éxito importante (efecto menor) con estas probabilidades
 
-0% para casi imposible
-1% para muy difícil
-5% para difícil
-15-25% para moderada
-35-50% para fáciles
-50-75% para trivial
+- 0% para casi imposible
+- 1% para muy difícil
+- 5% para difícil
+- 15-25% para moderada
+- 35-50% para fáciles
+- 50-75% para trivial
 
 Debería poder tener un éxito muy importante (efecto mayor) con estas probabilidades
 
-0% para casi imposible
-~0% para muy difícil
-~1% para difícil
-~3-5% para moderada
-~15-25% para fáciles
-~50% para trivial
+- 0% para casi imposible
+- ~0% para muy difícil
+- ~1% para difícil
+- ~3-5% para moderada
+- ~15-25% para fáciles
+- ~50% para trivial
 
 *Unas notas sobre otros sistemas*
 
@@ -107,24 +107,26 @@ Para una dificultad de 15, la probabilidad de superarla es del 55%
 En M&M a niveles bajos para tiradas de acción en donde se tenga buena característica y se aprovechen los rasgos se suele tirar 3d6 + 6 (mod de característica + rasgos)
 Para una dificultad de 10 (media), la probabilidad de superarla es del 95%, de igualar 17 (efecto menor) es del ~75% y de quedarse en 10 (consecuencia menor) es del <1%
 
+*En Tapiz...*
+
 Por tanto, Tapiz podría moverse en un rango en torno al 60% para superar una tirada de acción de dificultad media para niveles bajos teniendo buena característica, buena habilidad y uno o dos rasgos.
 
 Para obtener esto, un primer intento puede ser manejar dado de característica d8 y dado de habilidad d8 con la opción ocasional de usar uno o dos rasgos para subir uno o los dos dados de habilidad a d10
-Con 1d8 + 2d8 tenemos un 40% de igualar o superar 15
-Con 1d8 + 1d8 + 1d10 (usando un rasgo) tenemos un 50% de igualar o superar 15
-Con 1d8 + 2d10 tenemos un 60% de igualar o superar 15
+1. Con 1d8 + 2d8 tenemos un 40% de igualar o superar 15
+2. Con 1d8 + 1d8 + 1d10 (usando un rasgo) tenemos un 50% de igualar o superar 15
+3. Con 1d8 + 2d10 tenemos un 60% de igualar o superar 15
 
 Aparentemente, necesitamos subir de categoría de dado para acercarnos más a DnD y M&M, sobre todo M&M, en donde es importante que sea probable exceder en 5 puntos las dificultades para poder tener al menos efectos menores
 
 Otra opción sería
-Con 1d10 + 2d8, 50% de igualar o superar 15, ~10% de superar 20 (efecto menor) y ~20% de quedarse en 10 o menos (consecuencia menor)
-Con 1d10 + 1d8 + 1d10, 60% de igualar o superar 15, ~20% de superar 20 (efecto menor) y ~16% de quedarse en 10 o menos (consecuencia menor) Se supone un rasgo
-Con 1d10 + 2d10, 67% de igualar o superar 15, ~28% de superar 20 (efecto menor) y ~12% de quedarse en 10 o menos (consecuencia menor) Se suponen dos rasgos
+1. Con 1d10 + 2d8, 50% de igualar o superar 15, ~10% de superar 20 (efecto menor) y ~20% de quedarse en 10 o menos (consecuencia menor)
+2. Con 1d10 + 1d8 + 1d10, 60% de igualar o superar 15, ~20% de superar 20 (efecto menor) y ~16% de quedarse en 10 o menos (consecuencia menor) Se supone un rasgo
+3. Con 1d10 + 2d10, 67% de igualar o superar 15, ~28% de superar 20 (efecto menor) y ~12% de quedarse en 10 o menos (consecuencia menor) Se suponen dos rasgos
 
 http://anydice.com/program/e93c
 
-1d10 para característica equivaldría a 15-16 en característica (+3 en mod de característica)
-1d12 equivaldría a 17-18 en característica
-1d8 equivaldría a 12-14 en característica
-1d6 equivaldría a 9-11 en característica
-1d4 equivaldría a 7-8 en característica
+- 1d10 para característica equivaldría a 15-16 en característica (+3 en mod de característica)
+- 1d12 equivaldría a 17-18 en característica
+- 1d8 equivaldría a 12-14 en característica
+- 1d6 equivaldría a 9-11 en característica
+- 1d4 equivaldría a 7-8 en característica
