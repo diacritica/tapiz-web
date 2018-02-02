@@ -105,7 +105,9 @@ En DnD a niveles bajos para habilidades "dominadas" se suele tirar 1d20 + 5 (ski
 Para una dificultad de 15, la probabilidad de superarla es del 55%
 
 En M&M a niveles bajos para tiradas de acción en donde se tenga buena característica y se aprovechen los rasgos se suele tirar 3d6 + 6 (mod de característica + rasgos)
-Para una dificultad de 10 (media), la probabilidad de superarla es del 95%, de igualar 17 (efecto menor) es del ~75% y de quedarse en 10 (consecuencia menor) es del <1%
+Para una dificultad de 10 (media), la probabilidad de superarla es del 95%, de igualar 15 (efecto menor) es del ~75% y de quedarse en 10 (consecuencia menor) es del <1%
+Sin embargo, aunque en M&M se dice que 10 es la dificultad media, lo cierto es que rápidamente se tiende a ver el 15 como tal.
+En ese caso, la probabilidad de superarla es del ~57%, de igualar 20 (efecto menor) es del ~15% y de quedarse en 10 (consecuencia menor) es del ~2%
 
 *En Tapiz...*
 
