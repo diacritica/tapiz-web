@@ -111,6 +111,35 @@ En esta ocasión, proponemos una probabilidad algo menor que el lanzamiento de u
 Una tirada que podría seguir esta distribución sería 2d12 + 7 para un valor muy alto de una habilidad vs dificultad extremadamente difícil "21". Véase http://anydice.com/program/e967
 
 
+### Propuesta de hoja de personaje
+
+6 atributos con paridad físico mental (FUE,DES,CON,INT,SAB,CAR) con valores entre 3 y 18 (pero solo tiene sentido con 7 o más). Los atributos tienen un MOD ATR que va desde -4 a +4 pero en realidad sólo se emplean de -1 a +4.
+
+Existe la opción de +2/-2 o de +1/-1 en una pareja de atributos. Algunos Lienzos pueden proponer estas elecciones en función de las clases pregeneradas.
+
+Existen 12 habilidades generales asociadas a los atributos (paridad físico-mental). Dependiendo del valor numérico, se les asigna un dado de habilidad entre d4 y d12. d4 para 3-7, d6 para 8-10, d8 para 11-14, d10 para 15-17, d12 para 18.
+
+La habilidad puede estar sin profiency o con proficiency (un circulito vacío o relleno). Un personaje de nivel 1 empieza con 2 habilidades en proficiency. Una habilidad de proficiency consigue subir un escalón en su dado de habilidad. Así, si "athletics" tiene d6, con proficiency pasa a d8.
+Hay una excepción y es si la habilidad ya parte de d12, en cuyo caso se le suma 1d6.
+
+Una tirada normal combina el modificador de atributo + 2 veces el dado de habilidad + modificadores de reasgos para igualar o superar una dificultad o una AC física o mental. En el caso de una habilidad con d12 y proficiency, la tirada sería modificador de atributo + 2 veces el dado de habilidad d12 + 1d6 + modificadores de rasgos.
+
+Los rasgos son frases cortas explicativas de una característica o naturaleza del personaje que puede beneficiarle en alguna situación (tirada). Cada rasgo aplicable suma +1. Habría que ver qué máximo de bonificación se puede usar por rasgos atendiendo al nivel del personaje.
+
+La forma en la que se generan los valores numéricos de los atributos son, por ejemplo, con 4d6 descartando el de menor valor.
+
+Un personaje de nivel podría tener Destreza 16 después de aplicar las correcciones. Eso significa  DES +3 y dado de habilidad DES d10. Por tanto, en una habilidad como acrobatics, tendría d10 de referencia. Si el jugador elige hacer proficiency esa habilidad, pasaría a d12. Pongamos que tiene el rasgo "tamaño pequeño" por ser un mediano.
+
+Por tanto, una tirada para colarse por un hueco a metro y medio de altura representaría
+
+2d10 + 3 (DES) + 1 (rasgo tamaño pequeño), que para una dificultad difícil de 15, tendría un 55% de probabilidades de éxito, un 28% de probabilidades de éxito destacado, un 10% de superéxito y un 1% de posibilidades de éxito descomunal (a falta de un mejor término).
+
+Esa misma tirada por un personaje más "normalito" con Destreza 11 y sin proficiency en acrobatics tendría
+
+2d8 +0 (DES) + 0 (sin rasgo)
+
+Tendría un 4.69% de tener éxito. Esto hay que revisarlo a fondo, debería tener al menos un 30% (el personaje está dos niveles por debajo de la dificultad).
+
 ### Ejemplo borrador (notas draft y posiblemente contradictorias entre sí y con lo dicho arriba)
 
 **características**
