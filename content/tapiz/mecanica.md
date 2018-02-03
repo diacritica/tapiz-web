@@ -30,7 +30,8 @@ Awe, Athletics, Awareness, Explore, Song, Craft | Inspire, Travel, Insight, Heal
 
 18 parece un buen número.
 
-Una habilidad puede tener 4 niveles de maestría. 0, 1, 2, 3 y 4.
+Una habilidad puede tener 4 niveles de maestría. 0, 1, 2, 3 y 4:
+
 - 0 = 2d4
 - 1 = 2d6
 - 2 = 2d8
