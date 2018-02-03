@@ -20,6 +20,18 @@ Fracaso simple: entre dificultad-1 y dificultad -2.
 Fracaso destacado: entre dificultad-3 y dificultad-5
 Superfracaso: entre dificultad-6 y dificultad-8
 
+Les escalas de dificultad van de 3 en 3 hasta Casi imposible.
+
+- Trivial: 3
+- Muy fácil: 6
+- Fácil: 9
+- Media: 12
+- Difícil: 15
+- Muy difícil: 18
+- Extremadamente difícil: 21
+- Locura: 24
+- Casi imposible: 30
+- Imposible: 40
 
 #### Probabilidades entre mismos niveles
 
@@ -72,7 +84,6 @@ En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las s
 
 Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque "optimista" basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.
 
-
 #### Probabilidades entre nivel inferior vs nivel superior
 
 Aquí nos referimos a un escalón de diferencia en contra del agente que desea realizar una acción. Su nivel en una habilidad es menor que la dificultad de la acción. Puede tener un nivel alto y enfrentarse a una acción de dificultad muy alta, tener un nivel medio y enfrentarse a una habilidad de dificultad alta, etc.
@@ -81,9 +92,9 @@ En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las s
 
 | **Resultado**       |**Probabilidad de obtenerlo**  |
 |---------------------|-------------------------------|
-| Éxito simple        | 25%                           |
-| Éxito destacado     | 15%                           |
-| Superéxito          | 5%                           |
+| Éxito simple        | 15%                           |
+| Éxito destacado     | 10%                           |
+| Superéxito          | 10%                           |
 | Fracaso simple      | 35%                           |
 | Fracaso destacado   | 15%                           |
 | Superfracaso        | 5%                            |
@@ -96,6 +107,9 @@ En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las s
 Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque "optimista" basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.
 
 En esta ocasión, proponemos una probabilidad algo menor que el lanzamiento de una moneda para el éxito.
+
+Una tirada que podría seguir esta distribución sería 2d12 + 7 para un valor muy alto de una habilidad vs dificultad extremadamente difícil "21". Véase http://anydice.com/program/e967
+
 
 ### Ejemplo borrador (notas draft y posiblemente contradictorias entre sí y con lo dicho arriba)
 
