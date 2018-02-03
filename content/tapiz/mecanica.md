@@ -12,6 +12,15 @@ Tira base: DADO ATRIBUTO + 2 x DADO HABILIDAD (posibilidad de subir nivel de dad
 
 Es clave tomar una decisión sobre cuál es la probabilidad de éxito, éxito destacado, superéxito y también fracaso, fracaso destacado y superfracaso. La experiencia de juego puede cambiar totalmente dependiendo de estas probabilidades. Independientemente de la mecánica de la tirada, podemos querer acercarnos a unos valores concretos dependiendo de si se enfrentan mismos "niveles" o no. Vamos a ver los tres ejemplos más importantes (incluye feedback de Angela)
 
+Éxito simple: entre dificultad y dificultad +2.
+Éxito destacado: entre dificultad+3 y dificultad+5
+Superéxito: entre dificultad+6 y dificultad+8
+
+Fracaso simple: entre dificultad-1 y dificultad -2.
+Fracaso destacado: entre dificultad-3 y dificultad-5
+Superfracaso: entre dificultad-6 y dificultad-8
+
+
 #### Probabilidades entre mismos niveles
 
 Aquí nos referimos a una igualdad aproximada entre el agente que quiere resolver una acción y la dificultad de la acción. Puede ser un personaje de nivel medio frente a una acción de dificultad media pero también un personaje de nivel bajo en una habilidad frente a una acción relativa a esa habilidad de nivel bajo o, claro, un personaje de nivel alto en una habilidad frente a una tirada de acción de dificultad alta. Dicho de otro modo, es un enfrentamiento entre pares, ya sea contra un valor de dificultad o a una tirada enfrentada.
@@ -20,9 +29,9 @@ En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las s
 
 | **Resultado**       |**Probabilidad de obtenerlo**  |
 |---------------------|-------------------------------|
-| Éxito simple        | 25%                           |
-| Éxito destacado     | 25%                           |
-| Superéxito          | 10%                           |
+| Éxito simple        | 30%                           |
+| Éxito destacado     | 23%                           |
+| Superéxito          | 7%                           |
 | Fracaso simple      | 25%                           |
 | Fracaso destacado   | 10%                           |
 | Superfracaso        | 5%                            |
@@ -33,6 +42,12 @@ En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las s
 | Fracaso             | 40%                           |
 
 Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque "optimista" basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.
+
+Una tirada que podría seguir esta distribución sería 2d8 + 3 para un valor medio de una habilidad vs dificultad media "12". D8 representaría un valor medio de maestría de una habilidad y +3 la suma de bonificadores de característica y bonificadores de rasgo. Véase http://anydice.com/program/e963
+
+Otra tirada que podría seguir esta distribución sería 2d10 + 4 para un valor alto de una habilidad vs dificultad alta "15". Véase http://anydice.com/program/e964
+
+Otra tirada que podría seguir esta distribución sería 2d6 + 2 para un valor bajo de una habilidad vs dificultad baja "9". Véase http://anydice.com/program/e965
 
 
 #### Probabilidades entre nivel superior vs nivel inferior
