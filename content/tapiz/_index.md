@@ -58,7 +58,9 @@ Los dados se emplean en el sistema *Tapiz* para añadir aleatoriedad a los resul
 
 Los tipos de dados que más se emplean en Tapiz son d4, d6, d8, d10, d12 y d20. A estos dados se les conoce comúnmente como "dados poliédricos" y se pueden encontrar fácilmente en tiendas de juegos y comercios en internet. En ocasiones, algunos tipos de dados se "emulan" tirando un dado y diviendo el resultado redondeado hacia arriba. Por ejemplo, si se necesita un "d3", se puede tirar un d6, se divide entre dos y se redondea hacia arriba, de forma que 1-2 cuenta como 1, 3-4 cuenta como dos y 5-6 cuenta como 3.
 
-[ILUSTRACIÓN]: imágenes de dados de varias caras, d4, d6, d8, d10, d12, d20... también existen de D14, D16 y otros pero no sé si merece la pena.
+![Logo de Tapiz](/tapiz/images/dices.jpg)
+*Dados poliédricos de varias caras, 4, 6, 8, 10, 12 y 20.*
+
 
 En alguna ocasión, puede requerirse tirar un d100 (o d%). Esto se consigue con dos d10 de diferentes colores. En lugar de sumar ambos resultados, antes de la tirada uno es declarado como el de las "decenas" mientras que el otro es el de las "unidades". Si ambos dados muestran un cero (0) en su cara superior, el resultado equivale a 100, no a 0.
 **Ejemplo**: d% -- El dado de las decenas saca un 3. El dado de las unidades saca un 7. El total sería 37, no 10, que sería la suma de ambos si la petición hubiese sido 2d10.
