@@ -8,8 +8,81 @@ De la reunión entre Dani y Pablo 2/2/2018
 
 Tira base: DADO ATRIBUTO + 2 x DADO HABILIDAD (posibilidad de subir nivel de dado) >= DIFICULTAD (acción o combate)
 
+### Estadísticas de éxito/fracaso
 
-### Ejemplo borrador
+Es clave tomar una decisión sobre cuál es la probabilidad de éxito, éxito destacado, superéxito y también fracaso, fracaso destacado y superfracaso. La experiencia de juego puede cambiar totalmente dependiendo de estas probabilidades. Independientemente de la mecánica de la tirada, podemos querer acercarnos a unos valores concretos dependiendo de si se enfrentan mismos "niveles" o no. Vamos a ver los tres ejemplos más importantes (incluye feedback de Angela)
+
+#### Probabilidades entre mismos niveles
+
+Aquí nos referimos a una igualdad aproximada entre el agente que quiere resolver una acción y la dificultad de la acción. Puede ser un personaje de nivel medio frente a una acción de dificultad media pero también un personaje de nivel bajo en una habilidad frente a una acción relativa a esa habilidad de nivel bajo o, claro, un personaje de nivel alto en una habilidad frente a una tirada de acción de dificultad alta. Dicho de otro modo, es un enfrentamiento entre pares, ya sea contra un valor de dificultad o a una tirada enfrentada.
+
+En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las siguientes probabilidades:
+
+| **Resultado**       |**Probabilidad de obtenerlo**  |
+|---------------------|-------------------------------|
+| Éxito simple        | 25%                           |
+| Éxito destacado     | 25%                           |
+| Superéxito          | 10%                           |
+| Fracaso simple      | 25%                           |
+| Fracaso destacado   | 10%                           |
+| Superfracaso        | 5%                            |
+
+| **Resultado**       |**Probabilidad de obtenerlo**  |
+|---------------------|-------------------------------|
+| Éxito               | 60%                           |
+| Fracaso             | 40%                           |
+
+Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque "optimista" basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.
+
+
+#### Probabilidades entre nivel superior vs nivel inferior
+
+Aquí nos referimos a un escalón de diferencia a favor del agente que desea realizar una acción. Su nivel en una habilidad es mayor que la dificultad de la acción. Puede tener un nivel alto y enfrentarse a una acción de dificultad media, tener un nivel medio y enfrentarse a una habilidad de dificultad fácil, etc.
+
+En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las siguientes probabilidades:
+
+| **Resultado**       |**Probabilidad de obtenerlo**  |
+|---------------------|-------------------------------|
+| Éxito simple        | 30%                           |
+| Éxito destacado     | 28%                           |
+| Superéxito          | 12%                           |
+| Fracaso simple      | 20%                           |
+| Fracaso destacado   | 7%                           |
+| Superfracaso        | 3%                            |
+
+| **Resultado**       |**Probabilidad de obtenerlo**  |
+|---------------------|-------------------------------|
+| Éxito               | 70%                           |
+| Fracaso             | 30%                           |
+
+Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque "optimista" basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.
+
+
+#### Probabilidades entre nivel inferior vs nivel superior
+
+Aquí nos referimos a un escalón de diferencia en contra del agente que desea realizar una acción. Su nivel en una habilidad es menor que la dificultad de la acción. Puede tener un nivel alto y enfrentarse a una acción de dificultad muy alta, tener un nivel medio y enfrentarse a una habilidad de dificultad alta, etc.
+
+En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las siguientes probabilidades:
+
+| **Resultado**       |**Probabilidad de obtenerlo**  |
+|---------------------|-------------------------------|
+| Éxito simple        | 25%                           |
+| Éxito destacado     | 15%                           |
+| Superéxito          | 5%                           |
+| Fracaso simple      | 35%                           |
+| Fracaso destacado   | 15%                           |
+| Superfracaso        | 5%                            |
+
+| **Resultado**       |**Probabilidad de obtenerlo**  |
+|---------------------|-------------------------------|
+| Éxito               | 45%                           |
+| Fracaso             | 55%                           |
+
+Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque "optimista" basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.
+
+En esta ocasión, proponemos una probabilidad algo menor que el lanzamiento de una moneda para el éxito.
+
+### Ejemplo borrador (notas draft y posiblemente contradictorias entre sí y con lo dicho arriba)
 
 **características**
 
