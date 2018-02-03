@@ -13,12 +13,12 @@ Tira base: DADO ATRIBUTO + 2 x DADO HABILIDAD (posibilidad de subir nivel de dad
 
 **características**
 
-FUE: 16 = 1d6 +3 / 1d10
-DES: 10 = 1d6 + 0 / 1d6
-CON: 8 = 1d6 -1 / 1d4
-INT: 18 = 1d6 +4 / 1d12
-SAB: 14 = 1d6 +2 / 1d8
-CHA: 12 = 1d6 +1 / 1d8
+- FUE: 16 = 1d6 +3 / 1d10
+- DES: 10 = 1d6 + 0 / 1d6
+- CON: 8 = 1d6 -1 / 1d4
+- INT: 18 = 1d6 +4 / 1d12
+- SAB: 14 = 1d6 +2 / 1d8
+- CHA: 12 = 1d6 +1 / 1d8
 
 **Habilidades**
 
@@ -31,11 +31,11 @@ Awe, Athletics, Awareness, Explore, Song, Craft | Inspire, Travel, Insight, Heal
 18 parece un buen número.
 
 Una habilidad puede tener 4 niveles de maestría. 0, 1, 2, 3 y 4.
-0 = 2d4
-1 = 2d6
-2 = 2d8
-3 = 2d10
-4 = 2d12
+- 0 = 2d4
+- 1 = 2d6
+- 2 = 2d8
+- 3 = 2d10
+- 4 = 2d12
 
 
 **Rasgos**
