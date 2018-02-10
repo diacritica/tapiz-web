@@ -22,7 +22,8 @@ La marca "Tapiz" y el logo de Tapiz se licencian de forma separada, bajo los té
 
 ## Introducción: ¿Qué es *Tapiz*?
 
-Tapiz es un sistema de juego de rol. En otras palabras, es un conjunto de métodos para usar dados que ayuden a los jugadores a relatar historias interesantes e inventadas sobre gente y lugares imaginarios.
+Tapiz es un sistema de juego de rol. En otras palabras, es un conjunto de métodos para usar dados que ayuden a los jugadores a relatar historias interesantesFeedback de Angela
+ e inventadas sobre gente y lugares imaginarios.
 
 ### Los Fundamentos del Juego
 
@@ -86,7 +87,8 @@ Este proceso se denomina **tirada**. Cuando un personaje trata de hacer algo, es
 
 Para reducir el número de veces que hay que tirar los dados, a veces se emplean las tiradas estáticas para calcular las resistencias. Así, en lugar de tirar los dados, simplemente se añade 10 al bonus del atributo, los bonus de rasgos, etc. Las dos tiradas estáticas más habituales son **defensa física** y **defensa mental**.
 
-[ILUSTRACIÓN]: dos escenas casi iguales. Un bárbaro con una hacha a dos manos impacta en el costado de una enana guerrera en lo que supone un buen golpe. El mismo bárbaro empuja con todo su cuerpo y la propia hacha a la misma enana, que va a caer derribada sin control de su cuerpo. La primera ilustración representa el gasto de puntos en daño, la segunda en efecto.
+![Logo de Tapiz](/tapiz/images/combat-2.jpg)
+*En lugar de emplear los puntos de efecto en causar daño físico, se puede en su lugar narrar una circunstancia favorable para el atacante*
 
 Los **puntos de efecto** y los **puntos de consecuencia** se pueden gastar para crear **efectos**. Cinco puntos crean un efecto menor, diez un efecto mayor y quince crean un efecto extremo. En términos de juego, esto normalmente proporciona un  +2/-2 (menor), +4/-4 (mayor) or 6/-6 (extremo) a acciones relacionadas (siempre que tenga sentido como, por ejemplo, un personaje que ha perdido el equilibrio tendrá un -2 en acciones en donde esa condición sea relevante). También pueden suponer efectos sin carga numérica.
 
