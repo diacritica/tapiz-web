@@ -323,7 +323,7 @@ Estos *bonus de rasgos* cuentan para el límite máximo de *bonus de rasgos* par
 
 *Ejemplo: Elythlian la elfa necesita la ayuda de un asentamiento enano para combatir a un dragón negro que se ha instalado en una cumbre montañosa cercana. La empresa es arriesgada pero está determinada a convencerlos. Acude ante la actitud recelosa de los habitantes del poblado frente a la asamblea de notables y cuando todos esperaban que se dirigiese en la lengua común, lo hace en su lugar en la lengua enana. Su estudio y amor por esta lengua la llevaron durante decenas de años a comprenderla y dominarla totalmente, aunque es algo que guarda en secreto y solo conocen sus amistades más íntimas. Elythlian puede hacer una tirada de acción basada en Carisma con un +1 de bonus de rasgo por nivel erudito y otro +1 de bonus de rasgo por usar una lengua reverenciada por los enanos y empleada de forma inesperada por una elfa.*
 
-[ILUSTRACIÓN]: ilustrar el ejemplo anterior
+![Logo de Tapiz](/tapiz/images/languages.jpg)
 
 En el caso de que un personaje no conozca una lengua determinada en el nivel razonable que se espera de una situación, la Directora de juego debería tenerlo en cuenta para determinar la dificultad de la tirada de acción, que probablemente deba ser uno o dos escalones mayores de esa misma acción sin dificultades asociadas a la comunicación.
 
