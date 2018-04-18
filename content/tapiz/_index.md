@@ -371,6 +371,8 @@ Al gastar un punto de heroicidad, es el jugador el que puede describir la natura
 
 [ILUSTRACIÓN]: una escena claramente poco favorable para un personaje (una halfing que va a caer en un pozo) en donde se aprecia que el personaje va a poder, en el último momento, agarrarse a una cuerda que cuelga del techo y evitar caer al agujero.
 
+![Logo de Tapiz](/tapiz/images/consequences.jpg)
+
 Si se diera la circunstancia en la que un oponente es capaz de imponer múltiples consecuencias a un personaje a la vez, pueden emplearse de la misma forma múltiples puntos de heroicidad para tomar el control descriptivo de cada una de ellas.
 
 El uso y obtención de los puntos de heroicidad puede llegar a tener cierta influencia en el tono del juego y recomendamos ser creativos en su empleo. Proponemos dos usos opcionales adicionales que ilustran esta idea:
