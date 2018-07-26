@@ -503,7 +503,7 @@ Los objetivos que dispongan de cobertura sólida como paredes, árboles, rocas, 
 
 *Ejemplo: Sharra, la asesina, ha conseguido entrar en el palacio de la Condesa. Tras recorrer varios pasillos y bajar a las cocinas, es sorprendida por un ayudante de cocina que se había quedado limpiando una de las despensas. Sharra, corre a esconderse tras unos barriles de hidromiel en una de las salas más grandes con apenas dos grandes cirios para iluminar toda la estancia. Cuando acude la guardia alertada por el delator, su ubicación le proporciona visibilidad parcial (-2 a las tiradas de ataque contra ella de una soladado con ballesta) y cobertura media (+5 a su CA por los barriles de hidromiel y estar cubierta solo parcialmente para poder lanzar sus dagas y buscar una salida).*
 
-[ILUSTRACIÓN]: ilustrar el ejemplo anterior
+![Cobertura](/tapiz/images/hidden.jpg)
 
 
 #### Movimiento
