@@ -179,4 +179,4 @@ Otra opción podría haber sido infligir 11 puntos de vida y convertir los resta
 
 Finalmente, otra opción hubiera sido los mismos 11 puntos de vida pero emplear los 10 en una Consecuencia mayor para el ghoul, que lo dejara inconsciente y fuera de combate de momento para poder volver a él más tarde.
 
-![Hoja de personaje a lápiz](/tapiz/charactersheet/images/draft_cs.jpg)
+![Hoja de personaje a lápiz](/tapiz/charactersheet/images/testchar.png)
