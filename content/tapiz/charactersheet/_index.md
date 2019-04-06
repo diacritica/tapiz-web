@@ -57,7 +57,7 @@ Valores desde 3 a 18 con su modificador asociado
 Tabla de referencia (no va en la hoja de personaje)
 
 | **Nivel de atributo**  |**Dados de atributo**  |**Coste completo de nivel**|**Coste de subida de nivel**|
-|------------|-------------------|------------------------------------|
+|------------|-------------------|------------------------------------|----|
 | 0          | 0               | 0  | -   |
 | 1          | 1d4             | 1  | +1  |
 | 2          | 1d6             | 3  | +2  |
@@ -68,7 +68,7 @@ Tabla de referencia (no va en la hoja de personaje)
 | 7          | 2d10            | 28 | +7  |
 | 8          | 3d8             | 36 | +8  |
 | 9          | 3d10            | 45 | +9  |
-| 10          | 4d10           | 55 | +10 |
+| 10         | 4d10            | 55 | +10 |
 
 ### Habilidades
 
