@@ -22,8 +22,7 @@ La marca "Tapiz" y el logo de Tapiz se licencian de forma separada, bajo los té
 
 ## Introducción: ¿Qué es *Tapiz*?
 
-Tapiz es un sistema de juego de rol. En otras palabras, es un conjunto de métodos para usar dados que ayuden a los jugadores a relatar historias interesantesFeedback de Angela
- e inventadas sobre gente y lugares imaginarios.
+Tapiz es un sistema de juego de rol. En otras palabras, es un conjunto de métodos para usar dados que ayuden a los jugadores a relatar historias interesantes e inventadas sobre gente y lugares imaginarios.
 
 ### Los Fundamentos del Juego
 
@@ -57,7 +56,7 @@ Los dados se emplean en el sistema *Tapiz* para añadir aleatoriedad a los resul
 **Ejemplo**: 3d6 se refiere a tirar tres dados, cada uno de seis caras, y sumar su total.
 **Ejemplo**: "tirar un d8" significa tirar un dado de ocho caras y utilizar el resultado.
 
-Los tipos de dados que más se emplean en Tapiz son d4, d6, d8, d10, d12 y d20. A estos dados se les conoce comúnmente como "dados poliédricos" y se pueden encontrar fácilmente en tiendas de juegos y comercios en internet. En ocasiones, algunos tipos de dados se "emulan" tirando un dado y diviendo el resultado redondeado hacia arriba. Por ejemplo, si se necesita un "d3", se puede tirar un d6, se divide entre dos y se redondea hacia arriba, de forma que 1-2 cuenta como 1, 3-4 cuenta como dos y 5-6 cuenta como 3.
+Los tipos de dados que más se emplean en Tapiz son d4, d6, d8, d10, d12 y d20. A estos dados se les conoce comúnmente como "dados poliédricos" y se pueden encontrar fácilmente en tiendas de juegos y comercios en internet. En ocasiones, algunos tipos de dados se "emulan" tirando un dado y dividiendo el resultado redondeado hacia arriba. Por ejemplo, si se necesita un "d3", se puede tirar un d6, se divide entre dos y se redondea hacia arriba, de forma que 1-2 cuenta como 1, 3-4 cuenta como dos y 5-6 cuenta como 3.
 
 ![Logo de Tapiz](/tapiz/images/dices.jpg)
 *Dados poliédricos de varias caras, 4, 6, 8, 10, 12 y 20.*
