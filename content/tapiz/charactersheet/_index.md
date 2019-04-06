@@ -108,6 +108,11 @@ Menor(+2), Mayor (+4), Extremo (+6)
 #### Consecuencias
 Menor (-2), Mayor (-4), Extrema (-6)
 
+### Feats
+
+Listado de feats especiales del personaje (uno por línea).
+Algunos están basados en la creación de personaje pero otros se han adquirido/comprado posteriormente
+
 ### Alineamiento/Objetivos
 
 - Alineamiento
@@ -125,3 +130,4 @@ La diferencia entre el valor de la tirada y el RETO representa:
 
 - Daño infligido con valor máximo de arma/hechizo en combate
 - Efectos/Consecuencias menor/mayor/extrema por diferencia de 5, 10 y 15
+- Una combinación de ambas
