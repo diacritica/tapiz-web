@@ -33,7 +33,7 @@ La hoja de personaje de Tapiz toma inspiración de Effect Engine y Open Legend.
 ### Características
 
 - Fuerza
-- Agilidad
+- Destreza
 - Constitución
 - Inteligencia
 - Sabiduría
@@ -59,8 +59,8 @@ Valores desde 3 a 18 con su modificador asociado. Una de las características se
 40 puntos iniciales para gastar o uso de "templates". A nivel 1 el máximo nivel de un atributo es 5.
 
 - Fortaleza (FUE)
-- Destreza (AGI)
-- Poder (CON)
+- Agilidad (DES)
+- Aguante (CON)
 - Investigación (INT)
 - Lógica (INT)
 - Conocimiento (SAB)
@@ -178,3 +178,5 @@ La jugadora que lleva a Sharra decide agotar el máximo de daño del arco, 20, a
 Otra opción podría haber sido infligir 11 puntos de vida y convertir los restantes 10 en un Efecto mayor (+4) para el siguiente ataque a un gigantesco gólem que tiene a su espalda. De haber hecho esto, el ghoul recibiría 11 puntos de daño, lo suficiente para dejarlo casi fuera de combate y tendría un efecto mayor para la siguiente tirada.
 
 Finalmente, otra opción hubiera sido los mismos 11 puntos de vida pero emplear los 10 en una Consecuencia mayor para el ghoul, que lo dejara inconsciente y fuera de combate de momento para poder volver a él más tarde.
+
+![Hoja de personaje a lápiz](/tapiz/images/draft-cs.jpg)
