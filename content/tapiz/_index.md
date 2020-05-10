@@ -73,15 +73,15 @@ Si la capacidad de un personaje para hacer algo es incierta, el DJ puede aplicar
 
 Habitualmente se usa 1d20. La suma total de los dados se añade al modificador del atributo relevante del personaje (ej: *Fuerza/FUE* si se está tratando de levantar un objeto pesado, *Destreza/DES* si se está intentando una acción basada en la agilidad, etc). Si el personaje dispone de un rasgo que podría ayudar, entonces el nivel del personaje se añade al total. Si existen otros rasgos que también podrían ayudar, cada uno aporta un +1 al resultado total, con un límite del bonus total por rasgos del doble del nivel actual del personaje. Otros bonus o penalizaciones se aplican en algunos casos, veremos algunos casos más adelante. El total de todas estas sumas se denomina **resultado total**. Este valor se compara con la **resistencia**. Si el resultado total es igual o superior a la resistencia, la diferencia entre ambos valores es el número de **puntos de efecto** que se obtienen. Si el resultado total es menor que la resistencia, a esa diferencia se la denomina **puntos de consecuencia**.
 
-**resultado total = 3d6 + modificador del atributo relevante + bonus de rasgos +/- otros bonus y penalizaciones**
+**resultado total = 1d20 + dados de [CAR/ATR/HAB] + Mod [CAR/ATR/HAB] + Bonificadores + EFECTO/CONSECUENCIA - RETO**
 
-Si el resultado total es igual o mayor que la resistencia, se considera un éxito y:
+Si el resultado total es igual o mayor que 0, se considera un éxito y:
 
-**resultado total - resistencia = puntos de efecto**
+**resultado total = puntos de efecto**
 
 En caso contrario,
 
-**resistencia - resultado total = puntos de consecuencia**
+**|resultado total| = puntos de consecuencia**
 
 Este proceso se denomina **tirada**. Cuando un personaje trata de hacer algo, es una **tirada de acción**; si se está tratando de ofrecer resistencia frente a algo o alguien (ej: esquivar un golpe, resistir un intento de intimidación, etc), es una **tirada de resistencia**, y el resultado total se convierte en la resistencia para la tirada de acción del oponente.
 
@@ -132,17 +132,17 @@ Esta misma regla de sentido común puede emplearse para determinar cuando (si ac
 
 [NOTA: Monsters & Magic emplea puntos de golpe al estilo D&D; de forma que dejar a alguien con O PG lo deja "fuera de combate", y llegar hasta -10 PG o menos "lo mata". Otra opción es usar esos puntos de golpe como una suerte de "reserva de defensa", de forma que en lugar de que sea el atacante el que reduce puntos de golpe, es el defensor el que usa los puntos de golpe para cancelar consecuencias. En ese caso, para matar a alguien, se haría necesario obtener un efecto extremo (aunque es posible que quieras subirlo de dificultad).
 
-Por otro lado, Monsters & Magic otorga a los personajes una casilla de consecuencia para cada nivel de consecuencia. Si alguien ya tiene una consecuencia mayor, no es posible añadir otra de ese mismo nivel, solo puede ser reemplazada. Es posible que quieras modificar tu sistema para se comporte de forma diferente. Por ejemplo, separando las casillas de consencuencia para estados mental y físico, consencuencias para diferentes partes del cuerpo, etc.
+Por otro lado, Monsters & Magic otorga a los personajes una casilla de consecuencia para cada nivel de consecuencia. Si alguien ya tiene una consecuencia mayor, no es posible añadir otra de ese mismo nivel, solo puede ser reemplazada. Es posible que quieras modificar tu sistema para se comporte de forma diferente. Por ejemplo, separando las casillas de consecuencia para estados mental y físico, consecuencias para diferentes partes del cuerpo, etc.
 
 Por último, M&M decidió limitar el número de puntos de golpe que de una sola vez pueden infligirse. El límite de M&M es el dado de daño del arma + el nivel del atacante, o el atributo del atacante + el nivel del personaje si no hay arma involucrada. Es posible que prefieras aplicar un límite más concreto (por ejemplo, 5 + nivel del atacante). Si estás empleando los puntos de golpe como una reserva de defensa, el límite entonces se aplicaría al número máximo de puntos de golpe que un defensor puede gastar de una vez, provocando, por ejemplo, que un golpe muy poderoso pueda dejar al defensor fuera de combate incluso cuando teóricamente quedaran puntos de golpe para absorber todo el ataque.]
 
-Tapiz diferencia entre dos tipos de daño; físico y mental. El daño físico aparece con cortes, golpes, quemaduras y enfermedades que debilitan físicamente al cuerpo. El daño mental lo causan sucesos que confuden, infunden terror, intimidan, avergüenzan o directamente afectan la mente, como poderes de ataques psíquicos. Cada tipo de daño reduce la reserva de puntos de golpe correspondiente, que suelen abreviarse como **PGF** (puntos de golpe físicos) o **PGM** (puntos de golpe mentales).
+Tapiz diferencia entre dos tipos de daño; físico y mental. El daño físico aparece con cortes, golpes, quemaduras y enfermedades que debilitan físicamente al cuerpo. El daño mental lo causan sucesos que confunden, infunden terror, intimidan, avergüenzan o directamente afectan la mente, como poderes de ataques psíquicos. Cada tipo de daño reduce la reserva de puntos de golpe correspondiente, que suelen abreviarse como **PGF** (puntos de golpe físicos) o **PGM** (puntos de golpe mentales).
 
 ![Logo de Tapiz](/tapiz/images/pgm.jpg)
 
 Si los **puntos de golpe físicos** o **PGF** llegan a cero, el personaje cae inconsciente y es incapaz de realizar acciones. Si son los **puntos de golpe mentales** o **PGM** los que llegan a cero, el personaje queda incapacitado y no puede realizar acciones salvo obedecer órdenes de un tercero o defenderse de ataques físicos mientras trata de huir. Al final de cada escena, si un personaje tenía cero puntos de golpe en cualquiera de las reserva, automáticamente recupera uno.
 
-Cuando un personaje tiene una reserva de puntos de golpe en números negativos, se trata de un problema muy serio. Con PGF por debajo de cero, el personaje está desangrándose y pierde 1 PGF cada ronda (véase Tiempo más adelante) hasta que otro personaje pueda estabilizarlo. Esta acción puede efectuarse ya sea por medios mágicos o no pero, en cualquier caso, la dificultad de la acción se incrementa con el número de puntos de golpe en negativo. Con PGM negativos, el personaje es inestable y no puede realizar acciones coherentes, perdiendo 1 PGM cada ronda a no ser que alguien lo estabilice. Uno puede estabilizarse a sí mismo si, por ejemplo, comsigue hacer frente al ataque mental que esté sufriendo.
+Cuando un personaje tiene una reserva de puntos de golpe en números negativos, se trata de un problema muy serio. Con PGF por debajo de cero, el personaje está desangrándose y pierde 1 PGF cada ronda (véase Tiempo más adelante) hasta que otro personaje pueda estabilizarlo. Esta acción puede efectuarse ya sea por medios mágicos o no pero, en cualquier caso, la dificultad de la acción se incrementa con el número de puntos de golpe en negativo. Con PGM negativos, el personaje es inestable y no puede realizar acciones coherentes, perdiendo 1 PGM cada ronda a no ser que alguien lo estabilice. Uno puede estabilizarse a sí mismo si, por ejemplo, consigue hacer frente al ataque mental que esté sufriendo.
 
 Con -10 PGF, el personaje está muerto. Con -10 PGM, el personaje está perdido irremediablemente. En cualquiera de los dos casos, la vida de aventura ha terminado.
 
@@ -152,7 +152,10 @@ Una acción de curación solo puede llevarse a cabo una vez tras recibir daño. 
 
 La mayoría de los términos resultarán familiares para quienes hayan jugado ya a otros juegos de rol. Aquí presentamos un resumen de los más importantes.
 
-- **Atributo**:  a veces también llamados **característica**, uno de los seis indicadores que describen las dotes físicas y mentales de un personaje. Éstos son Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma y normalmente comprenden valores entre 3 y 18. El atributo proporciona un valor base para una acción estática o una resistencia estática así como el *modificador de atributo*.
+- **Característica**: uno de los seis indicadores que describen las dotes físicas y mentales de un personaje. Éstas son Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma y normalmente comprenden valores entre 3 y 18. La característica proporciona un bonificador base para una acción que no tiene acomodo en ningún atributo o habilidad. Asimismo, determina el modificador de característica de esos atributos y habilidades dependientes de la característica.
+
+- **Atributo**:  uno de los diez indicadores que describen ciertas aptitudes propias del personaje que pueden desarrollarse más allá de las capacidades innatas o generales. Son Fortaleza, Agilidad, Aguante, Investigación, Lógica, Conocimiento, Percepción, Presencia, Persuación y Voluntad. proporciona un valor base para una acción estática o una resistencia estática así como el *modificador de atributo*.
+
 
 - **Avance**: una mejora específica para tu personaje, ya sea porque añadiste una habilidad o se mejoró una existente. Un personaje nuevo de primer nivel comienza habitualmente con uno o dos avances disponibles y cada vez que alcanza un nuevo nivel obtiene un avance adicional a través de los *puntos de avance*.
 
