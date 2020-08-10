@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Proyecto Tapiz</title>
+    <link>https://tapiz.net/</link>
+    <description>Recent content on Proyecto Tapiz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sun, 19 May 2019 16:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://tapiz.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://tapiz.net/_header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tapiz.net/_header/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tapiz.net/tapiz/mecanica/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tapiz.net/tapiz/mecanica/</guid>
+      <description>Conceptos sobre la mecánica de tapiz De la reunión entre Dani y Pablo 2/2/2018
+ Los rasgos no son suficientemente detallados =&amp;gt; añadimos habilidades genéricas con paridad F/M Modificador de atributo =&amp;gt; dado de atributo Modificador de rasgo =&amp;gt; Subir escalón en dado de habilidad  Tira base: DADO ATRIBUTO + 2 x DADO HABILIDAD (posibilidad de subir nivel de dado) &amp;gt;= DIFICULTAD (acción o combate)
+Estadísticas de éxito/fracaso Es clave tomar una decisión sobre cuál es la probabilidad de éxito, éxito destacado, superéxito y también fracaso, fracaso destacado y superfracaso.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://tapiz.net/tapiz/mecanicanew/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tapiz.net/tapiz/mecanicanew/</guid>
+      <description>Conceptos sobre la mecánica de tapiz La mecánica trata de equilibrar una serie de factores frente a un reto con una dificultad determinada.
+ El factor aleatorio tiene un peso específico pero no es determinante. Está representada la capacidad asociada a la característica, atributo o habilidad mediante un nivel y sus datos con bonificador correspondientes. Acepta bonificadores existentes Acepta EFECTOS/CONSECUENCIAS  1d20 + dados de [CAR/ATR/HAB] + Mod [CAR/ATR/HAB] + Bonificadores + EFECTO/CONSECUENCIA - RETO = Resultado</description>
+    </item>
+    
+  </channel>
+</rss>

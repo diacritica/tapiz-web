@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proyecto Tapiz</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.68.3" />
+
+<title>Documento de Referencia del Sistema Tapiz :: Proyecto Tapiz</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/hybrid.css" rel="stylesheet">
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<link href="/css/auto-complete.css" rel="stylesheet">
+<link href="/theme-original/style.css" rel="stylesheet">
+
+  <link href="/theme-original/variant-tapiz.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<meta name="description" content="">
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fondamento:400,400i&amp;subset=latin-ext" rel="stylesheet">
+
+    
+  </head>
+  <body data-url="/tapiz/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+    <p><img src="/images/logo-tapiz-bw.svg" alt=""></p>
+
+  
+
+    </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="Search...">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="/js/lunr.min.js"></script>
+		<script type="text/javascript" src="/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/tapiz.net\/";
+        
+		</script>
+		<script type="text/javascript" src="/js/search.js"></script>
+  </div>
+
+      <ul class="topics">
+            <li data-nav-id="/" class="dd-item">
+            <a href="/"><i class="fa fa-fw fa-home"></i></a>
+            </li>
+    <li data-nav-id="/tapiz/" class="dd-item parent active">
+      <a href="/tapiz/">
+        <span>Documento de Referencia del Sistema Tapiz</span>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </a>
+        <ul>
+    <li data-nav-id="/tapiz/charactersheet/" class="dd-item">
+      <a href="/tapiz/charactersheet/">
+        <span>Hoja de personaje de Tapiz</span>
+      </a>
+    </li>
+      <li data-nav-id="/tapiz/mecanica/" class="dd-item">
+        <a href="/tapiz/mecanica/">
+          <span></span>
+        </a>
+    </li>
+      <li data-nav-id="/tapiz/mecanicanew/" class="dd-item">
+        <a href="/tapiz/mecanicanew/">
+          <span></span>
+        </a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/lienzos/" class="dd-item">
+      <a href="/lienzos/">
+        <span>Lienzo en el sistema Tapiz</span>
+      </a>
+    </li>
+
+
+
+        <section id="shortcuts">
+                <li class="" role=""><h3>Más información</h3><a href="https://github.com/diacritica/tapiz-web" target="_blank" rel="noopener"><i class='fa fa-github'></i> Github repo</a></li>
+                <li class="" role=""><a href="" target="_blank" rel="noopener"><i class='fa fa-bullhorn'></i> Autoría: Pablo Ruiz Múzquiz, Juan de la Cruz</a></li>
+        </section>
+
+    <hr />
+    <li></li>
+    
+    </ul>
+
+ <section id="footer">
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+ <a href='/'></a> > Documento de Referencia del Sistema Tapiz
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#uso">Uso</a></li>
+    <li><a href="#introducción-qué-es-tapiz">Introducción: ¿Qué es <em>Tapiz</em>?</a>
+      <ul>
+        <li><a href="#los-fundamentos-del-juego">Los Fundamentos del Juego</a></li>
+        <li><a href="#personajes-jugadores">Personajes jugadores</a></li>
+        <li><a href="#uso-de-dados">Uso de dados</a></li>
+        <li><a href="#hacer-cosas">Hacer cosas</a></li>
+        <li><a href="#la-historia-es-lo-más-importante">La historia es lo más importante</a></li>
+        <li><a href="#daño-y-puntos-de-golpe">Daño y Puntos de Golpe</a></li>
+      </ul>
+    </li>
+    <li><a href="#creación-de-personajes">Creación de Personajes</a>
+      <ul>
+        <li><a href="#generación-de-los-atributos">Generación de los Atributos</a></li>
+        <li><a href="#niveles-y-avances">Niveles y Avances</a></li>
+        <li><a href="#avances-de-personajes">Avances de Personajes</a></li>
+        <li><a href="#especies">Especies</a></li>
+        <li><a href="#clases">Clases</a></li>
+        <li><a href="#lenguas">Lenguas</a></li>
+        <li><a href="#movimiento">Movimiento</a></li>
+        <li><a href="#defensa">Defensa</a></li>
+        <li><a href="#puntos-de-golpe">Puntos de Golpe</a></li>
+        <li><a href="#puntos-de-heroicidad">Puntos de Heroicidad</a></li>
+        <li><a href="#alineamiento">Alineamiento</a></li>
+        <li><a href="#tiradas">Tiradas</a></li>
+        <li><a href="#rondas-y-turnos">Rondas y Turnos</a></li>
+        <li><a href="#iniciativa">Iniciativa</a></li>
+        <li><a href="#sorpresa">Sorpresa</a></li>
+        <li><a href="#rango-y-movimiento">Rango y Movimiento</a></li>
+        <li><a href="#tamaño">Tamaño</a></li>
+        <li><a href="#posturas">Posturas</a></li>
+        <li><a href="#daño">Daño</a></li>
+        <li><a href="#puntos-de-efecto">Puntos de Efecto</a></li>
+        <li><a href="#avances">Avances</a></li>
+        <li><a href="#jugar-a-niveles-altos">Jugar a niveles altos</a></li>
+        <li><a href="#peligros">Peligros</a></li>
+        <li><a href="#el-entorno">El Entorno</a></li>
+        <li><a href="#tesoro-y-riquezas">Tesoro y Riquezas</a></li>
+        <li><a href="#puntos-de-experiencia">Puntos de Experiencia</a></li>
+        <li><a href="#magia">Magia</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1>Documento de Referencia del Sistema Tapiz</h1>
+  
+
+
+
+    
+    
+    
+
+<p><img src="/tapiz/images/logo-tapiz-bw.png" alt="Logo de Tapiz"></p>
+<h2 id="uso">Uso</h2>
+<p>Este documento describe el Sistema Tapiz. Está inspirado en el <em>Effect Engine</em>, contenido en el juego Monsters &amp; Magic, de <strong>Sarah Newton</strong> (Mindjammer Press), en el juego <em>Ebon Fantasy</em>, de <strong>Travis Casey</strong> (Ebon Gryphon Games) y en el juego <em>Open Legend</em> de Seventh Sphere Entertainment. El autor principal del Sistema Tapiz es Pablo Ruiz-Múzquiz.</p>
+<p>Tapiz está concebido para contener el conjunto mínimo de reglas y mecánicas de reglas común a juegos de rol de fantasía, deliberadamente dejando a otros documentos la responsabilidad de complementarlo con contenido dependiente de una ambientación. Esto hace que Tapiz en sí mismo, como documento, no pueda resolver la necesidad de un juego de rol completo. Para ello, deberá emplearse un documento de la colección de ambientaciones, también denominados <em>Lienzos</em>.</p>
+<p>A lo largo del documento se podrán encontrar notas marcadas entre corchetes <strong>[NOTA:]</strong> con la intención de guiar a los diseñadores de ambientaciones o <em>Lienzos</em> en el uso del sistema <em>Tapiz</em>. Estas notas arrojan luz sobre el diseño del sistema y pueden señalar elementos a modificar para adaptarlo a una ambientación particular.</p>
+<p>Este documento tiene licencia Creative Commons Attribution Sharealike (CC BY-SA) y puede leerse una explicación de su naturaleza y condiciones en la sección correspondiente.</p>
+<p>La marca &ldquo;Tapiz&rdquo; y el logo de Tapiz se licencian de forma separada, bajo los términos de la Tapiz Trademark License, que también se puede encontrar al final de este documento.</p>
+<p><img src="/tapiz/images/scholar-desk.jpg" alt="Logo de Tapiz"></p>
+<h2 id="introducción-qué-es-tapiz">Introducción: ¿Qué es <em>Tapiz</em>?</h2>
+<p>Tapiz es un sistema de juego de rol. En otras palabras, es un conjunto de métodos para usar dados que ayuden a los jugadores a relatar historias interesantes e inventadas sobre gente y lugares imaginarios.</p>
+<h3 id="los-fundamentos-del-juego">Los Fundamentos del Juego</h3>
+<p>Igual que otros juegos de rol, jugar a un juego basado en Tapiz se asemeja a una conversación. Una jugadora asume el papel de <strong>director de juego (DJ)</strong>, mientras las otras controlan cada una un <strong>personaje jugador (PJ)</strong>, y se denominan habitualmente <strong>jugadoras</strong>.</p>
+<p>Cada jugadora controla su propio PJ y describe las acciones de ese PJ. La DJ controla el resto del mundo del juego y describe las acciones de los otros seres en ese mundo; <strong>personajes no jugadores (PNJs)</strong>. PNJs potencialmente hostiles hacia los PJs a menudo se llaman <strong>monstruos</strong></p>
+<p>Cuando un personaje intenta hacer algo, a esto se le denomina <strong>acción</strong>. Cuando el resultado de esta acción es incierto, puede resolverse esta incertidumbre mediante una <strong>tirada de acción</strong>. Los resultados de las acciones pueden estar representadas en el juego como <strong>efectos</strong> o <strong>consecuencias</strong>.</p>
+<h3 id="personajes-jugadores">Personajes jugadores</h3>
+<p>Los personajes jugadores se definen en el juego principalmente mediante <strong>habilidades</strong>, <strong>atributos</strong> y el <strong>nivel</strong>. Éstas, a su vez, se utilizan para determinar otras características empleadas en el transcurso del juego. A continuación se describen brevemente las más relevantes.</p>
+<ul>
+<li><strong>Habilidades</strong>: son un conjunto de habilidades básicas que todos los personajes tienen. Éstos indican cuán fuerte, inteligente y en general capaces son. Cada habilidad dispone de una <strong>valor</strong> y un <strong>modificador</strong>. <em>Fuerza</em>, por ejemplo, indica la fuerza física de un personaje mientras que <em>Carisma</em> indica su habilidad para influenciar a otros socialmente. Una habilidad constituirá la <strong>habilidad principal</strong> del personaje, aquella que ha sido más empleada o desarrollada.</li>
+<li><strong>Atributos</strong>: son cualidades específicas de un PJ y están siempre bajo el amparo de una habilidad. Por ejemplo, <em>Percepción</em> hace referencia a la capacidad del PJ de darse de cuenta de algo que sucede a su alrededor mientras que <em>Persuasión</em> indica lo fácil o díficil que es para ese PJ influenciar o intimidad a otra persona o criatura. Los <strong>atributos</strong> pueden evolucionar y mejorar con el tiempo y representan en parte el incremento de poder del PJ con el tiempo.</li>
+<li><strong>Rasgos</strong>: son propiedades muy particulares del PJ. Representan aspectos muy personales de las capacidades del PJ y pueden resultar determinantes en diferentes situaciones. Los rasgos pueden ser básicos (son palabras o frases cortas que describen detalles interesantes acerca de un personaje) o avanzados (formulaciones más elaboradas sobre el potencial del PJ). Por ejemplo, <em>leal a la reina</em> es un rasgo básico que podría entrar en juego en un momento de persuasión ante unos guardias del reino, mientras que <em>Infravisión a 30m</em>, un rasgo avanzado, permite que el PJ pueda manejarse con soltura en entornos de oscuridad.</li>
+<li><strong>Nivel</strong>: es un indicador global de cuán poderoso es un personaje. Los personajes habitualmente comienzan con nivel uno y, a medida que su nivel se incrementa, obtienen <strong>avances</strong> que les permiten adquirir nuevas capacidades. Habitualmente, estas capacidades constituyen rasgos adicionales.</li>
+</ul>
+<p>Entre las características secundarias más usadas encontramos la <strong>defensa física</strong>, <strong>defensa mental</strong> y los <strong>puntos de golpe</strong>. La defensa física o mental representa la habilidad de un personaje para evitar ser dañado por ataques físicos o mentales, mientras que los puntos de golpe representan la habilidad para &ldquo;encajar el golpe&rdquo;, su aguante, suerte y otras habilidades que le permiten recibir o sufrir daño sin quedar gravemente herido.</p>
+<p>Algunos rasgos de los personajes pueden estar determinados por su <strong>raza</strong> y <strong>clase</strong>. Éstas proporcionan <strong>rasgos iniciales</strong> y pueden otorgar acceso a avances especiales que otros personajes que no pertenecen a esa clase o raza no podrían conseguir normalmente, llamados <strong>avances de clase</strong> o <strong>raciales</strong>. Pueden asimismo determinar los <strong>dados de golpe</strong> que se usan para calcular puntos de golpe físicos y mentales. Si se emplean las clases, la clase de un personaje puede también determinar su habilidad principal.</p>
+<p>Algo particularmente importante es el hecho de que un personaje debería tratarse como una <em>persona</em> con aspiraciones, objetivos, defectos y fortalezas. Un buen personaje dispone de una personalidad que permite un desarrollo de su propia historia y que puede cambiar a lo largo del tiempo de forma sutil o más drástica. Algunos de estos cambios pueden verse representados dentro de las mecánicas de juego como modificaciones a los atributos o los rasgos pero incluso aquéllos que no lo hacen son igualmente importantes a la hora de configurar un personaje de forma completa.</p>
+<p>[NOTA: las razas y las cases son una parte estándar de los juegos de rol fantásticos pero pueden no ser esenciales en otros escenarios de juego. Históricamente las razas alteraban los valores base de los atributos además de proveer rasgos iniciales pero <em>no tendrían por qué</em>.]</p>
+<h3 id="uso-de-dados">Uso de dados</h3>
+<p>Los dados se emplean en el sistema <em>Tapiz</em> para añadir aleatoriedad a los resultados. Se emplean abreviaturas para referirnos a los dados utilizando el formato <em>NdX</em>. <em>N</em> es el número de dados que se tiran y <em>X</em> es el número de caras que tiene el dado en cuestión. Los resultados de todos los dados se suman, no se tratan de forma individual. En ocasiones se emplea una referencia del tipo <em>dX</em>, sin un número delante de la &ldquo;d&rdquo;, significando que se trata de tirar un solo dado.</p>
+<p><strong>Ejemplo</strong>: 3d6 se refiere a tirar tres dados, cada uno de seis caras, y sumar su total.
+<strong>Ejemplo</strong>: &ldquo;tirar un d8&rdquo; significa tirar un dado de ocho caras y utilizar el resultado.</p>
+<p>Los tipos de dados que más se emplean en Tapiz son d4, d6, d8, d10, d12 y d20. A estos dados se les conoce comúnmente como &ldquo;dados poliédricos&rdquo; y se pueden encontrar fácilmente en tiendas de juegos y comercios en internet. En ocasiones, algunos tipos de dados se &ldquo;emulan&rdquo; tirando un dado y dividiendo el resultado redondeado hacia arriba. Por ejemplo, si se necesita un &ldquo;d3&rdquo;, se puede tirar un d6, se divide entre dos y se redondea hacia arriba, de forma que 1-2 cuenta como 1, 3-4 cuenta como dos y 5-6 cuenta como 3.</p>
+<p><img src="/tapiz/images/dices.jpg" alt="Logo de Tapiz">
+<em>Dados poliédricos de varias caras, 4, 6, 8, 10, 12 y 20.</em></p>
+<p>En alguna ocasión, puede requerirse tirar un d100 (o d%). Esto se consigue con dos d10 de diferentes colores. En lugar de sumar ambos resultados, antes de la tirada uno es declarado como el de las &ldquo;decenas&rdquo; mientras que el otro es el de las &ldquo;unidades&rdquo;. Si ambos dados muestran un cero (0) en su cara superior, el resultado equivale a 100, no a 0.
+<strong>Ejemplo</strong>: d% &ndash; El dado de las decenas saca un 3. El dado de las unidades saca un 7. El total sería 37, no 10, que sería la suma de ambos si la petición hubiese sido 2d10.
+Algunos sets de dados tienen dos dados de diez caras, uno de los cuales tiene números del 0 al 9 mientras que el otro muestra múltiplos de 10, desde el 00 hasta 90. Lo habitual es concatenar ambos resultados salvo en el caso de obtener un &ldquo;00&rdquo; y un &ldquo;0&rdquo;, que se considera un resultado de 100. Algunos grupos de jugadores prefieran otra convención en donde &ldquo;10&rdquo; y &ldquo;0&rdquo; equivalen a 100 y &ldquo;00&rdquo; y &ldquo;0&rdquo; se considera como 10.</p>
+<h3 id="hacer-cosas">Hacer cosas</h3>
+<p>Si la capacidad de un personaje para hacer algo es incierta, el DJ puede aplicar una <strong>resistencia</strong> (también llamada <strong>dificultad</strong>). Ésta consiste en un número que representa cuán difícil resulta realizar la acción propuesta. Un número alto refleja una acción difícil. Para determinar si el personaje tiene éxito en la acción se realiza una tirada de dados. De hecho, cada vez que el personaje trate de hacer algo es probable que haya que tirar los dados.</p>
+<p>Habitualmente se usa 1d20. La suma total de los dados se añade al modificador del atributo relevante del personaje (ej: <em>Fuerza/FUE</em> si se está tratando de levantar un objeto pesado, <em>Destreza/DES</em> si se está intentando una acción basada en la agilidad, etc). Si el personaje dispone de un rasgo que podría ayudar, entonces el nivel del personaje se añade al total. Si existen otros rasgos que también podrían ayudar, cada uno aporta un +1 al resultado total, con un límite del bonus total por rasgos del doble del nivel actual del personaje. Otros bonus o penalizaciones se aplican en algunos casos, veremos algunos casos más adelante. El total de todas estas sumas se denomina <strong>resultado total</strong>. Este valor se compara con la <strong>resistencia</strong>. Si el resultado total es igual o superior a la resistencia, la diferencia entre ambos valores es el número de <strong>puntos de efecto</strong> que se obtienen. Si el resultado total es menor que la resistencia, a esa diferencia se la denomina <strong>puntos de consecuencia</strong>.</p>
+<p><strong>resultado total = 1d20 + dados de [CAR/ATR/HAB] + Mod [CAR/ATR/HAB] + Bonificadores + EFECTO/CONSECUENCIA - RETO</strong></p>
+<p>Si el resultado total es igual o mayor que 0, se considera un éxito y:</p>
+<p><strong>resultado total = puntos de efecto</strong></p>
+<p>En caso contrario,</p>
+<p><strong>|resultado total| = puntos de consecuencia</strong></p>
+<p>Este proceso se denomina <strong>tirada</strong>. Cuando un personaje trata de hacer algo, es una <strong>tirada de acción</strong>; si se está tratando de ofrecer resistencia frente a algo o alguien (ej: esquivar un golpe, resistir un intento de intimidación, etc), es una <strong>tirada de resistencia</strong>, y el resultado total se convierte en la resistencia para la tirada de acción del oponente.</p>
+<p>Para reducir el número de veces que hay que tirar los dados, a veces se emplean las tiradas estáticas para calcular las resistencias. Así, en lugar de tirar los dados, simplemente se añade 10 al bonus del atributo, los bonus de rasgos, etc. Las dos tiradas estáticas más habituales son <strong>defensa física</strong> y <strong>defensa mental</strong>.</p>
+<p><img src="/tapiz/images/combat-2.jpg" alt="Logo de Tapiz">
+<em>En lugar de emplear los puntos de efecto en causar daño físico, se puede en su lugar narrar una circunstancia favorable para el atacante</em></p>
+<p>Los <strong>puntos de efecto</strong> y los <strong>puntos de consecuencia</strong> se pueden gastar para crear <strong>efectos</strong>. Cinco puntos crean un efecto menor, diez un efecto mayor y quince crean un efecto extremo. En términos de juego, esto normalmente proporciona un  +2/-2 (menor), +4/-4 (mayor) or 6/-6 (extremo) a acciones relacionadas (siempre que tenga sentido como, por ejemplo, un personaje que ha perdido el equilibrio tendrá un -2 en acciones en donde esa condición sea relevante). También pueden suponer efectos sin carga numérica.</p>
+<p>Efectos que impactan de forma negativa en un personaje también se denominan consecuencias. En general, se emplean puntos de efecto para crear efectos en una misma o consecuencias en oponentes, mientras que los puntos de consecuencia de un oponente se emplean para aplicar consecuencias sobre ellos.</p>
+<p>A continuación mostramos algunos ejemplos de efectos y consecuencias:</p>
+<p>[TODO: revisar los conceptos de carga numérica o sin carga numérica para evitar confusiones]</p>
+<p>menor:</p>
+<ul>
+<li>+2/-2 a la siguiente tirada de acción: posición ventajosa, colocar un obstáculo en el camino de algo o alguien, flanquear a un oponente, desequilibrar a un oponente, infligir una herida de arma particularmente dolorosa, aturdir a un oponente, provocar una distracción.</li>
+<li>sin carga numérica: envainar o desenvainar el arma, desmontar, subirse a montura (pero no durante un combate), moverse un rango de distancia, forzar a un oponente a mover un rango de distancia, obligar a un oponente a perder un recurso menor (por ejemplo, una flecha o una carga de un objeto mágico).</li>
+</ul>
+<p>mayor:</p>
+<ul>
+<li>+4/-4 a la siguiente tirada de acción: posición a cubierto, inspirada, encontrar el punto débil, conocer su estilo de combate, provocar una gran distracción, derribar a un enemigo, ralentizar a un enemigo, infundir miedo a un oponente, infligir una herida con hemorragia, provocar una dislocación o una luxación.</li>
+<li>sin carga numérica: desarmar a un oponente, subirse a una montura (durante el combate), provocar que el oponente pierda una pieza de su equipo, herir a un oponente con una estocada en respuesta a su ataque.</li>
+</ul>
+<p>extremo:</p>
+<ul>
+<li>+6/-6 a la siguiente tirada de acción: tener a tus oponentes exactamente donde quieres, conocer sus planes, aturdirlos o confundirlos, hacer que un oponente pierda una extremidad o quede cegado, hacer que un oponente quiera creerte.</li>
+<li>sin carga numérica: hacer que un oponente caiga de su montura, romper el arma o una pieza del equipo de un enemigo, cancelar un poder especial de un oponente, un enemigo hiere a un aliado (consecuencia).</li>
+</ul>
+<p>Los puntos de efecto puede usarse para eliminar efectos o consecuencias previamente existentes mediante el empleo del mismo número de puntos que se requirió para crearlos. Si el personaje sufrió una consecuencia mayor que lo derribó al suelo noqueado, necesitará otros 10 puntos de efecto para levantarse de nuevo. Una vez esto suceda, deja de estar noqueado y la consecuencia desaparece.</p>
+<p>¿Qué es posible hacer cuando no se consiguen suficientes puntos de efecto para crear un efecto menor? Durante un combate, un punto de efecto puede emplearse para eliminar un punto de golpe del objetivo. Los puntos de golpe puede ser tanto físicos como mentales y se detallan más adelante. También es posible crear una ventaja o desventaja momentánea, lo que te proporciona a ti o a tu objetivo un +1 o -1 en la siguiente acción (esto puede aplicarse también a tiradas estáticas).
+[Nota: dependiendo de la ambientación, los efectos y las consencuencias pueden ser más o menos significativas dependiendo del nivel].</p>
+<h3 id="la-historia-es-lo-más-importante">La historia es lo más importante</h3>
+<p>Una de las reglas más importantes del sistema Tapiz es que la historia es lo más importante. Lo que esto significa es que la DJ y las jugadoras deberían guiarse por lo que tiene sentido para la historia cuando toman decisiones sobre lo que los efectos y las consecuencias son capaces de hacer.</p>
+<p>Los efectos y las consecuencias deben tener sentido en el contexto. No importa cuánto de acertados sean tus argumentos en una conversación, simplemente por hablar con alguien no vas a conseguir cercenar un brazo, incluso si obtuviste puntos de efecto suficientes para un efecto extremo. El fuego puede quemar pero no va a poder provocar que alguien se escurra y caiga, un ataque de hielo congela y puede hacer una superficie resbaladiza pero no sería capaz de hacerte averiguar cuál es el punto débil de un enemigo (salvo que ese punto débil sea precisamente un ataque de hielo). Los poderes especiales, hechizos y objetos también se ven afectados por esta máxima. Por ejemplo, una espada flamígera puede tener asociada efectos y consecuencias relacionados con calor y fuego, o la mirada de una medusa tiene el rasgo de convertir en piedra, permitiéndola petrificar craituras vivas.</p>
+<p>Igualmente, la historia influye en cuánto de duraderos son los efectos y las consecuencias. Por ejemplo, si alguien sufre la consecuencia de ser derribado justo después de que un combate finalice, no hay motivo alguno para que se deba hacer una tirada para comprobar que se obtiene un número de puntos de efecto necesarios para contrarrestar la consecuencia y erguirse de nuevo, directamente lo hacen. Por el contrario, si el personaje sufrió la consecuencia mayor de un brazo gravemente herido, será necesario esperar un tiempo, al menos días o quizá semanas, hasta que se cure por si solo.</p>
+<p>Esta misma regla de sentido común puede emplearse para determinar cuando (si acaso) un efecto o una consecuencia puede ser eliminado mediante una acción. Por ejemplo, reparar una espada rota necesitará tiempo y herramientas apropiadas, así como una fuente de calor. En ocasiones, es perfectamente posible reducir parcialmente un efecto o consecuencia. Por ejemplo, los primeros auxilios no van a curar una pierna rota, pero podría quedar entablillada, reduciendo así la penalización sin necesidad de tenerla completamente recuperada.</p>
+<h3 id="daño-y-puntos-de-golpe">Daño y Puntos de Golpe</h3>
+<p>[NOTA: Monsters &amp; Magic emplea puntos de golpe al estilo D&amp;D; de forma que dejar a alguien con O PG lo deja &ldquo;fuera de combate&rdquo;, y llegar hasta -10 PG o menos &ldquo;lo mata&rdquo;. Otra opción es usar esos puntos de golpe como una suerte de &ldquo;reserva de defensa&rdquo;, de forma que en lugar de que sea el atacante el que reduce puntos de golpe, es el defensor el que usa los puntos de golpe para cancelar consecuencias. En ese caso, para matar a alguien, se haría necesario obtener un efecto extremo (aunque es posible que quieras subirlo de dificultad).</p>
+<p>Por otro lado, Monsters &amp; Magic otorga a los personajes una casilla de consecuencia para cada nivel de consecuencia. Si alguien ya tiene una consecuencia mayor, no es posible añadir otra de ese mismo nivel, solo puede ser reemplazada. Es posible que quieras modificar tu sistema para se comporte de forma diferente. Por ejemplo, separando las casillas de consecuencia para estados mental y físico, consecuencias para diferentes partes del cuerpo, etc.</p>
+<p>Por último, M&amp;M decidió limitar el número de puntos de golpe que de una sola vez pueden infligirse. El límite de M&amp;M es el dado de daño del arma + el nivel del atacante, o el atributo del atacante + el nivel del personaje si no hay arma involucrada. Es posible que prefieras aplicar un límite más concreto (por ejemplo, 5 + nivel del atacante). Si estás empleando los puntos de golpe como una reserva de defensa, el límite entonces se aplicaría al número máximo de puntos de golpe que un defensor puede gastar de una vez, provocando, por ejemplo, que un golpe muy poderoso pueda dejar al defensor fuera de combate incluso cuando teóricamente quedaran puntos de golpe para absorber todo el ataque.]</p>
+<p>Tapiz diferencia entre dos tipos de daño; físico y mental. El daño físico aparece con cortes, golpes, quemaduras y enfermedades que debilitan físicamente al cuerpo. El daño mental lo causan sucesos que confunden, infunden terror, intimidan, avergüenzan o directamente afectan la mente, como poderes de ataques psíquicos. Cada tipo de daño reduce la reserva de puntos de golpe correspondiente, que suelen abreviarse como <strong>PGF</strong> (puntos de golpe físicos) o <strong>PGM</strong> (puntos de golpe mentales).</p>
+<p><img src="/tapiz/images/pgm.jpg" alt="Logo de Tapiz"></p>
+<p>Si los <strong>puntos de golpe físicos</strong> o <strong>PGF</strong> llegan a cero, el personaje cae inconsciente y es incapaz de realizar acciones. Si son los <strong>puntos de golpe mentales</strong> o <strong>PGM</strong> los que llegan a cero, el personaje queda incapacitado y no puede realizar acciones salvo obedecer órdenes de un tercero o defenderse de ataques físicos mientras trata de huir. Al final de cada escena, si un personaje tenía cero puntos de golpe en cualquiera de las reserva, automáticamente recupera uno.</p>
+<p>Cuando un personaje tiene una reserva de puntos de golpe en números negativos, se trata de un problema muy serio. Con PGF por debajo de cero, el personaje está desangrándose y pierde 1 PGF cada ronda (véase Tiempo más adelante) hasta que otro personaje pueda estabilizarlo. Esta acción puede efectuarse ya sea por medios mágicos o no pero, en cualquier caso, la dificultad de la acción se incrementa con el número de puntos de golpe en negativo. Con PGM negativos, el personaje es inestable y no puede realizar acciones coherentes, perdiendo 1 PGM cada ronda a no ser que alguien lo estabilice. Uno puede estabilizarse a sí mismo si, por ejemplo, consigue hacer frente al ataque mental que esté sufriendo.</p>
+<p>Con -10 PGF, el personaje está muerto. Con -10 PGM, el personaje está perdido irremediablemente. En cualquiera de los dos casos, la vida de aventura ha terminado.</p>
+<p>Una acción de curación solo puede llevarse a cabo una vez tras recibir daño. Independientemente del éxito o fracaso de la acción de intento curación, un personaje no puede tratar de curarse de nuevo hasta que no haya vuelto a recibir daño de nuevo.</p>
+<h4 id="términos-importantes">Términos importantes</h4>
+<p>La mayoría de los términos resultarán familiares para quienes hayan jugado ya a otros juegos de rol. Aquí presentamos un resumen de los más importantes.</p>
+<ul>
+<li>
+<p><strong>Característica</strong>: uno de los seis indicadores que describen las dotes físicas y mentales de un personaje. Éstas son Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma y normalmente comprenden valores entre 3 y 18. La característica proporciona un bonificador base para una acción que no tiene acomodo en ningún atributo o habilidad. Asimismo, determina el modificador de característica de esos atributos y habilidades dependientes de la característica.</p>
+</li>
+<li>
+<p><strong>Atributo</strong>:  uno de los diez indicadores que describen ciertas aptitudes propias del personaje que pueden desarrollarse más allá de las capacidades innatas o generales. Son Fortaleza, Agilidad, Aguante, Investigación, Lógica, Conocimiento, Percepción, Presencia, Persuación y Voluntad. proporciona un valor base para una acción estática o una resistencia estática así como el <em>modificador de atributo</em>.</p>
+</li>
+<li>
+<p><strong>Avance</strong>: una mejora específica para tu personaje, ya sea porque añadiste una habilidad o se mejoró una existente. Un personaje nuevo de primer nivel comienza habitualmente con uno o dos avances disponibles y cada vez que alcanza un nuevo nivel obtiene un avance adicional a través de los <em>puntos de avance</em>.</p>
+</li>
+<li>
+<p><strong>Aventura</strong>: otro término válido para <em>escenario</em> (ver más abajo).</p>
+</li>
+<li>
+<p><strong>Campaña</strong>: el término empleado para describir un juego de <strong>Tapiz</strong> cuando se extiende a lo largo de varias <em>sesiones</em> y <em>escenarios</em>. Una campaña puede llegar a durar hasta varios años.</p>
+</li>
+<li>
+<p><strong>Clase de armadura</strong>: el término de fantasía clásica para referirse a la habilidad de un personaje para defenderse en un combate físico. En <strong>Tapiz</strong>, la clase de armadura es una tirada estática de resistencia basada en el atributo de Destreza, modificada por el tipo y características de la armadura que se esté portando así como el dominio de esa armadura y el arma que se esté blandiendo.</p>
+</li>
+<li>
+<p><strong>Conflicto</strong>: un encuentro entre dos o más bandos que se resuelve con violencia. Los conflictos pueden ser tanto físicos como mentales.</p>
+</li>
+<li>
+<p><strong>Consecuencia</strong>: un resultado negativo que sucede cuando se falla en una tirada de acción o cuando un oponente tiene éxito en una tirada de acción contra un personaje.</p>
+</li>
+<li>
+<p><strong>(Puntos de) Consecuencia</strong>: el número de puntos que una tirada de acción queda por debajo de la resistencia objetivo. Habitualmente, el oponente decide cómo emplear o <em>gastar</em> esos puntos de consecuencia para describir lo que sucede a continuación.</p>
+</li>
+<li>
+<p><strong>Criatura</strong>: también referida a veces de forma simplificadora como <em>monstruo</em>. Son un tipo de personaje no jugador <em>PNJ</em> que normalmente no pertenece a las especies disponibles para los personajes jugadores o, si pertenece, suelen ser alteraciones significativas de éstas.</p>
+</li>
+<li>
+<p><strong>Dado de Golpe</strong>: el tipo de dado que se lanza para generar <em>puntos de golpe</em> a nivel 2 y superior de personaje. Su rango suele ser entre d4 y d10 pero se dan casos de dados de golpe mayores. Las criaturas normalmente tienen d8 para sus dados de golpe tanto físicos como mentales.</p>
+</li>
+<li>
+<p><strong>Efectos</strong>: se refiere propiamente tanto a resultados positivos como negativos de una tirada de acción aunque habitualmente se emplea solo para hablar de los resultados positivos.</p>
+</li>
+<li>
+<p><strong>(Puntos de) Efecto</strong>: se refiere propiamente al número de puntos que una tirada de acción supera o queda por debajo de una resistencia objetivo, aunque habitualmente se emplea solo para hablar de los puntos que la superan. Se emplean o <em>gastan</em> puntos de efectos para crear efectos.</p>
+</li>
+<li>
+<p><strong>Escena</strong>: es un término informal para referirse a un periodo de juego estructurado en torno a una única localización o interacción entre dos o más personajes, criaturas o personajes no jugadores. Normalmente una sesión de juego contiene varias escenas.</p>
+</li>
+<li>
+<p><strong>Escenario</strong>: también conocido como <em>aventura</em>. Es una trama construida en torno a un tema o lugar común. que habitualmente se desarrolla en una o varias sesiones de juego.</p>
+</li>
+<li>
+<p><strong>Estadísticas</strong>: un término colectivo para los puntos de golpe, el nivel y otra información asociado a un <em>PNJ</em> o <em>criatura</em>.</p>
+</li>
+<li>
+<p><strong>Modificador de atributo (MOD ATR)</strong>: un modificador numérico (habitualmente entre -4 y +4) que se añade a una tirada de dados durante una tirada de acción o resistencia relacionada con ese atributo.</p>
+</li>
+<li>
+<p><strong>Nivel</strong>: representa tanto para personajes jugadores, como para personajes no jugadores y criaturas una medida del poder y habilidades. A mayor nivel, mayores capacidades. Habitualmente el nivel de un <em>PNJ</em> o <em>criatura</em> viene dado y no se altera con el tiempo, sin embargo, los <em>PJ</em> pueden subir de nivel acumulando <em>puntos de experiencia</em> obtenidos durante las <em>sesiones de juego</em>.</p>
+</li>
+<li>
+<p><strong>(Subir de) Nivel</strong>: se refiere al proceso de cambiar de un nivel a otro, habitualmente uno superior como <em>subir de nivel 1 a nivel 2</em>. Subir de nivel requiere acumular un cierto número de <em>puntos de experiencia</em> o <em>PX</em>. Un personaje que sube de nivel típicamente incrementa su poder y habilidad y obtiene <em>avances</em>.</p>
+</li>
+<li>
+<p><strong>PNJ</strong>: un personaje no jugador. Un personaje, a menudo con un nivel, especie y clase de personaje concretos similar a un personaje jugador <em>PJ</em> pero habitualmente controlado por la Directora de Juego. Respecto de los personajes jugadores, los PNJ pueden ser aliados, enemigos o de actitud neutral o indiferente pudiendo esta relación cambiar con el tiempo.</p>
+</li>
+<li>
+<p><strong>Postura</strong>: es una forma específica de realizar tiradas de acción en combate basada en diferentes técnicas de combate tanto ofensivas como defensivas.</p>
+</li>
+<li>
+<p><strong>Puntos de Golpe</strong>: un indicador numérico que indica el daño físico o mental que un personaje o una criatura puede soportar. Hay dos tipos de de <em>puntos de golpe</em>; físicos y mentales. Ambos <em>puntos de golpe</em> se incrementan al subir de nivel el personaje.</p>
+</li>
+<li>
+<p><strong>Rasgo</strong>: una sola palabra o frase corta que describe algo crucial de un personaje, como puede seer una habilidad, algo de su trasfondo o un aspecto de su personalidad.</p>
+</li>
+<li>
+<p><strong>(Bonificador de) rasgo</strong>: se refiere al bonificador que una jugadora añade a su tirada de acción o de resistencia tras haber justificado y descrito cómo un rasgo del personaje influye de forma positiva en dicha tirada. Este bonificador equivale al nivel del personaje para el primer rasgo empleado en la tirada, siendo el resto de bonificadores de rasgo en esa tirada +1 en todos los casos.</p>
+</li>
+<li>
+<p><strong>Ronda</strong>: en un conflicto o encuentro en donde la resolución temporal conviene medirse en segundos o minutos y las acciones son muy dinámicas y provocan reacciones inmediatas, una ronda es una unidad de tiempo de aproximadamente 10 segundos transcurridos en el mundo de juego. Se denomina ronda porque durante esos 10 segundos se suceden de forma relativamente simultánea las acciones de todos los personajes jugadores (hacemos una ronda de jugadoras). A la acción descrita por una jugadora relativa a su personaje durante una ronda se le suele llamar <em>turno</em>. Así, la siguiente expresión tiene sentido: &ldquo;es el turno de Angela para que relate qué hace Sharra Nirthanbei en esta ronda de combate&rdquo; aunque se suele abreviar diciendo &ldquo;¿qué haces en tu turno?&rdquo;</p>
+</li>
+<li>
+<p><strong>Sesión</strong>: representa un único periodo de tiempo jugando a <strong>Tapiz</strong>, normalmente entre dos y seis horas, aunque puede ser más larga.</p>
+</li>
+<li>
+<p><strong>Tirada de acción</strong>: es la forma de determinar si un personaje tiene éxito o fracasa en un acción o al resistirse a la acción de otro. Las tiradas de acción pueden ser estáticas o emplear 3d6 dados.</p>
+</li>
+<li>
+<p><strong>Turno</strong>: es un término para referirnos al momento en el que una jugadora de la mesa de juego interviene (habitualmente por orden de iniciativa) para describir qué trata de hacer un personaje jugador controlado por ésta. Un turno, por tanto, no representa tiempo del mundo de juego. En Tapiz, un término equivalente a turno es <em>asalto</em> aunque sugerimos evitarlo por la confusión que a veces genera. En cualquier caso, las expresiones ¿qué haces en tu turno? y ¿qué haces en este asalto? se consideran equivalentes.</p>
+</li>
+</ul>
+<h2 id="creación-de-personajes">Creación de Personajes</h2>
+<p>&hellip;</p>
+<h3 id="generación-de-los-atributos">Generación de los Atributos</h3>
+<p>El sistema Tapiz tiene seis atributos; <strong>Fuerza</strong>, <strong>Destreza</strong>, <strong>Constitución</strong>, <strong>Inteligencia</strong>, <strong>Sabiduría</strong> y <strong>Carisma</strong>. Cada atributo tiene habitualmente una puntuación de entre 3 y 18 aunque los ajustes por especie pueden ampliar este rango. Cada atributo tiene también asociado un <strong>modificador de atributo</strong> o <strong>MOD ATTR</strong>. Cuando queremos referirnos a los modificadores de atributo, es habitual emplear las tres primeras letras del nombre del atributo en letras mayúsculas. Así, <strong>FUE</strong> se refiere al modificar de Fuerza, <strong>DES</strong> al de Destreza, <strong>CON</strong> al de Constitución, <strong>INT</strong> al de Inteligencia, <strong>SAB</strong> al de Sabiduría y <strong>CAR</strong> al de Carisma.</p>
+<p>Los valores iniciales de los atributos se obtienen de diferentes formas, a elección de la Directora de Juego o la Jugadora. Entre las opciones más populares encontramos:</p>
+<h4 id="antigua-escuela">Antigua Escuela</h4>
+<p>Sigue la tradición de juegos de finales de los setenta e inicio de los ochenta, en donde los personajes son en general menos poderosos.</p>
+<ol>
+<li>Se lanzan 3d6 para cada atributo en el orden establecido (Fuerza, Destreza, Constitución, Inteligencia, Sabiduría y Carisma)y se suman los valores de cada tirada. Como opción, se permite intercambiar una sola vez dos valores de atributos entre sí. Así, si obtuvimos un 8 en Fuerza y un 17 en Sabiduría, podemos intercambiarlos y tener un 17 en Fuerza y un 8 en Sabiduría. Ya no podremos volver a intercambiar más valores.</li>
+<li>Se lanzan 3d6 seis veces y se anotan los valores de cada suma. Posteriormente se asignan libremente por la jugadora a cada atributo.</li>
+<li>En lugar de lanzar los dados, se dispone de los siguientes valores, 14, 12, 10, 10, 9 y 8 y se asignan libremente por la jugadora a los seis atributos.</li>
+<li>En lugar de lanzar los dados, se dispone de un total de 63 puntos a repartir entre los seis atributos, siempre y cuando ningún atributo reciba menos de 8 puntos o más de 18.</li>
+</ol>
+<h4 id="nueva-escuela">Nueva Escuela</h4>
+<p>Sigue una nueva tradición asociada con un estilo de juego más heroico en donde los personajes son en general más poderosos.</p>
+<ol>
+<li>Se lanzan 4d6 para cada atributo y se descarta en cada tirada el dado de menor valor (si hay dos o más de menor valor, se descarta cualquiera de ellos) sumándose los tres restantes. Se anotan los seis resultados de cada suma y se asigna libremente por la jugadora a sus seis atributos.</li>
+<li>En lugar de lanzar los dados, se dispone de un total de 72 puntos a repartir entre los seis atributos, siempre y cuando ningún atributo reciba menos de 8 puntos o más de 18.</li>
+<li>En lugar de lanzar los dados, se dispone de los siguientes valores, 16, 14, 13, 12, 10 y 9 y se asignan libremente por la jugadora a los seis atributos. Esta opción supone en efecto un reparto de 74 puntos, 2 más que el anterior modelo, pero impide un valor superior a 16 anterior a los modificadores de especie.</li>
+</ol>
+<p>La recomendación del sistema Tapiz es emplear las opciones de la Nueva Escuela, en particular las opciones 1 y 2.</p>
+<h4 id="modificadores-de-atributos">Modificadores de Atributos</h4>
+<p>&hellip;</p>
+<h4 id="los-atributos">Los Atributos</h4>
+<p>&hellip;</p>
+<h3 id="niveles-y-avances">Niveles y Avances</h3>
+<p>Los <strong>niveles</strong> determinan el poder y capacidades relativas que los personajes pueden poder en práctica en el mundo de juego. Habitualmente los personajes recién creados comienzan en el nivel 1 y progresan hacia niveles superiores mediante las aventuras que experimentan en las sesiones de juego gracias a los <strong>puntos de experiencia (PX)</strong> que se otorgan por la Directora de Juego.</p>
+<p>El nivel de un personaje está muy relacionado con el uso de los <strong>rasgos</strong>. Esto sucede de tres formas. En primer lugar, cada nuevo nivel otorga al personaje un <strong>avance</strong> que puede emplearse, entre las varias opciones, en obtener un nuevo <strong>rasgo</strong>. En segundo lugar, el primer rasgo empleado en una tirada de acción obtiene un bonificador igual al nivel del personaje. Finalmente, el bonificador total asociado a los rasgos permitido para una tirada de acción es el doble del valor del nivel.</p>
+<p>Cada personaje comienza una aventura con un número de <strong>puntos de heroicidad</strong> iguales a su nivel. Cada nuevo nivel que obtiene el personaje resulta en un incremento de los <strong>puntos de golpe físicos</strong> y <strong>mentales</strong> como venga descrito en su clase de personaje.</p>
+<p>Cada cinco niveles (a nivel 5, 10, 15, 20, etc) la jugadora puede incrementar un único atributo de su personaje en un punto. Es importante actualizar el modificador de atributo tras este cambio y el resto de capacidades del personaje que dependieran de este valor como pueden ser la clase de armadura, el daño producido o puntos de golpe adicionales.</p>
+<p>A continuación se presenta la <strong>Tabla de progresión de nivel</strong> recomendada para determinar cuándo un personaje alcanza un nuevo nivel en relación con los puntos de experiencia acumulados hasta ese momento.</p>
+<p>@Tabla: Tabla de progresión de nivel</p>
+<table>
+<thead>
+<tr>
+<th><strong>Nivel</strong></th>
+<th><strong>Puntos de experiencia necesarios</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2,000</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4,000</td>
+</tr>
+<tr>
+<td>4</td>
+<td>8,000</td>
+</tr>
+<tr>
+<td>5</td>
+<td>16,000</td>
+</tr>
+<tr>
+<td>6</td>
+<td>32,000</td>
+</tr>
+<tr>
+<td>7</td>
+<td>64,000</td>
+</tr>
+<tr>
+<td>8</td>
+<td>128,000</td>
+</tr>
+<tr>
+<td>9</td>
+<td>256,000</td>
+</tr>
+<tr>
+<td>10</td>
+<td>512,000</td>
+</tr>
+<tr>
+<td>cada siguiente nivel</td>
+<td>+500,000 PX por cada nivel a partir del 10º</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/tapiz/images/level-up.jpg" alt="Level up"></p>
+<h4 id="tipos-de-rasgos">Tipos de Rasgos</h4>
+<p>&hellip;</p>
+<h4 id="rasgos-poco-comunes">Rasgos poco comunes</h4>
+<p>&hellip;</p>
+<h3 id="avances-de-personajes">Avances de Personajes</h3>
+<p>&hellip;</p>
+<h4 id="avances-de-especie">Avances de Especie</h4>
+<p>&hellip;</p>
+<h4 id="avances-de-clases">Avances de Clases</h4>
+<p>&hellip;</p>
+<h3 id="especies">Especies</h3>
+<p>&hellip;</p>
+<h3 id="clases">Clases</h3>
+<p>&hellip;</p>
+<h4 id="sub-clases">Sub-clases</h4>
+<p>&hellip;</p>
+<h3 id="lenguas">Lenguas</h3>
+<p>Las lenguas o idiomas se aprenden a través de los <em>rasgos</em>. En principio, se entiende que todos los personajes conocen una lengua común en la ambientación empleada. Esto se hace fundamentalmente por motivos prácticos pero un Lienzo podría determinar que para una determinada ambientación, no existe una <em>lingua franca</em> o que para determinadas especies o grupos de población, aún existiendo esa lengua común, ésta no puede considerarse un conocimiento de partida sin justificación.</p>
+<p>Conocer una lengua no significa dominarla y dentro de la coherencia del personaje, resultaría conveniente indicar qué grado de familiaridad se tiene con dicha lengua en dos aspectos:</p>
+<ul>
+<li>Bajo, medio, alto y erudito respecto de,</li>
+<li>Hablado y escrito.</li>
+</ul>
+<p>Un punto de avance empleado en mejorar las capacidades lingüísticas de un personaje admite cubrir dos niveles de un tipo o un nivel de cada tipo. La excepción a este regla es el nivel erudito, que no puede alcanzarse salvo por hablantes nativos o personajes dedicados al estudio de esa lengua.</p>
+<p><em>Ejemplo: Elythlian la elfa no ha tenido más remedio que familiarizarse más aún con la lengua orca en el transcurso del último año que ya podía hablar a nivel medio y escribir a nivel bajo. Decide gastar un punto de avance en subir el nivel hablado a alto y el escrito a medio. No podría emplear los dos niveles en hablado ya que no estaría justificado su nivel erudito y tampoco le resulta útil dejar el nivel hablado en medio y subir el escrito a alto.</em></p>
+<h4 id="bonus-de-rasgo-asociados-al-conocimiento-de-una-lengua-regla-opcional-tzr0001">Bonus de rasgo asociados al conocimiento de una lengua (regla opcional TZR0001)</h4>
+<p>El conocimiento de una lengua puede llegar a afectar ciertas tiradas de acciones que requieran un dominio específico de esa lengua. Una negociación con grandes sumas de dinero en juego o una audiencia ante personas de cierto poder e influencia pueden estar marcadas por el uso de una determinada lengua (habitualmente hablada, pero en ocasiones escrita).</p>
+<p>Esto se traduce en modificadores a la tirada de acción correspondiente como un <em>bonus de rasgo</em> más cuando se dan una o las dos siguientes circunstancias:</p>
+<ul>
+<li>Para el medio, hablado o escrito, empleado se tiene nivel erudito para esa lengua.</li>
+<li>Para el medio, hablado o escrito, empleado tiene nivel medio o alto para esa lengua cuando la audiencia tiene en gran estima esa lengua (es su lengua nativa o se reverencia) y al hablante no se le espera dominio algo de ella.</li>
+</ul>
+<p>Estos <em>bonus de rasgos</em> cuentan para el límite máximo de <em>bonus de rasgos</em> para una tirada, que sigue siendo dos veces el nivel del personaje.</p>
+<p><em>Ejemplo: Elythlian la elfa necesita la ayuda de un asentamiento enano para combatir a un dragón negro que se ha instalado en una cumbre montañosa cercana. La empresa es arriesgada pero está determinada a convencerlos. Acude ante la actitud recelosa de los habitantes del poblado frente a la asamblea de notables y cuando todos esperaban que se dirigiese en la lengua común, lo hace en su lugar en la lengua enana. Su estudio y amor por esta lengua la llevaron durante decenas de años a comprenderla y dominarla totalmente, aunque es algo que guarda en secreto y solo conocen sus amistades más íntimas. Elythlian puede hacer una tirada de acción basada en Carisma con un +1 de bonus de rasgo por nivel erudito y otro +1 de bonus de rasgo por usar una lengua reverenciada por los enanos y empleada de forma inesperada por una elfa.</em></p>
+<p><img src="/tapiz/images/languages.jpg" alt="Logo de Tapiz"></p>
+<p>En el caso de que un personaje no conozca una lengua determinada en el nivel razonable que se espera de una situación, la Directora de juego debería tenerlo en cuenta para determinar la dificultad de la tirada de acción, que probablemente deba ser uno o dos escalones mayores de esa misma acción sin dificultades asociadas a la comunicación.</p>
+<p>Animamos tanto a directoras de juego como a jugadores a considerar los aspectos relacionados con la comunicación y las lenguas como un elemento relevante tanto en la mecánica de juego como en la interpretación y desarrollo de las aventuras. Sin necesariamente caer en aspectos simulacionistas, puede proporcionar un interesante ángulo sobre el que moldear las interacciones entre personajes o grupos.</p>
+<h3 id="movimiento">Movimiento</h3>
+<p>&hellip;</p>
+<h3 id="defensa">Defensa</h3>
+<p>&hellip;</p>
+<h4 id="defensa-física">Defensa física</h4>
+<p>&hellip;</p>
+<h4 id="defensa-mental">Defensa mental</h4>
+<p>&hellip;</p>
+<h3 id="puntos-de-golpe">Puntos de Golpe</h3>
+<p>&hellip;</p>
+<h4 id="puntos-de-golpe-físicos">Puntos de golpe físicos</h4>
+<p>&hellip;</p>
+<h4 id="puntos-de-golpe-mentales">Puntos de golpe mentales</h4>
+<p>&hellip;</p>
+<h3 id="puntos-de-heroicidad">Puntos de Heroicidad</h3>
+<p>Los puntos de heroicidad se emplean habitualmente por una jugadora para impedir que sucesos perjudiciales a punto de ocurrir a su personaje se consumen de formas particularmente nocivas. Normalmente se emplean para mitigar <strong>Consecuencias</strong> pero también puede afectar a otras circunstancias.</p>
+<p>Naturalmente, la propia naturaleza heroica de estos puntos también invita a usarlos como una ayuda o magnificación de un suceso.</p>
+<p>Normalmente, solo se requiere de un <em>punto de heroicidad</em> para mitigar un efecto adverso como una consecuencia extrema.o potenciar una acción beneficiosa para el personaje.</p>
+<p>Éstas son las circunstancias en las que una jugadora puede gastar un punto de heroicidad de su personaje.</p>
+<ul>
+<li>Elige (y describe) la consecuencia que un oponente impone sobre el personaje al tener éxito en una tirada en lugar de ser el oponente el que decide qué sucede, como es habitual.</li>
+<li>Elige (y describe) la consecuencia que el personaje sufre al fallar una tirada de acción en lugar de ser la Directora de juego o el oponente los que decidan, como es habitual.</li>
+<li>Añade +1 al los <em>puntos de efecto</em> <strong>solo cuando</strong> en una tirada te hayas quedado a un punto de obtener un efecto menor, mayor o extremo (es decir, si obtuvise 4, 9 o 14 puntos de efecto).</li>
+<li>En lugar de un punto de tesoro, decide cuál es el contenido del tesoro (véase Tesoros y Riquezas)</li>
+<li>Recuperar puntos de golpe mentales o físicos; tira el dado de golpe físico o mental y añade el resultado a tu valor actual del tipo de daño elegido. No es posible superar el máximo de puntos de daño. Puedes realizar esta acción en cualquier momento, sea o no el turno del personaje en esa ronda, ya que no representa una acción. Las reglas de curación siguen aplicándose; no tiene efectos ni consecuencias.</li>
+<li>Realizar una tirada estática cuando las circunstancias indican que no es posible (por ejemplo, en el caso de haber sido sorprendido en un combate).</li>
+</ul>
+<h4 id="mitigar-consecuencias">Mitigar Consecuencias</h4>
+<p>Cuando alguien impone una consecuencia sobre un personaje, ya sea por el resultado de una tirada de acción exitosa sobre ese personaje o debido a una tirada fallido del propio personaje, el personaje debe aceptar la consecuencia descrita por el oponente. Si se da el caso de que el personaje tiene ya muy pocos puntos de golpe o si una consecuencia extrema se transforma en una horrible secuela física, el desastre podría ser grande.</p>
+<p>Al gastar un punto de heroicidad, es el jugador el que puede describir la naturaleza de la consecuencia. Esto permite al jugador relatarla de una forma diferente, normalmente con efectos menos perversos. Quizá el jugador decide asumir los puntos de golpe en lugar de una consecuencia extrema, o es posible que se prefiera caer inconsciente (un efecto mayor) en lugar de recibir puntos de golpe o una herida que requeriría mucho tiempo para curarse. Los puntos de heroicidad permiten mitigar una consecuencia de forma que resulte menos problemática para un personaje pero no pueden anularla por completo en ningún caso.</p>
+<p>[ILUSTRACIÓN]: una escena claramente poco favorable para un personaje (una halfing que va a caer en un pozo) en donde se aprecia que el personaje va a poder, en el último momento, agarrarse a una cuerda que cuelga del techo y evitar caer al agujero.</p>
+<p><img src="/tapiz/images/consequences.jpg" alt="Logo de Tapiz"></p>
+<p>Si se diera la circunstancia en la que un oponente es capaz de imponer múltiples consecuencias a un personaje a la vez, pueden emplearse de la misma forma múltiples puntos de heroicidad para tomar el control descriptivo de cada una de ellas.</p>
+<p>El uso y obtención de los puntos de heroicidad puede llegar a tener cierta influencia en el tono del juego y recomendamos ser creativos en su empleo. Proponemos dos usos opcionales adicionales que ilustran esta idea:</p>
+<ul>
+<li>Éxito con consecuencias: en una tirada de acción fallida por un personaje (consecuencia menor), el uso de un punto de heroicidad puede dar la vuelta al resultado obteniendo un éxito con efecto menor para el que viene asociado una consecuencia mayor, resultando quizá en un éxito a un coste importante. Por ejemplo, un personaje puede tirar una puerta abajo pero a cambio la Directora de Juego indica que tiene el hombro derecho dislocado y le genera un gran dolor. Otro ejemplo puede ser conseguir dar el golpe de gracia a un monstruo justo antes de caer inconsciente y quedar a merced de otras criaturas hostiles.</li>
+<li>Consecuencias con éxito: en este caso, el punto de heroicidad no se emplearía en mitigar una consecuencia o describirla según los intereses del jugador pero a cambio, el jugador podría crear un efecto menor a su favor que sucederá a continuación (y de alguna forma relacionado con la acción que generó la consecuencia). Siguiendo con los ejemplos anteriores, el personaje que trató de derribar la puerta en su huida no lo consiguió pero hizo crujir la madera de tal forma que los perseguidores sí creen que tuvo éxito y corren sin cuidado al encuentro del personaje perfectamente preparado para sorprenderlos. Igualmente, el ataque contra el monstruo no tuvo éxito y se relata la consecuencia menor pero el jugador a cambio describe cómo el choque de las hojas fue tan fuerte que la propia criatura también se dañó físicamente en el mismo número de puntos de golpe que el jugador.</li>
+</ul>
+<h4 id="conseguir-puntos-de-heroicidad">Conseguir Puntos de Heroicidad</h4>
+<p>Además de recuperar los Puntos de Heroicidad al comienzo de cada aventura, es posible obtener algunos durante el tiempo de juego. En primer lugar, una Directora de Juego puede recompensar a un jugador con un punto de herocidad tras una interpretación memorable, inmersión en la partida, comentarios especialmente sagaces, consecución de un objetivo importante en una aventura o simplemente tras una acción digna de elogio. En segundo lugar, la Directora de Juego puede recompensar con un punto de heroicidad cuando un jugador describe cómo su personaje se mete en dificultades como resultado de uno de sus rasgos. Por ejemplo, si el personaje tiene el rasgo &ldquo;Impetuoso y jactancioso&rdquo; y lo emplea durante una audiencia con una reina que detesta la impertinencia, es posible obtener un punto de heroicidad de la Directora de Juego por describir cómo ese impulso fuera de lugar le acaba suponiendo un problema mayúsculo. Asimismo, también es posible premiar con un punto de heroicidad por una excelente interpretación de su foco o devío de alineamiento en donde las consecuencias no son en absoluto positivas para el personaje.</p>
+<p>Los Puntos de Heroicidad se otorgan a discreción de la Directora de Juego y al contrario que los Puntos de Experiencia, se entregan al jugador, no al personaje. En general, recomendamos premiar con entre 2 y 4 puntos de heroicidad a cada Jugador por sesión de juego pero esto está siempre sujeto al estilo de juego del grupo. Para ello, es necesario que la Directora de Juego recuerde a los jugadores qué tipo de acciones son las que permiten este tipo de recompensas.</p>
+<h4 id="número-de-puntos-de-heroicidad">Número de Puntos de Heroicidad</h4>
+<p>El número de puntos de heroicidad para un personaje de primer nivel es 1 y se obtiene uno adicional por cada nivel extra de avance. El número de puntos de heroicidad al comienzo de una nueva aventura equivale al nivel del personaje y se pierden los puntos de heroicidad acumulados por encima de ese valor otorgados en la anterior aventura.</p>
+<h4 id="puntos-de-heroicidad-de-la-directora-de-juego">Puntos de Heroicidad de la Directora de Juego</h4>
+<p>La Directora de Juego comienza cada aventura con una reserva de puntos de heroicidad igual al número de personajes jugadores. La Directora de Juego puede emplear estos puntos de heroicidad de forma similar a como lo haría un jugador con su personaje pero en su lugar, aplicado a criaturas o a personajes no jugadores.</p>
+<h3 id="alineamiento">Alineamiento</h3>
+<p>&hellip;</p>
+<h4 id="foco-del-alineamiento">Foco del Alineamiento</h4>
+<p>&hellip;</p>
+<h4 id="desvío-del-alineamiento">Desvío del Alineamiento</h4>
+<p>&hellip;.</p>
+<h4 id="objetivo">Objetivo</h4>
+<p>&hellip;</p>
+<h3 id="tiradas">Tiradas</h3>
+<p>&hellip;</p>
+<h4 id="tiradas-de-acción">Tiradas de Acción</h4>
+<p>&hellip;</p>
+<h4 id="tiradas-de-resistencia">Tiradas de Resistencia</h4>
+<p>&hellip;</p>
+<h4 id="tiradas-incrementales">Tiradas Incrementales</h4>
+<p>&hellip;</p>
+<h4 id="retos-incrementales">Retos Incrementales</h4>
+<p>&hellip;</p>
+<h4 id="tiradas-combinadas">Tiradas Combinadas</h4>
+<p>&hellip;</p>
+<h4 id="tiradas-dependientesaumentadaslastradas">Tiradas Dependientes/Aumentadas/Lastradas</h4>
+<p>&hellip;</p>
+<h4 id="acciones">Acciones</h4>
+<p>&hellip;</p>
+<h5 id="dificultades">Dificultades</h5>
+<p>&hellip;basado</p>
+<h4 id="acciones-habituales">Acciones habituales</h4>
+<p>&hellip;</p>
+<h5 id="ataques-cuerpo-a-cuerpo">Ataques cuerpo a cuerpo</h5>
+<p>&hellip;</p>
+<h5 id="ataques-a-distancia">Ataques a distancia</h5>
+<p>&hellip;</p>
+<h5 id="ataques-de-contacto-o-toque">Ataques de contacto o toque</h5>
+<p>&hellip;</p>
+<h5 id="ataques-de-desiquilibrio">Ataques de desiquilibrio</h5>
+<p>&hellip;</p>
+<h5 id="ataques-de-agarre-o-bloqueo">Ataques de agarre o bloqueo</h5>
+<p>&hellip;</p>
+<h5 id="concentración">Concentración</h5>
+<p>&hellip;</p>
+<h5 id="lanzamiento-de-hechizos">Lanzamiento de hechizos</h5>
+<p>&hellip;</p>
+<h5 id="intimidar-a-alguien">Intimidar a alguien</h5>
+<p>&hellip;</p>
+<h5 id="persuadir-o-encandilar-a-alguien">Persuadir o encandilar a alguien</h5>
+<p>&hellip;</p>
+<h5 id="aterrorizar-a-alguien">Aterrorizar a alguien</h5>
+<p>&hellip;</p>
+<h5 id="primeros-auxilios">Primeros auxilios</h5>
+<p>&hellip;</p>
+<h5 id="ayudar-o-perjudicar-a-alguien">Ayudar o perjudicar a alguien</h5>
+<p>&hellip;</p>
+<h5 id="buscar-trampas-ocultas">Buscar trampas ocultas</h5>
+<p>&hellip;</p>
+<h5 id="esconderse-o-escabullirse">Esconderse o escabullirse</h5>
+<p>&hellip;</p>
+<h5 id="robar-los-bolsillos">Robar los bolsillos</h5>
+<p>&hellip;</p>
+<h5 id="montar-un-campamento">Montar un campamento</h5>
+<p>&hellip;</p>
+<h5 id="viaje-por-zonas-inhóspitas">Viaje por zonas inhóspitas</h5>
+<p>&hellip;</p>
+<h3 id="rondas-y-turnos">Rondas y Turnos</h3>
+<p>El tiempo del mundo de juego (el que experimentan los personajes jugadores) se puede dividir en rondas cuando se requiere con control preciso de acciones dinámicas o intensas como en un combate ya sea físico o mental. Una ronda dura aproximadamente 10 segundos y puede contener acciones muy variadas como saltar, trepar, nadar, atacar a un oponente, curar a un aliado, etc.</p>
+<p>Una ronda suele estar estrechamente relacionada con un orden de intervención de las jugadoras, también conocido como <strong>iniciativa</strong>. En una ronda, en principio, se sigue un orden establecido en virtud del valor numérico de la iniciativa obtenido por cada personaje jugador (y el resto de participantes). Cuando una jugadora, en virtud de este orden, interviene para describir qué acción realiza su personaje jugador, dicha jugadora está haciendo uso de su <strong>turno</strong> en esa ronda.</p>
+<p>Un turno, por tanto, es una medida de gestión de la participación de las jugadoras en la mesa de juego. También se dice que es el turno de la Directora de Juego en una ronda o, de forma más flexible, que es el turno de una criatura enemiga en un combate.</p>
+<p>En aras de la compatibilidad con el vocabulario en otros juegos de rol, Tapiz entiende que a un turno se le puede denominar también <strong>asalto</strong>. Así, una ronda se compone de turnos o asaltos. Turno se referiría aquí más a la acción de la jugadora y asalto a la acción de su personaje jugador.</p>
+<p>[TODO: revisar si merece la pena indultar a asalto o si nos lo cargamos]</p>
+<h3 id="iniciativa">Iniciativa</h3>
+<p>&hellip;</p>
+<h3 id="sorpresa">Sorpresa</h3>
+<p>&hellip;</p>
+<h3 id="rango-y-movimiento">Rango y Movimiento</h3>
+<p>&hellip;</p>
+<h4 id="efectos-de-rango">Efectos de rango</h4>
+<p>&hellip;</p>
+<h4 id="rango-inicial">Rango inicial</h4>
+<p>&hellip;</p>
+<h4 id="visibilidad-y-cobertura">Visibilidad y Cobertura</h4>
+<p>Ser capaz de ver al objetivo de una acción resulta vital durante un combate. Si el objetivo se encuentra oculto en las sombras, hay muy poca iluminación o se encuentra dentro de una espesa niebla, se considera que el objetivo tiene <em>visibilidad parcial</em>. Esto se comporta como una consecuencia del entorno menor y aplica un -2 a todos los ataques contra dicho objetivo (normalmente ataques a distancia). Si el objetivo se encuentra en una oscuridad total o es imposible de distinguir tiene <em>visibilidad nula</em>. Esto se comporta a su vez como una consecuencia del entorno mayor y aplica un -4 a todos los ataques contra dicho objetivo (normalmente ataques a distancia).</p>
+<p>Los objetivos que dispongan de cobertura sólida como paredes, árboles, rocas, etc, obtienen <em>cobertura</em>. Esta cobertura actúa como un bonificador a la armadura dependiendo del material del que esté hecho la cobertura y cuánto cubre. Un objetivo con cobertura parcial sigue siendo capaz de realizar ataques a distancia. Un objetivo con cobertura total no puede atacar en ningún caso. Los bonificadores a la armadura dependiendo del tipo de cobertura se describen en la siguiente tabla.</p>
+<p>@Tabla: Bonificador por tipo de Cobertura</p>
+<table>
+<thead>
+<tr>
+<th><strong>Tipo de Cobertura</strong></th>
+<th>Bonificador por cobertura parcial</th>
+<th>Bonificador por cobertura total</th>
+<th>Ejemplos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cobertura ligera</td>
+<td>+2</td>
+<td>+5</td>
+<td>Capa fina de madera, ramas, escayola, maleza</td>
+</tr>
+<tr>
+<td>Cobertura media</td>
+<td>+5</td>
+<td>+10</td>
+<td>Madera gruesa, ladrillo, piedra</td>
+</tr>
+<tr>
+<td>Cobertura pesada</td>
+<td>+10</td>
+<td>+20</td>
+<td>Piedra gruesa, metal</td>
+</tr>
+</tbody>
+</table>
+<p><em>Ejemplo: Sharra, la asesina, ha conseguido entrar en el palacio de la Condesa. Tras recorrer varios pasillos y bajar a las cocinas, es sorprendida por un ayudante de cocina que se había quedado limpiando una de las despensas. Sharra, corre a esconderse tras unos barriles de hidromiel en una de las salas más grandes con apenas dos grandes cirios para iluminar toda la estancia. Cuando acude la guardia alertada por el delator, su ubicación le proporciona visibilidad parcial (-2 a las tiradas de ataque contra ella de una soladado con ballesta) y cobertura media (+5 a su CA por los barriles de hidromiel y estar cubierta solo parcialmente para poder lanzar sus dagas y buscar una salida).</em></p>
+<p><img src="/tapiz/images/hidden.jpg" alt="Cobertura"></p>
+<h4 id="movimiento-1">Movimiento</h4>
+<p>El movimiento se refiere al desplazamiento físico realizado por el personaje, ya sea en metros durante un combate o kilómetros atravesando zonas inhóspitas. Este apartado de las reglas resuelve la mayoría de situaciones en las que para un personaje se necesita saber si para una determinada acción el movimiento necesario es posible, se encuentra limitado o resulta imposible.</p>
+<p>El movimiento en el sistema Tapiz es relativamente abstracto en la mayoría de las situaciones y puede obviarse para mantener un ritmo ágil en la aventura. Sin embargo, existen momentos en los que resulta útil conocer si una distancia puede cubrirse en un tiempo determinado o si se deberían aplicar modificadores asociadas a la carga excesiva que un personaje pueda estar soportando.</p>
+<p>Para criaturas y personajes no jugadores, muchas de estas mismas reglas pueden ser de aplicación aunque en general se emplean versiones muy simplificadas.</p>
+<p>La capacidad de movimiento de un personaje queda reflejado como un valor numérico del atributo de movimiento (abreviado como <strong>MOV</strong>) y se puede interpretar aproximadamente como la distancia en metros que ese personaje puede cubrir andando de forma normal durante el tiempo que dura una ronda (10 segundos).</p>
+<p>Este atributo, al contrario que otros aspectos del personaje, no suele procede de una tirada de dados sino que muy habitualmente viene anotado en la descripción de la especie a la que pertenece.</p>
+<p>En la práctica, se suelen dar dos situaciones en donde aplicar las reglas de movimiento; durante un combate (un conflicto violento en donde los participantes están tratando de obtener una victoria por la fuerza) o fuera de un combate durante un viaje por poblaciones o zonas inhóspitas. En el primer tipo, interesa usar las escalas de <em>metros</em> y <em>rondas</em> y el segundo tipo típicamente hablaremos de <em>metros</em> o <em>kilómetros</em> y <em>horas</em> o <em>días</em>.</p>
+<h5 id="movimiento-en-el-combate">Movimiento en el combate</h5>
+<p>El movimiento de un combate es muy dinámico y rápido. Las decisiones se toman en instantes y el lugar concreto donde se encuentre un personaje puede determinar qué puede hacer esa ronda. Por ello, lo más habitual es poder calcular de forma aproximada qué distancia puede recorrer un personaje durante una ronda.</p>
+<p>Durante el combate, un personaje puede en principio moverse y realizar otra acción que no esté específicamente relacionada con el movimiento a cambio de aceptar una <em>consecuencia</em> a la tirada de esa otra acción. La forma de realizar el movimiento en este caso es bastante flexible. Por ejemplo, un personaje puede comenzar moviéndose una fracción del movimiento permitido, realizar la acción de ataque y terminar de moverse la fracción restante del movimiento disponible pero deberá aceptar una <em>consecuencia</em> en la tirada de ataque. Si el personaje solo realiza la acción de movimiento, no es necesario ninguna tirada ya que se considera que cubre la distancia establecida. Si el personaje desea realizar una tirada de acción directamente relacionada con el movimiento como es saltar, esquivar un obstáculo, deslizarse o arrojarse, esta tirada de acción no sufre ninguna <em>consecuencia</em>.</p>
+<p>@Tabla: Movimiento en combate</p>
+<table>
+<thead>
+<tr>
+<th><strong>Tipo de Movimiento</strong></th>
+<th>Distancia por punto de movimiento</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal</td>
+<td>1 metro por ronda</td>
+<td>Establece una consecuencia menor en acciones no relacionadas con el movimiento</td>
+</tr>
+<tr>
+<td>Correr</td>
+<td>2 metros por ronda</td>
+<td>Establece una consecuencia mayor en acciones no relacionadas con el movimiento</td>
+</tr>
+<tr>
+<td>Esprint</td>
+<td>3 metros por ronda</td>
+<td>Establece una consecuencia extrema en acciones no relacionadas con el movimiento</td>
+</tr>
+</tbody>
+</table>
+<p><em>Ejemplo: Sharra, la asesina, se encuentra relativamente lejos de uno de los mercenarios que custodiaban la caravana que acaba de asaltar y éste se dirige a su montura para huir. Sharra decide que la única opción para interceptar al mercenario es esprintar mientras blande su cimitarra. Si no hay ningún otro impedimento, Sharra puede llegar hasta el mercenario a tiempo pero su ataque sufre una consecuencia extrema (-6) a la tirada. Si Sharra falla, muy probablemente el mercenario pueda subirse a su caballo y emprender la huida pero esta misma acción normalmente requerirá a su vez una tirada de acción por parte de la Directora de juego, que se verá afectada por una consecuencia mayor (-4) por la carrera del mercenario, ya que montar una cabalgadura no es una acción directa de movimiento.</em></p>
+<h5 id="movimiento-fuera-de-combate">Movimiento fuera de combate</h5>
+<p>El movimiento fuera de combate no suele presentar tantos elementos de tensión y dinamismo porque en general depende exclusivamente del personaje, sin intromisiones activas de otros elementos, criaturas o personajes no jugadores. Andar por una calle en una ciudad, recorrer un camino en el campo abierto, explorar unas ruinas o internarse por un bosque son ejemplos fáciles de entender pero también se incluyen el andar por espacios cerrados como grutas, pasajes subterráneos o salas y habitaciones.</p>
+<p>Al igual que en el movimiento en el combate, el valor del atributo de <strong>Movimiento</strong> sirve de referencia para cálculos aproximados dependiendo del modo en el que se realiza el movimiento. Hay un movimiento normal, equivalente al movimiento en combate pero medido aquí en minutos u horas, un movimiento asociado a una acción de reconocimiento del propio terreno, un movimiento característico de un personaje que quiere pasar inadvertido o tener mucho cuidado con el propio terreno que pisa y, finalmente, un movimiento asociado a grandes distancias cubiertas durante un día de larga caminata.</p>
+<p>La siguiente tabla muestra valores de referencia que pueden ser fácilmente adaptados cuando el terreno presenta dificultades notables.</p>
+<p>@Tabla: Movimiento fuera de combate</p>
+<table>
+<thead>
+<tr>
+<th><strong>Tipo de Movimiento</strong></th>
+<th>Distancia por punto de movimiento</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Normal</td>
+<td>3 metros por minuto</td>
+<td>Andar normal en superficie llana o con poca pendiente</td>
+</tr>
+<tr>
+<td>Reconocimiento</td>
+<td>1/2 metro por minuto</td>
+<td>Reconocimiento para detectar trampas</td>
+</tr>
+<tr>
+<td>Precavido</td>
+<td>1 metro por minuto</td>
+<td>Tratando de pasar inadvertido</td>
+</tr>
+<tr>
+<td>Caminata</td>
+<td>1 km por día</td>
+<td>Suponiendo 8-10 horas de caminar normal por día</td>
+</tr>
+</tbody>
+</table>
+<p><em>Ejemplo: Sharra, la asesina, se encuentra de noche recorriendo el exterior de la empalizada defensiva de un poblado. Pretende acercarse sigilosamente hasta un puesto de guardia que da acceso al interior del poblado justo a tiempo para el cambio de guardia. Sabe que para llegar a tiempo en un minuto sin ser vista, debe estar a no más de 30 metros del puesto de guardia (su valor de Movimiento es 30 y el tipo de movimiento es Precavido). Esto no impide que deba tirar una tirada de acción correspondiente a su voluntad de pasar inadvertida pero si hubiera andado de forma normal, hubiera sufrido alguna consecuencia por parte de la Directora de juego.</em></p>
+<p>[ILUSTRACIÓN]: ilustrar el ejemplo anterior</p>
+<h5 id="impedimento-y-carga">Impedimento y Carga</h5>
+<p>El <strong>Impedimento</strong> representa el peso excesivo que porta un personaje y que limita en alguna medida su capacidad de movimiento en circunstancias normales (con ropa cómoda y algo de equipaje).</p>
+<p>Cuanto más porta un personaje o más pesada es su armadura mayor será el nivel de impedimento. El impedimento viene determinado por el atributo de Fuerza del personaje.</p>
+<p>El peso que puede soportar un personaje sin sufrir consecuencias es la suma de su Fuerza y su Destreza medido en kilos, a la que se denomina <strong>Carga</strong>. Así, un personaje de Fuerza 12 y Destreza 15 podrá cargar con 27 kilos antes de empezar a sufrir consecuencias en las tiradas relacionadas con el movimiento y el combate. La referencia de consecuencias dependiendo de la carga que se soporta se muestra en la siguiente tabla en donde se observa que cuando la Fuerza y la Destreza se han consumido es la Constitución (una forma de entender el aguante físico de un personaje) el que determina cuánto más puede sobrellevar el personaje en diferentes tramos.</p>
+<p>@Tabla: Impedimento</p>
+<table>
+<thead>
+<tr>
+<th><strong>Carga soportada (en kg)</strong></th>
+<th>En combate</th>
+<th>Fuera de combate</th>
+<th>Impedimento</th>
+<th>Notas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hasta el valor de Carga</td>
+<td>Sin consecuencias</td>
+<td>Sin consecuencias</td>
+<td>Normal (0)</td>
+<td></td>
+</tr>
+<tr>
+<td>Hasta el valor de Carga + <strong>CON</strong></td>
+<td>Consecuencia menor (-2) a todas las tiradas de movimiento y combate</td>
+<td>La mitad de todos los valores</td>
+<td>Cargado (-1)</td>
+<td>Requiere descansar 10 minutos cada <strong>CON</strong> x 10 minutos  realizando el movimiento</td>
+</tr>
+<tr>
+<td>Hasta el valor de Carga + 3 x <strong>CON</strong></td>
+<td>Consecuencia mayor (-4) a todas las tiradas de movimiento y combate</td>
+<td>Un tercio de todos los valores</td>
+<td>Sobrecargado (-2)</td>
+<td>Requiere descansar 20 minutos cada <strong>CON</strong> x 10 minutos realizando el movimiento</td>
+</tr>
+<tr>
+<td>Más allá del valor de Carga + 3 x <strong>CON</strong></td>
+<td>Consecuencia extrema (-6) a todas las tiradas de movimiento y combate</td>
+<td>Un décimo de todos los valores</td>
+<td>Extenuado (-4)</td>
+<td>Requiere descansar 1 hora cada <strong>CON</strong> x 10 minutos  realizando el movimiento</td>
+</tr>
+</tbody>
+</table>
+<p><em>Ejemplo: Sharra tiene una FUE de 14 y una DES de 15 y en total carga con su armadura de cuero, su cimitarra, sus dos dagas, su ballesta de mano, diversas pociones y ungüentos, una mochila que contiene una larga cuerda y un garfio y otros utensilios así como un fabuloso botín en monedas y gemas recién &ldquo;adquirido&rdquo;. En total el peso soportado asciende a 30 kilos, más del valor de su Carga, que es 14+15=29. Hasta que pueda deshacerse de parte del botín, sufrirá una consecuencia menor por impedimento durante los combates y podrá desplazarse fuera de un combate la mitad de la distancia habitual según su atributo de Movimiento. Si en lugar del botín, llevara a hombros a una compañera enana inconsciente de 90kg de peso, sufriría una consecuencia extrema al cubrir distancias largas, por ejemplo.</em></p>
+<p>La reglas de impedimento para el combate se basan en que éste no suele durar más que unos pocos minutos o media hora a lo sumo así como el hecho de que, durante un combate, el personaje se encuentra en una situación de gran tensión y adrenalina y puede sobrellevar grandes esfuerzos a pesar del impedimento. En el ejemplo anterior en sonde Sharra, la asesina, esprintaba para alcanzar al mercenario, si hubiera llevado una carga de 30 kilos, solamente se le habría aplicado una consecuencia menor (-2) a su tirada de ataque con la cimitarra (para un total de -8), sin penalización al esprint en sí.</p>
+<p>[ILUSTRACIÓN]: un personaje claramente impedido por el gran peso que lleva encima. Un clásico de Skyrim pero que parezca realista, como el que lleva un petate gigante, alforjas, bolsas, tres armas y un escudo.</p>
+<p>Sin embargo, en circunstancias normales, fuera de un escenario de combate, soportar el peso excesivo sí tiene efectos claros y duraderos. Volviendo al ejemplo de Sharra y su abultado botín, recorrer una distancia de 5 km hasta un refugio le hubiera llevado el doble de tiempo (dos horas en lugar de una hora, reflejando la necesidad de parar a descansar cada cierto tiempo).</p>
+<p>Algunas clases y especies pueden proporcionar bonificadores o penalizadores al valor de la Carga del personaje.</p>
+<p><em>Ejemplo: Saddin el Humano Paladín, merced a su gran entrenamiento marcial y resistencia obtiene un bonificador de +10 a su valor de Carga.</em></p>
+<p>Consulta las reglas específicas del Lienzo que desees emplear para aplicar estas modificaciones.</p>
+<h4 id="ignorar-reglas-de-impedimento-y-carga-regla-opcional-tzr0002">Ignorar reglas de Impedimento y Carga (regla opcional TZR0002)</h4>
+<p>Las reglas de Tapiz sobre el Impedimento y Carga pretenden reflejar en parte la dura realidad de portar un peso excesivo durante demasiado tiempo. Se desea evitar normalizar situaciones poco coherentes incluso en un mundo de fantasía en donde tiene poco sentido que una elfa de los bosques de valores de atributo normales y un peso dentro de la media pueda cargar con la mitad de su peso sin restricciones, independientemente de que a los personajes se les considere individuos excepcionales en la mayoría de ambientaciones de rol fantásticas.</p>
+<p>No obstante, como regla opcional se permite ignorar por completo la regla de Impedimento y Carga, reflejándola en la ficha de personaje de forma testimonial a modo de referencia sin mayor repercusión en la práctica o como recordatorio para situaciones extraordinarias. De esta forma, se siguen aplicando las reglas de Movimiento tanto para el combate como fuera de él pero no se efectúan las correcciones por Impedimento y Carga.</p>
+<h3 id="tamaño">Tamaño</h3>
+<p>Las criaturas en Tapiz se describen como pequeñas, medianas y grandes. Una criatura de tamaño medio resulta equivalente al tamaño de un humano adulto. Las criaturas de tamaño pequeño equivalen al tamaño de un perro y las criaturas de tamaño grande como mínimo duplican el tamaño de un humano adulto.</p>
+<p><img src="/tapiz/images/objective-size.jpg" alt="Logo de Tapiz"></p>
+<p>La posibilidad de golpear y herir a criaturas de diferente tamaño con un ataque físico se ve afectada por la siguiente tabla.</p>
+<p>@Tabla: Modificador al ataque y daño físicos en relación al tamaño de la criatura</p>
+<table>
+<thead>
+<tr>
+<th>Tamaño del atacante</th>
+<th>Objetivo Pequeño</th>
+<th>Objetivo Mediano</th>
+<th>Objetivo Grande</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pequeño</td>
+<td>Sin cambios</td>
+<td>-2 a la CA del objetivo, -2 puntos de efecto al atacante</td>
+<td>-4 a la CA del objetivo, -4 puntos de efecto al atacante</td>
+</tr>
+<tr>
+<td>Mediano</td>
+<td>+2 a la CA del objetivo, +2 puntos de efecto al atacante</td>
+<td>Sin cambios</td>
+<td>-2 a la CA del objetivo, -2 puntos de efecto al atacante</td>
+</tr>
+<tr>
+<td>Grande</td>
+<td>+4 a la CA del objetivo, +4 puntos de efecto al atacante</td>
+<td>+2 a la CA del objetivo, +2 puntos de efecto al atacante</td>
+<td>Sin cambios</td>
+</tr>
+</tbody>
+</table>
+<p>A su vez, la posibilidad de golpear y herir a criaturas de diferente tamaño con un ataque mental se ve afectada por la siguiente tabla.</p>
+<p>@Tabla: Modificador al ataque y daño mentales en relación al tamaño de la criatura</p>
+<table>
+<thead>
+<tr>
+<th>Tamaño del atacante</th>
+<th>Objetivo Pequeño</th>
+<th>Objetivo Mediano</th>
+<th>Objetivo Grande</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pequeño</td>
+<td>Sin cambios</td>
+<td>+2 a la resistencia del objetivo, -2 puntos de efecto al atacante</td>
+<td>+4 a la resistencia del objetivo, -4 puntos de efecto al atacante</td>
+</tr>
+<tr>
+<td>Mediano</td>
+<td>-2 a la resistencia del objetivo, +2 puntos de efecto al atacante</td>
+<td>Sin cambios</td>
+<td>+2 a la resistencia del objetivo, -2 puntos de efecto al atacante</td>
+</tr>
+<tr>
+<td>Grande</td>
+<td>-4 a la resistencia del objetivo, +4 puntos de efecto al atacante</td>
+<td>-2 a la resistencia del objetivo, +2 puntos de efecto al atacante</td>
+<td>Sin cambios</td>
+</tr>
+</tbody>
+</table>
+<h3 id="posturas">Posturas</h3>
+<p>Las <em>Posturas</em> son alternativas a las tiradas de acción y resistencia durante un conflicto. Éstas se pueden adquirir empleando puntos de avance. Cuando se inicia un conflicto, cada PJ que tenga la posibilidad de seleccionar una postura lo declara. El cambio de postura cuando el conflicto ya ha dado comienzo supone una consecuencia menor.</p>
+<p>Algunas posturas establecen como condición que el personaje sea el último en <em>iniciativa</em>. Aún así, es conveniente pedir a las jugadores que hagan la tirada de iniciativa como regla general. Así, primero se establece el orden en el grupo de personajes sin esa restricción y luego el orden interno de los personajes que sí tienen esa restricción.</p>
+<p>A continuación se presenta una lista de posturas en Tapiz pero con la ayuda de la Directora de Juego, se pueden diseñar y proporcionar otras Posturas a medida.</p>
+<h4 id="normal">Normal</h4>
+<p>Ésta es la postura estándar de todos los personajes cuando no se menciona ninguna en particular. Todas las acciones y sus resultados siguen las reglas generales.</p>
+<h4 id="ataque-total">Ataque total</h4>
+<p>Los personajes con conocimiento marcial suelen emplear esta postura durante combates físicos mientras que los conocedores de lo arcano y la magia divina apuestan por ella en combates de índole mental. Los personajes que eligen esta postura obtienen la mitad de su nivel (redondeando hacia arriba) como un bonificador en sus tiradas de acción de ataque. En contrapartida, sufren una penalización a su clase de armadura y sus tiradas de resistencia igual al mismo bonificador que recibieron en el ataque. Un personaje puede elegir disfrutar de un bonus menor al máximo y, en consecuencia, sufrir una menor penalización.</p>
+<p>Esta postura obliga al personaje a ser el último en iniciativa.</p>
+<h4 id="foco-en-el-daño">Foco en el daño</h4>
+<p>Esta postura solamente se puede emplear por un personaje blandiendo un arma de cuerpo a cuerpo con un rango de &ldquo;inmediato&rdquo; o &ldquo;cerca&rdquo; o en conflictos de tipo mental. Todos los dados de daño del arma o del poder mental se tiran dos veces. Se toma el valor del dado mayor y éste se añade a la tirada de acción del personaje. Si el resultado supone un fallo, el objetivo del ataque puede, de forma inmediata, imponer una consecuencia de un nivel superior al reflejado en la tirada. Así, un simple fallo se convierte en una consecuencia menor, una menor en mayor y una mayor en extrema.</p>
+<p>Esta postura obliga al personaje a ser el último en iniciativa.</p>
+<h4 id="defensa-férrea">Defensa férrea</h4>
+<p>Un personaje empleando esta postura está concentrado en la defensa, no en el ataque. Se eliminan todos los bonificadores a las tiradas de ataque y a cambio recibe un bonificador +4 a sus tiradas de resistencia. Si un personaje no dispone de bonificadores al ataque, tanto mejor ya que no se pierde nada. Esto convierte a la Defensa férrea en una buena postura para personajes no combatientes.</p>
+<h4 id="apuntar">Apuntar</h4>
+<p>Esta postura requiere que para cada ataque a distancia (ya sea físico o mental, a discreción de la Directora de Juego), se haya empleado una ronda previa en apuntar concentrado. Un ataque apuntado obtiene el doble de su bonificador de rasgo del primer rasgo aplicado a la tirada de ataque.</p>
+<p>[ILUSTRACIÓN]: una orca tomándose el tiempo para disparar su arco a un objetivo en la distancia.</p>
+<h3 id="daño">Daño</h3>
+<p>&hellip;</p>
+<h4 id="daño-físico">Daño Físico</h4>
+<p>&hellip;</p>
+<h4 id="daño-mental">Daño Mental</h4>
+<p>&hellip;</p>
+<h4 id="curación">Curación</h4>
+<p>&hellip;</p>
+<h3 id="puntos-de-efecto">Puntos de Efecto</h3>
+<p>&hellip;</p>
+<h4 id="ventaja-momentánea">Ventaja Momentánea</h4>
+<p>&hellip;</p>
+<h4 id="desventaja-momentánea">Desventaja Momentánea</h4>
+<p>&hellip;</p>
+<h4 id="efectos">Efectos</h4>
+<p>&hellip;</p>
+<h5 id="menores">Menores</h5>
+<p>&hellip;</p>
+<h5 id="mayores">Mayores</h5>
+<p>&hellip;</p>
+<h5 id="extremos">Extremos</h5>
+<p>&hellip;</p>
+<h5 id="duración">Duración</h5>
+<p>&hellip;</p>
+<h5 id="efectos-del-entorno">Efectos del entorno</h5>
+<p>&hellip;</p>
+<h4 id="consecuencias">Consecuencias</h4>
+<p>&hellip;</p>
+<h5 id="menores-1">Menores</h5>
+<p>&hellip;</p>
+<h5 id="mayores-1">Mayores</h5>
+<p>&hellip;</p>
+<h5 id="extremas">Extremas</h5>
+<p>&hellip;</p>
+<h5 id="duración-1">Duración</h5>
+<p>&hellip;</p>
+<h5 id="consecuencias-del-entorno">Consecuencias del entorno</h5>
+<p>&hellip;</p>
+<h4 id="eliminar-contrarrestar-o-curar-consecuencias">Eliminar, contrarrestar o curar Consecuencias</h4>
+<p>&hellip;</p>
+<h3 id="avances">Avances</h3>
+<p>&hellip;</p>
+<h4 id="subir-de-nivel">Subir de Nivel</h4>
+<p>&hellip;</p>
+<h4 id="personajes-multi-clase">Personajes Multi-clase</h4>
+<p>&hellip;</p>
+<h3 id="jugar-a-niveles-altos">Jugar a niveles altos</h3>
+<p>&hellip;</p>
+<h4 id="escala">Escala</h4>
+<p>&hellip;</p>
+<h4 id="constructos">Constructos</h4>
+<p>&hellip;</p>
+<h4 id="seguidores-compañeros-y-mercenarios">Seguidores, compañeros y mercenarios</h4>
+<p>&hellip;</p>
+<h5 id="seguidores">Seguidores</h5>
+<p>&hellip;</p>
+<h5 id="compañeros">Compañeros</h5>
+<p>&hellip;</p>
+<h5 id="mercenarios">Mercenarios</h5>
+<p>&hellip;</p>
+<h4 id="magia-en-niveles-altos">Magia en niveles altos</h4>
+<p>&hellip;</p>
+<h3 id="peligros">Peligros</h3>
+<p>&hellip;</p>
+<h4 id="tipos">Tipos</h4>
+<p>&hellip;</p>
+<h4 id="venenos">Venenos</h4>
+<p>&hellip;</p>
+<h4 id="enfermedades">Enfermedades</h4>
+<p>&hellip;</p>
+<h4 id="locura">Locura</h4>
+<p>&hellip;</p>
+<h4 id="trampas">Trampas</h4>
+<p>&hellip;</p>
+<h4 id="caídas">Caídas</h4>
+<p>&hellip;</p>
+<h4 id="calor-y-frío">Calor y Frío</h4>
+<p>&hellip;</p>
+<h4 id="ahogamiento-y-asfixia">Ahogamiento y asfixia</h4>
+<p>&hellip;</p>
+<h3 id="el-entorno">El Entorno</h3>
+<p>&hellip;</p>
+<h4 id="zonas-inhóspitas">Zonas inhóspitas</h4>
+<p>&hellip;</p>
+<h5 id="tirada-de-exploración">Tirada de exploración</h5>
+<p>&hellip;</p>
+<h5 id="tirada-de-orientación">Tirada de orientación</h5>
+<p>&hellip;</p>
+<h5 id="tirada-de-forrajeo-o-aprovisionamiento">Tirada de forrajeo o aprovisionamiento</h5>
+<p>&hellip;</p>
+<h3 id="tesoro-y-riquezas">Tesoro y Riquezas</h3>
+<p>&hellip;</p>
+<h4 id="fama-y-fortuna">Fama y Fortuna</h4>
+<p>&hellip;</p>
+<h4 id="tipos-de-tesoro">Tipos de Tesoro</h4>
+<p>&hellip;</p>
+<h4 id="puntos-de-tesoro">Puntos de Tesoro</h4>
+<p>&hellip;</p>
+<h4 id="gasto-de-puntos-de-tesoro">Gasto de Puntos de Tesoro</h4>
+<p>&hellip;</p>
+<h4 id="diseño-y-creación-de-objetos-especiales">Diseño y creación de Objetos Especiales</h4>
+<p>&hellip;</p>
+<h5 id="bonus-a-las-tiradas">Bonus a las Tiradas</h5>
+<p>&hellip;</p>
+<h5 id="bonus-a-los-atributos">Bonus a los Atributos</h5>
+<p>&hellip;</p>
+<h5 id="rasgos">Rasgos</h5>
+<p>&hellip;</p>
+<h5 id="resistencias-estáticas">Resistencias estáticas</h5>
+<p>&hellip;</p>
+<h5 id="efectos-especiales">Efectos especiales</h5>
+<p>&hellip;</p>
+<h5 id="hechizos">Hechizos</h5>
+<p>&hellip;</p>
+<h3 id="puntos-de-experiencia">Puntos de Experiencia</h3>
+<p>&hellip;</p>
+<h3 id="magia">Magia</h3>
+<p>&hellip;</p>
+<h4 id="lanzamiento-de-hechizos-1">Lanzamiento de hechizos</h4>
+<p>&hellip;</p>
+<h4 id="resistencia-a-hechizos">Resistencia a hechizos</h4>
+<p>&hellip;</p>
+<h4 id="contrarrestar-hechizos">Contrarrestar hechizos</h4>
+<p>&hellip;</p>
+<h4 id="parámetros-de-los-hechizos">Parámetros de los hechizos</h4>
+<p>&hellip;
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.</p>
+
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+</div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="/js/clipboard.min.js"></script>
+<script src="/js/featherlight.min.js"></script>
+<script src="/js/html5shiv-printshiv.min.js"></script>
+
+<script src="/js/modernizr.custom.71422.js"></script>
+<script src="/js/docdock.js"></script>
+<script src="/theme-original/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

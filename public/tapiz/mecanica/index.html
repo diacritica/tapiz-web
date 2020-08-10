@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proyecto Tapiz</title>
+    
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="generator" content="Hugo 0.68.3" />
+
+<title> :: Proyecto Tapiz</title>
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link href="/css/nucleus.css" rel="stylesheet">
+<link href="/css/font-awesome.min.css" rel="stylesheet">
+<link href="/css/hybrid.css" rel="stylesheet">
+<link href="/css/featherlight.min.css" rel="stylesheet">
+<link href="/css/auto-complete.css" rel="stylesheet">
+<link href="/theme-original/style.css" rel="stylesheet">
+
+  <link href="/theme-original/variant-tapiz.css" rel="stylesheet">
+
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/jquery-2.x.min.js"></script>
+<style type="text/css">
+  :root #header + #content > #left > #rlblock_left {
+    display:none !important;
+  }
+</style>
+<meta name="description" content="">
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fondamento:400,400i&amp;subset=latin-ext" rel="stylesheet">
+
+    
+  </head>
+  <body data-url="/tapiz/mecanica/">
+    
+      <div id="headermain"></div>
+<nav id="sidebar" class="">
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+      
+	
+  
+    <p><img src="/images/logo-tapiz-bw.svg" alt=""></p>
+
+  
+
+    </div>
+        <div class="searchbox">
+		    <label for="search-by"><i class="fa fa-search"></i></label>
+		    <input data-search-input id="search-by" type="text" placeholder="Search...">
+		    <span data-search-clear=""><i class="fa fa-close"></i></span>
+		</div>
+		<script type="text/javascript" src="/js/lunr.min.js"></script>
+		<script type="text/javascript" src="/js/auto-complete.js"></script>
+		<script type="text/javascript">
+        
+            var baseurl = "https:\/\/tapiz.net\/";
+        
+		</script>
+		<script type="text/javascript" src="/js/search.js"></script>
+  </div>
+
+      <ul class="topics">
+            <li data-nav-id="/" class="dd-item">
+            <a href="/"><i class="fa fa-fw fa-home"></i></a>
+            </li>
+    <li data-nav-id="/tapiz/" class="dd-item parent">
+      <a href="/tapiz/">
+        <span>Documento de Referencia del Sistema Tapiz</span>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+      </a>
+        <ul>
+    <li data-nav-id="/tapiz/charactersheet/" class="dd-item">
+      <a href="/tapiz/charactersheet/">
+        <span>Hoja de personaje de Tapiz</span>
+      </a>
+    </li>
+      <li data-nav-id="/tapiz/mecanica/" class="dd-item active">
+        <a href="/tapiz/mecanica/">
+          <span></span>
+        </a>
+    </li>
+      <li data-nav-id="/tapiz/mecanicanew/" class="dd-item">
+        <a href="/tapiz/mecanicanew/">
+          <span></span>
+        </a>
+    </li>
+        </ul>
+    </li>
+    <li data-nav-id="/lienzos/" class="dd-item">
+      <a href="/lienzos/">
+        <span>Lienzo en el sistema Tapiz</span>
+      </a>
+    </li>
+
+
+
+        <section id="shortcuts">
+                <li class="" role=""><h3>Más información</h3><a href="https://github.com/diacritica/tapiz-web" target="_blank" rel="noopener"><i class='fa fa-github'></i> Github repo</a></li>
+                <li class="" role=""><a href="" target="_blank" rel="noopener"><i class='fa fa-bullhorn'></i> Autoría: Pablo Ruiz Múzquiz, Juan de la Cruz</a></li>
+        </section>
+
+    <hr />
+    <li></li>
+    
+    </ul>
+
+ <section id="footer">
+    </section>
+  </div>
+</nav>
+
+
+
+<section id="body">
+<div id="overlay"></div>
+<div class="padding highlightable">
+
+  <div id="top-bar">
+    <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+        <span id="sidebar-toggle-span">
+          <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+            <i class="fa fa-bars"></i>
+          </a>
+        </span>
+        <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+        <span class="links">
+        
+
+
+
+
+
+
+
+ <a href='/'></a> > <a href='/tapiz/'>Documento de Referencia del Sistema Tapiz</a> > 
+
+ 
+
+ 
+
+   
+        </span>
+    </div>
+    
+    
+    <div class="progress">
+        <div class="wrapper">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#conceptos-sobre-la-mecánica-de-tapiz">Conceptos sobre la mecánica de tapiz</a>
+      <ul>
+        <li><a href="#estadísticas-de-éxitofracaso">Estadísticas de éxito/fracaso</a></li>
+        <li><a href="#propuesta-de-hoja-de-personaje">Propuesta de hoja de personaje</a></li>
+        <li><a href="#ejemplo-borrador-notas-draft-y-posiblemente-contradictorias-entre-sí-y-con-lo-dicho-arriba">Ejemplo borrador (notas draft y posiblemente contradictorias entre sí y con lo dicho arriba)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </div>
+    
+
+  </div>
+
+
+<div id="body-inner">
+  
+    <h1></h1>
+  
+
+
+
+    
+    
+    
+    <h2 id="conceptos-sobre-la-mecánica-de-tapiz">Conceptos sobre la mecánica de tapiz</h2>
+<p>De la reunión entre Dani y Pablo 2/2/2018</p>
+<ol>
+<li>Los rasgos no son suficientemente detallados =&gt; añadimos habilidades genéricas con paridad F/M</li>
+<li>Modificador de atributo =&gt; dado de atributo</li>
+<li>Modificador de rasgo =&gt; Subir escalón en dado de habilidad</li>
+</ol>
+<p>Tira base: DADO ATRIBUTO + 2 x DADO HABILIDAD (posibilidad de subir nivel de dado) &gt;= DIFICULTAD (acción o combate)</p>
+<h3 id="estadísticas-de-éxitofracaso">Estadísticas de éxito/fracaso</h3>
+<p>Es clave tomar una decisión sobre cuál es la probabilidad de éxito, éxito destacado, superéxito y también fracaso, fracaso destacado y superfracaso. La experiencia de juego puede cambiar totalmente dependiendo de estas probabilidades. Independientemente de la mecánica de la tirada, podemos querer acercarnos a unos valores concretos dependiendo de si se enfrentan mismos &ldquo;niveles&rdquo; o no. Vamos a ver los tres ejemplos más importantes (incluye feedback de Angela)</p>
+<p>Éxito simple: entre dificultad y dificultad +2.
+Éxito destacado: entre dificultad+3 y dificultad+5
+Superéxito: entre dificultad+6 y dificultad+8</p>
+<p>Fracaso simple: entre dificultad-1 y dificultad -2.
+Fracaso destacado: entre dificultad-3 y dificultad-5
+Superfracaso: entre dificultad-6 y dificultad-8</p>
+<p>Les escalas de dificultad van de 3 en 3 hasta Casi imposible.</p>
+<ul>
+<li>Trivial: 3</li>
+<li>Muy fácil: 6</li>
+<li>Fácil: 9</li>
+<li>Media: 12</li>
+<li>Difícil: 15</li>
+<li>Muy difícil: 18</li>
+<li>Extremadamente difícil: 21</li>
+<li>Locura: 24</li>
+<li>Casi imposible: 30</li>
+<li>Imposible: 40</li>
+</ul>
+<h4 id="probabilidades-entre-mismos-niveles">Probabilidades entre mismos niveles</h4>
+<p>Aquí nos referimos a una igualdad aproximada entre el agente que quiere resolver una acción y la dificultad de la acción. Puede ser un personaje de nivel medio frente a una acción de dificultad media pero también un personaje de nivel bajo en una habilidad frente a una acción relativa a esa habilidad de nivel bajo o, claro, un personaje de nivel alto en una habilidad frente a una tirada de acción de dificultad alta. Dicho de otro modo, es un enfrentamiento entre pares, ya sea contra un valor de dificultad o a una tirada enfrentada.</p>
+<p>En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las siguientes probabilidades:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Resultado</strong></th>
+<th><strong>Probabilidad de obtenerlo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Éxito simple</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Éxito destacado</td>
+<td>23%</td>
+</tr>
+<tr>
+<td>Superéxito</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>Fracaso simple</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Fracaso destacado</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Superfracaso</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Resultado</strong></th>
+<th><strong>Probabilidad de obtenerlo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Éxito</td>
+<td>60%</td>
+</tr>
+<tr>
+<td>Fracaso</td>
+<td>40%</td>
+</tr>
+</tbody>
+</table>
+<p>Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque &ldquo;optimista&rdquo; basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.</p>
+<p>Una tirada que podría seguir esta distribución sería 2d8 + 3 para un valor medio de una habilidad vs dificultad media &ldquo;12&rdquo;. D8 representaría un valor medio de maestría de una habilidad y +3 la suma de bonificadores de característica y bonificadores de rasgo. Véase <a href="http://anydice.com/program/e963">http://anydice.com/program/e963</a></p>
+<p>Otra tirada que podría seguir esta distribución sería 2d10 + 4 para un valor alto de una habilidad vs dificultad alta &ldquo;15&rdquo;. Véase <a href="http://anydice.com/program/e964">http://anydice.com/program/e964</a></p>
+<p>Otra tirada que podría seguir esta distribución sería 2d6 + 2 para un valor bajo de una habilidad vs dificultad baja &ldquo;9&rdquo;. Véase <a href="http://anydice.com/program/e965">http://anydice.com/program/e965</a></p>
+<h4 id="probabilidades-entre-nivel-superior-vs-nivel-inferior">Probabilidades entre nivel superior vs nivel inferior</h4>
+<p>Aquí nos referimos a un escalón de diferencia a favor del agente que desea realizar una acción. Su nivel en una habilidad es mayor que la dificultad de la acción. Puede tener un nivel alto y enfrentarse a una acción de dificultad media, tener un nivel medio y enfrentarse a una habilidad de dificultad fácil, etc.</p>
+<p>En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las siguientes probabilidades:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Resultado</strong></th>
+<th><strong>Probabilidad de obtenerlo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Éxito simple</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Éxito destacado</td>
+<td>28%</td>
+</tr>
+<tr>
+<td>Superéxito</td>
+<td>12%</td>
+</tr>
+<tr>
+<td>Fracaso simple</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Fracaso destacado</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>Superfracaso</td>
+<td>3%</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Resultado</strong></th>
+<th><strong>Probabilidad de obtenerlo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Éxito</td>
+<td>70%</td>
+</tr>
+<tr>
+<td>Fracaso</td>
+<td>30%</td>
+</tr>
+</tbody>
+</table>
+<p>Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque &ldquo;optimista&rdquo; basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.</p>
+<h4 id="probabilidades-entre-nivel-inferior-vs-nivel-superior">Probabilidades entre nivel inferior vs nivel superior</h4>
+<p>Aquí nos referimos a un escalón de diferencia en contra del agente que desea realizar una acción. Su nivel en una habilidad es menor que la dificultad de la acción. Puede tener un nivel alto y enfrentarse a una acción de dificultad muy alta, tener un nivel medio y enfrentarse a una habilidad de dificultad alta, etc.</p>
+<p>En estas circunstancias, Tapiz podría proponer una mecánica que otorgara las siguientes probabilidades:</p>
+<table>
+<thead>
+<tr>
+<th><strong>Resultado</strong></th>
+<th><strong>Probabilidad de obtenerlo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Éxito simple</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Éxito destacado</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Superéxito</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Fracaso simple</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>Fracaso destacado</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Superfracaso</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Resultado</strong></th>
+<th><strong>Probabilidad de obtenerlo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Éxito</td>
+<td>45%</td>
+</tr>
+<tr>
+<td>Fracaso</td>
+<td>55%</td>
+</tr>
+</tbody>
+</table>
+<p>Hay un desequilibrio hacia el éxito. En lugar del 50%/50% (tirar una moneda), Tapiz emplea un enfoque &ldquo;optimista&rdquo; basado en la actitud del personaje de querer resolver satisfactoriamente la acción cuando ésta supone un reto a la altura de la habilidad del personaje.</p>
+<p>En esta ocasión, proponemos una probabilidad algo menor que el lanzamiento de una moneda para el éxito.</p>
+<p>Una tirada que podría seguir esta distribución sería 2d12 + 7 para un valor muy alto de una habilidad vs dificultad extremadamente difícil &ldquo;21&rdquo;. Véase <a href="http://anydice.com/program/e967">http://anydice.com/program/e967</a></p>
+<h3 id="propuesta-de-hoja-de-personaje">Propuesta de hoja de personaje</h3>
+<p>6 atributos con paridad físico mental (FUE,DES,CON,INT,SAB,CAR) con valores entre 3 y 18 (pero solo tiene sentido con 7 o más). Los atributos tienen un MOD ATR que va desde -4 a +4 pero en realidad sólo se emplean de -1 a +4.</p>
+<p>Existe la opción de +2/-2 o de +1/-1 en una pareja de atributos. Algunos Lienzos pueden proponer estas elecciones en función de las clases pregeneradas.</p>
+<p>Existen 12 habilidades generales asociadas a los atributos (paridad físico-mental). Dependiendo del valor numérico, se les asigna un dado de habilidad entre d4 y d12. d4 para 3-7, d6 para 8-10, d8 para 11-14, d10 para 15-17, d12 para 18.</p>
+<p>La habilidad puede estar sin profiency o con proficiency (un circulito vacío o relleno). Un personaje de nivel 1 empieza con 2 habilidades en proficiency. Una habilidad de proficiency consigue subir un escalón en su dado de habilidad. Así, si &ldquo;athletics&rdquo; tiene d6, con proficiency pasa a d8.
+Hay una excepción y es si la habilidad ya parte de d12, en cuyo caso se le suma 1d6.</p>
+<p>Una tirada normal combina el modificador de atributo + 2 veces el dado de habilidad + modificadores de reasgos para igualar o superar una dificultad o una AC física o mental. En el caso de una habilidad con d12 y proficiency, la tirada sería modificador de atributo + 2 veces el dado de habilidad d12 + 1d6 + modificadores de rasgos.</p>
+<p>Los rasgos son frases cortas explicativas de una característica o naturaleza del personaje que puede beneficiarle en alguna situación (tirada). Cada rasgo aplicable suma +1. Habría que ver qué máximo de bonificación se puede usar por rasgos atendiendo al nivel del personaje.</p>
+<p>La forma en la que se generan los valores numéricos de los atributos son, por ejemplo, con 4d6 descartando el de menor valor.</p>
+<p>Un personaje de nivel podría tener Destreza 16 después de aplicar las correcciones. Eso significa  DES +3 y dado de habilidad DES d10. Por tanto, en una habilidad como acrobatics, tendría d10 de referencia. Si el jugador elige hacer proficiency esa habilidad, pasaría a d12. Pongamos que tiene el rasgo &ldquo;tamaño pequeño&rdquo; por ser un mediano.</p>
+<p>Por tanto, una tirada para colarse por un hueco a metro y medio de altura representaría</p>
+<p>2d10 + 3 (DES) + 1 (rasgo tamaño pequeño), que para una dificultad difícil de 15, tendría un 55% de probabilidades de éxito, un 28% de probabilidades de éxito destacado, un 10% de superéxito y un 1% de posibilidades de éxito descomunal (a falta de un mejor término).</p>
+<p>Esa misma tirada por un personaje más &ldquo;normalito&rdquo; con Destreza 11 y sin proficiency en acrobatics tendría</p>
+<p>2d8 +0 (DES) + 0 (sin rasgo)</p>
+<p>Tendría un 4.69% de tener éxito. Esto hay que revisarlo a fondo, debería tener al menos un 30% (el personaje está dos niveles por debajo de la dificultad).</p>
+<h3 id="ejemplo-borrador-notas-draft-y-posiblemente-contradictorias-entre-sí-y-con-lo-dicho-arriba">Ejemplo borrador (notas draft y posiblemente contradictorias entre sí y con lo dicho arriba)</h3>
+<p><strong>características</strong></p>
+<ul>
+<li>FUE: 16 = 1d6 +3 / 1d10</li>
+<li>DES: 10 = 1d6 + 0 / 1d6</li>
+<li>CON: 8 = 1d6 -1 / 1d4</li>
+<li>INT: 18 = 1d6 +4 / 1d12</li>
+<li>SAB: 14 = 1d6 +2 / 1d8</li>
+<li>CHA: 12 = 1d6 +1 / 1d8</li>
+</ul>
+<p><strong>Habilidades</strong></p>
+<p>DnD5
+Acrobatics, Animal handling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Selight of hand, Stealth, Surivival</p>
+<p>The One Ring
+Awe, Athletics, Awareness, Explore, Song, Craft | Inspire, Travel, Insight, Healing, Courtesy, Battle | Persuade, Stealth, Search, Hunting, Riddle, Lore</p>
+<p>18 parece un buen número.</p>
+<p>Una habilidad puede tener 4 niveles de maestría. 0, 1, 2, 3 y 4:</p>
+<ul>
+<li>0 = 2d4</li>
+<li>1 = 2d6</li>
+<li>2 = 2d8</li>
+<li>3 = 2d10</li>
+<li>4 = 2d12</li>
+</ul>
+<p><strong>Rasgos</strong></p>
+<p>Los rasgos son frases descriptivas del personaje que ayudan a entender cómo se enfrenta (mejor o peor) ante diferentes situaciones. ¿Pueden ser rasgos positivos o negativos?</p>
+<p>Opciones:</p>
+<p>Cada rasgo sube un escalón un dado de la habilidad.
+Se pueden subir tantos niveles de un dado como nivel tiene el personaje.</p>
+<p>Si una jugadora emplea (justificadamente tres rasgos positivos), primero sube un dado, luego el otro, luego vuelve a elegir.</p>
+<p>Ejemplo: un personaje quiere saltar un foso. DES + Athletics. Tiene 1d6 + 2d8 pero tiene el rasgo &ldquo;peso pluma&rdquo; así que tira 1d6 + 1d8 + 1d10.
+Ejemplo: un personaje de nivel 3 quiere impresionar a una audiencia enana. CHA + Persuasion. Tiene 1d8 + 2d8 pero tiene tres rasgos &ldquo;gran orador&rdquo;, &ldquo;linaje enano&rdquo; y &ldquo;erudición en lengua enana&rdquo;, así que tira 1d8 + 1d12 + 1d10</p>
+<p><strong>Combate</strong></p>
+<p>El combate físico funciona con el dado de característica FUE o DES y la habilidad concreta. Ejemplo: &ldquo;arma de filo&rdquo;</p>
+<p>Así, un personaje con FUE 1d8 y arma de filo nivel 2 (2d8), tira 1d8 + 2d8. Si tiene rasgos empleables (por ejemplo, &ldquo;enemigo acérrimo de hombres-serpiente&rdquo;) puede subir un nivel 1 dado de habilidad. Tiraría, 1d18 + 1d8 + 1d10.</p>
+<p>El combate mágico o mental funciona el dado de característica SAB, INT o CHA y la habilidad concreta. Ejemplo: magia arcana</p>
+<p>Así, un personaje con INT 1d10 y &ldquo;magia arcana&rdquo; nivel 2 (2d8), tira 1d10 + 2d8. Si tiene rasgos empleables (por ejemplo, &ldquo;buena puntería&rdquo; y se trata de un hechizo dirigido) puede subir un nivel 1 dado de habilidad. Tiraría 1d10 + 1d10 + 1d8.</p>
+<p><strong>Regla opcional: éxito con consecuencias</strong></p>
+<p>Si el número no iguala o supera la dificultad pero el jugador ha &ldquo;cantado&rdquo; un resultado antes de tirar y se muestra ese resultado en los dados, se obtiene un casi éxito o un éxito con consecuencias. Representa un golpe de suerte o una heroicidad pero en ningún caso un éxito &ldquo;limpio&rdquo;.</p>
+<p>En el peor caso, 1d4 + 2d4 existe una probabilidad de 1/16.
+Cuando el rango aumenta, la probabilidad de acertar disminuye pero la probabilidad de tener éxito teóricamente aumenta.</p>
+<p><strong>Análisis estadístico sobre la probabiliad de éxito</strong></p>
+<p>En principio podemos estar de acuerdo en que una personaje de nivel bajo debería disfrutar de estas probabilidades de éxito dependiendo del nivel de dificultad</p>
+<ul>
+<li>1% para casi imposible</li>
+<li>5% para muy difícil</li>
+<li>25% para difícil</li>
+<li>50% para moderada</li>
+<li>75% para fáciles</li>
+<li>100% para trivial</li>
+</ul>
+<p>Debería poder tener un éxito importante (efecto menor) con estas probabilidades</p>
+<ul>
+<li>0% para casi imposible</li>
+<li>1% para muy difícil</li>
+<li>5% para difícil</li>
+<li>15-25% para moderada</li>
+<li>35-50% para fáciles</li>
+<li>50-75% para trivial</li>
+</ul>
+<p>Debería poder tener un éxito muy importante (efecto mayor) con estas probabilidades</p>
+<ul>
+<li>0% para casi imposible</li>
+<li>~0% para muy difícil</li>
+<li>~1% para difícil</li>
+<li>~3-5% para moderada</li>
+<li>~15-25% para fáciles</li>
+<li>~50% para trivial</li>
+</ul>
+<p><em>Unas notas sobre otros sistemas</em></p>
+<p>En DnD a niveles bajos para habilidades &ldquo;dominadas&rdquo; se suele tirar 1d20 + 5 (skill bonus + proficiency)
+Para una dificultad de 15, la probabilidad de superarla es del 55%</p>
+<p>En M&amp;M a niveles bajos para tiradas de acción en donde se tenga buena característica y se aprovechen los rasgos se suele tirar 3d6 + 6 (mod de característica + rasgos)
+Para una dificultad de 10 (media), la probabilidad de superarla es del 95%, de igualar 15 (efecto menor) es del ~75% y de quedarse en 10 (consecuencia menor) es del &lt;1%.</p>
+<p>Sin embargo, aunque en M&amp;M se dice que 10 es la dificultad media, lo cierto es que rápidamente se tiende a ver el 15 como tal.
+En ese caso, la probabilidad de superarla es del ~57%, de igualar 20 (efecto menor) es del ~15% y de quedarse en 10 (consecuencia menor) es del ~2%</p>
+<p><em>En Tapiz&hellip;</em></p>
+<p>Por tanto, Tapiz podría moverse en un rango en torno al 60% para superar una tirada de acción de dificultad media para niveles bajos teniendo buena característica, buena habilidad y uno o dos rasgos.</p>
+<p>Para obtener esto, un primer intento puede ser manejar dado de característica d8 y dado de habilidad d8 con la opción ocasional de usar uno o dos rasgos para subir uno o los dos dados de habilidad a d10</p>
+<ol>
+<li>Con 1d8 + 2d8 tenemos un 40% de igualar o superar 15</li>
+<li>Con 1d8 + 1d8 + 1d10 (usando un rasgo) tenemos un 50% de igualar o superar 15</li>
+<li>Con 1d8 + 2d10 tenemos un 60% de igualar o superar 15</li>
+</ol>
+<p>Aparentemente, necesitamos subir de categoría de dado para acercarnos más a DnD y M&amp;M, sobre todo M&amp;M, en donde es importante que sea probable exceder en 5 puntos las dificultades para poder tener al menos efectos menores</p>
+<p>Otra opción sería</p>
+<ol>
+<li>Con 1d10 + 2d8, 50% de igualar o superar 15, ~10% de superar 20 (efecto menor) y ~20% de quedarse en 10 o menos (consecuencia menor)</li>
+<li>Con 1d10 + 1d8 + 1d10, 60% de igualar o superar 15, ~20% de superar 20 (efecto menor) y ~16% de quedarse en 10 o menos (consecuencia menor) Se supone un rasgo</li>
+<li>Con 1d10 + 2d10, 67% de igualar o superar 15, ~28% de superar 20 (efecto menor) y ~12% de quedarse en 10 o menos (consecuencia menor) Se suponen dos rasgos</li>
+</ol>
+<p><a href="http://anydice.com/program/e93c">http://anydice.com/program/e93c</a></p>
+<ul>
+<li>1d10 para característica equivaldría a 15-16 en característica (+3 en mod de característica)</li>
+<li>1d12 equivaldría a 17-18 en característica</li>
+<li>1d8 equivaldría a 12-14 en característica</li>
+<li>1d6 equivaldría a 9-11 en característica</li>
+<li>1d4 equivaldría a 7-8 en característica</li>
+</ul>
+
+
+    
+    
+          <footer class=" footline" >
+	
+</footer>
+  </div>
+</div>
+
+<div id="navigation">
+</div>
+
+</section>
+<div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+  <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+</div>    
+
+<script src="/js/clipboard.min.js"></script>
+<script src="/js/featherlight.min.js"></script>
+<script src="/js/html5shiv-printshiv.min.js"></script>
+
+<script src="/js/modernizr.custom.71422.js"></script>
+<script src="/js/docdock.js"></script>
+<script src="/theme-original/script.js"></script>
+
+
+    
+
+    
+    
+
+    
+  </body>
+</html>

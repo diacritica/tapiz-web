@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hoja de personaje de Tapiz on Proyecto Tapiz</title>
+    <link>https://tapiz.net/tapiz/charactersheet/</link>
+    <description>Recent content in Hoja de personaje de Tapiz on Proyecto Tapiz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <lastBuildDate>Sat, 06 Apr 2019 11:58:13 +0200</lastBuildDate>
+    
+	<atom:link href="https://tapiz.net/tapiz/charactersheet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

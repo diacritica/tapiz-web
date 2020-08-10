@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tapiz.net/</loc>
+    <lastmod>2019-05-19T16:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/tapiz/</loc>
+    <lastmod>2019-05-19T16:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/tapiz/charactersheet/</loc>
+    <lastmod>2019-04-06T11:58:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/lienzos/</loc>
+    <lastmod>2018-01-11T17:36:45+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/_header/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/tapiz/mecanica/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/tapiz/mecanicanew/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tapiz.net/tags/</loc>
+  </url>
+  
+</urlset>
